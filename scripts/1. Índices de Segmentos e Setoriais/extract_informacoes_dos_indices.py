@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from os.path import join, exists
+import config
 
 class Extract:
 
@@ -68,3 +69,13 @@ class Extract:
                 print(f'Erro de requisição ao acessar {url}: {e}')
             except Exception as e:
                 print(f'Erro ao processar {url}: {e}')
+
+if __name__ == '__main__':
+
+    try:
+        # Extrai a composição da carteira dos índices setoriais
+        carteira_extractor = Extract(config.path_extracted_data, config.INDICES.keys())
+        carteira_extractor.get_and_save_informacoes_indice()
+
+    except Exception as e:
+        print(f"Ocorreu um erro durante a execução: {e}")

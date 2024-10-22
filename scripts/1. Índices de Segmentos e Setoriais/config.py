@@ -1,15 +1,10 @@
-import extract_informacoes_dos_indices
+from os.path import join, dirname, abspath
 
-indices = [
-        "IDIV", "MLCX", "SMLL", "IVBX", "AGFS", "IFNC", "IBEP", "IBEE",
-        "IBHB", "IBLV", "IMOB", "UTIL", "ICON", "IEEX", "IFIL", "IMAT",
-        "INDX", "IBSD", "BDRX", "IFIX"
-    ]
+# Caminho para o diretório onde os dados brutos serão salvos
+path_extracted_data = join(dirname(dirname(dirname(abspath(__file__)))), 'extracted_data', '1. Índices de Segmentos e Setoriais')
 
-lista = extract_informacoes_dos_indices.Extract('', indices).get_link()
-
-
-keys = {
+# Índices a serem processados
+INDICES = {
     'IDIV': 'Índice Dividendos BM&FBOVESPA (IDIV B3)',
     'MLCX': 'Índice MidLarge Cap (MLCX B3)',
     'SMLL': 'Índice Small Cap (SMLL B3)',

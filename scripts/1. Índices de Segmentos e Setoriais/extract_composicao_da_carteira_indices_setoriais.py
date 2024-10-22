@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from os import listdir
 from time import sleep
+import config
 
 class Extract:
 
@@ -67,6 +68,16 @@ class Extract:
         for indice in self.indices:
             if not self.check_se_arquivo_existe(indice):
                 self.request_page(indice)
+
+if __name__ == '__main__':
+    
+    try:
+        # Extrai a composição da carteira dos índices setoriais
+        carteira_extractor = Extract(config.path_extracted_data, config.INDICES.keys())
+        carteira_extractor.execute()
+
+    except Exception as e:
+        print(f"Ocorreu um erro durante a execução: {e}")
 
 
 
