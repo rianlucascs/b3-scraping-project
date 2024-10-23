@@ -71,7 +71,6 @@ class Extract:
                 print(f'Erro ao processar {url}: {e}')
 
 
-
 if __name__ == '__main__':
 
     try:

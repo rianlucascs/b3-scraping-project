@@ -4,12 +4,16 @@ from os.path import join, exists
 from os import listdir, makedirs
 from pandas import read_csv
 
+import difflib
+from bs4 import BeautifulSoup
+
 class Transform:
     
-    def __init__(self, path_extracted_data, path_processed_data, indices):
+    def __init__(self, path_extracted_data, path_processed_data, indices, dict_indices):
         self.path_extracted_data = path_extracted_data
         self.path_processed_data = path_processed_data
         self.indices = indices
+        self.dict_indices = dict_indices
 
     def loc_data_csv(self, indice):
         """
@@ -24,6 +28,37 @@ class Transform:
         for file in listdir(self.path_extracted_data):
             if indice.lower() in file.lower() and file.split('.')[-1] == 'csv':
                 return file
+    
+    def loc_data_htm(self, indice):
+        """
+        Localiza um arquivo HTML correspondente a um índice.
+
+        A função procura primeiro por um arquivo cujo nome contém o índice
+        (ignorando maiúsculas/minúsculas). Se não encontrado, ela calcula
+        a similaridade entre os nomes dos arquivos HTML e o nome do índice
+        fornecido, retornando o arquivo com a maior similaridade.
+
+        Args:
+            indice (str): O índice a ser buscado no nome do arquivo.
+
+        Returns:
+            str: O nome do arquivo HTML correspondente ou o mais similar.
+        """
+        files = [file for file in listdir(self.path_extracted_data) if file.endswith('.htm')]
+
+        if not files:
+            raise FileNotFoundError('Nenhum arquivo HTML encontrado.')
+        
+        # Tenta encontrar um arquivo exato
+        for file in files:
+            if indice.lower() in file.lower():
+                return file
+
+        # Se não encontrado, calcula a similaridade
+        result = {file: difflib.SequenceMatcher(None, file.lower(), self.dict_indices[indice].lower()).ratio() for file in files}
+        return max(result, key=result.get)
+
+
 
     def read_data_csv(self, file, skiprows=1, skipfooter=2, na_values=['NaN', '']):
         """
@@ -61,6 +96,10 @@ class Transform:
         except Exception as e:
             print(f"Erro ao ler o arquivo: {e}")
             raise
+
+    def read_data_htm(self, file):
+        with open(join(self.path_extracted_data, file), 'a', encoding='utf-8') as f:
+            f.
     
     def save_codigo(self, path, file_name, file_csv):
         """
@@ -82,6 +121,9 @@ class Transform:
         else:
             print(f'O arquivo já existe: {new_file}')
 
+    def save_informacoes_sobre_o_setor(self, path, file):
+        pass
+
     def execution(self):
 
         for indice in self.indices:
@@ -89,18 +131,23 @@ class Transform:
             new_dir = join(self.path_processed_data, 'Setores', indice)
             if not exists(new_dir):
                 makedirs(new_dir)
-
-            file = self.loc_data_csv(indice)
-            file_csv = self.read_data_csv(file)
-
+            
+            file_name = self.loc_data_csv(indice)
+            file_csv = self.read_data_csv(file_name)
             self.save_codigo(new_dir, indice, file_csv)
+
+            file_name = self.loc_data_htm(indice)
+            file_htm =
 
             
             
 
 if __name__ == '__main__':
-    transform_composicao_da_carteira = Transform(config.path_extracted_data, config.path_processed_data, config.INDICES.keys())
-    transform_composicao_da_carteira.execution()
-
+    transform_composicao_da_carteira = Transform(config.path_extracted_data, config.path_processed_data, config.INDICES.keys(),
+                                                 config.INDICES)
+    
+    for i in config.INDICES.keys():
+        print(i, transform_composicao_da_carteira.loc_data_html(i))
+    
 
 
