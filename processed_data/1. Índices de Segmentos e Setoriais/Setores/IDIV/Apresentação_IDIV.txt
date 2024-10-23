@@ -1,16 +1,25 @@
-Apresentação O IDIV é o resultado de uma carteira teórica de ativos, elaborada
-de acordo com os critérios estabelecidos nesta metodologia. Os índices da B3
-utilizam procedimentos e regras constantes do Manual de Definições e
-Procedimentos dos Índices da B3. Objetivo O objetivo do IDIV é ser o indicador
-do desempenho médio das cotações dos ativos que se destacaram em termos de
-remuneração dos investidores, sob a forma de dividendos e juros sobre o capital
-próprio. Tipo de índice Temos 2 versões disponíveis: O IDIV B3 é um índice de
-retorno total. O IDIV B3 Price Return é um índice de retorno preço. A versão
-Price Return será divulgada no site por uma planilha que está disponível no site
-Indices On Demand Ativos elegíveis O IDIV é composto pelas ações e units
-exclusivamente de ações de companhias listadas na B3 que atendem aos critérios
-de inclusão descritos a seguir. Não estão incluídos nesse universo BDRs e ativos
-de companhias em recuperação judicial ou extrajudicial, regime especial de
-administração temporária, intervenção ou que sejam negociados em qualquer outra
-situação especial de listagem (ver Manual de Definições e Procedimentos dos
-Índices da B3).
+Apresentação O IDIV é o resultado de uma carteira
+teórica de ativos, elaborada de acordo com os
+critérios estabelecidos nesta metodologia. Os
+índices da B3 utilizam procedimentos e regras
+constantes do Manual de Definições e Procedimentos
+dos Índices da B3. Objetivo O objetivo do IDIV é
+ser o indicador do desempenho médio das cotações
+dos ativos que se destacaram em termos de
+remuneração dos investidores, sob a forma de
+dividendos e juros sobre o capital próprio. Tipo
+de índice Temos 2 versões disponíveis: O IDIV B3 é
+um índice de retorno total. O IDIV B3 Price Return
+é um índice de retorno preço. A versão Price
+Return será divulgada no site por uma planilha que
+está disponível no site Indices On Demand Ativos
+elegíveis O IDIV é composto pelas ações e units
+exclusivamente de ações de companhias listadas na
+B3 que atendem aos critérios de inclusão descritos
+a seguir. Não estão incluídos nesse universo BDRs
+e ativos de companhias em recuperação judicial ou
+extrajudicial, regime especial de administração
+temporária, intervenção ou que sejam negociados em
+qualquer outra situação especial de listagem (ver
+Manual de Definições e Procedimentos dos Índices
+da B3).

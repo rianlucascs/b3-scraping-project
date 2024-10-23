@@ -102,7 +102,6 @@ class Transform:
             soup = BeautifulSoup(htm, 'html.parser')
             return soup.get_text(separator=' ', strip=True)
 
-    
     def save_codigos_carteira_setor(self, path, file_name, file_csv, update=False):
         """
         Salva os códigos de ações em um arquivo de texto.
@@ -129,7 +128,7 @@ class Transform:
         if not exists(new_file) or update is True:
             try:
                 with open(new_file, 'w', encoding='utf-8') as file:
-                    file.write(textwrap.fill(file_htm, width=80))
+                    file.write(textwrap.fill(file_htm, width=50))
                 print(f'Apresentação salva em {new_file}.')
             except Exception as e:
                 print(f'Erro ao salvar o arquivo {e}')
