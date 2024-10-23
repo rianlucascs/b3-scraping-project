@@ -3,6 +3,9 @@ from os.path import join, dirname, abspath
 # Caminho para o diretório onde os dados brutos serão salvos
 path_extracted_data = join(dirname(dirname(dirname(abspath(__file__)))), 'extracted_data', '1. Índices de Segmentos e Setoriais')
 
+# Caminho para o diretório onde os dados processados serão salvos
+path_processed_data = join(dirname(dirname(dirname(abspath(__file__)))), 'processed_data', '1. Índices de Segmentos e Setoriais')
+
 # Índices a serem processados
 INDICES = {
     'IDIV': 'Índice Dividendos BM&FBOVESPA (IDIV B3)',

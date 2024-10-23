@@ -70,6 +70,8 @@ class Extract:
             except Exception as e:
                 print(f'Erro ao processar {url}: {e}')
 
+
+
 if __name__ == '__main__':
 
     try:

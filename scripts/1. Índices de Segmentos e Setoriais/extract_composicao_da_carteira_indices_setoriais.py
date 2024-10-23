@@ -56,7 +56,7 @@ class Extract:
             bool: True se o arquivo existir, False caso contrário.
         """
         for file in listdir(self.path):
-            if indice.lower() in file.lower():
+            if indice.lower() in file.lower() and file.split('.')[-1] == 'csv':
                 print(f'Arquivo existente - composição da carteira: {indice} (arquivo: {file})')
                 return True
         return False
