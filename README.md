@@ -20,6 +20,9 @@ Copie e cole as funções do arquivo **/github_api_acess.py** no seu projeto.
 ## Dados disponíveis
 
 1. Índices de Segmentos e Setoriais
+
     - Lista dos códigos da carteira do índice
+
     - Texto de apresentação do índice
+    
     - Arquivo .CSV com informações do índice
