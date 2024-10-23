@@ -98,10 +98,12 @@ class Transform:
             raise
 
     def read_data_htm(self, file):
-        with open(join(self.path_extracted_data, file), 'a', encoding='utf-8') as f:
-            f.
+        with open(join(self.path_extracted_data, file), 'r', encoding='utf-8') as htm:
+            soup = BeautifulSoup(htm, 'html.parser')
+            return soup.get_text(separator=' ', strip=True)
+
     
-    def save_codigo(self, path, file_name, file_csv):
+    def save_codigos_carteira_setor(self, path, file_name, file_csv, update=False):
         """
         Salva os códigos de ações em um arquivo de texto.
 
@@ -111,7 +113,7 @@ class Transform:
             file_csv (DataFrame): O DataFrame que contém os códigos.
         """
         new_file = join(path, f'Códigos_{file_name}.txt')
-        if not exists(new_file):
+        if not exists(new_file) or update is True:
             try:
                 with open(new_file, 'w', encoding='utf-8') as file:
                     file.write(file_csv['Código'].to_string(index=False, header=False))
@@ -121,8 +123,18 @@ class Transform:
         else:
             print(f'O arquivo já existe: {new_file}')
 
-    def save_informacoes_sobre_o_setor(self, path, file):
-        pass
+    def save_informacoes_sobre_o_setor(self, path, file_name, file_htm, update=False):
+        import textwrap
+        new_file = join(path, f'Apresentação_{file_name}.txt')
+        if not exists(new_file) or update is True:
+            try:
+                with open(new_file, 'w', encoding='utf-8') as file:
+                    file.write(textwrap.fill(file_htm, width=80))
+                print(f'Apresentação salva em {new_file}.')
+            except Exception as e:
+                print(f'Erro ao salvar o arquivo {e}')
+        else:
+            print(f'O arquivo já existe: {new_file}')
 
     def execution(self):
 
@@ -134,10 +146,12 @@ class Transform:
             
             file_name = self.loc_data_csv(indice)
             file_csv = self.read_data_csv(file_name)
-            self.save_codigo(new_dir, indice, file_csv)
+            self.save_codigos_carteira_setor(new_dir, indice, file_csv, update=False)
 
             file_name = self.loc_data_htm(indice)
-            file_htm =
+            file_htm = self.read_data_htm(file_name)
+            self.save_informacoes_sobre_o_setor(new_dir, indice, file_htm, update=True)
+            break
 
             
             
@@ -146,8 +160,7 @@ if __name__ == '__main__':
     transform_composicao_da_carteira = Transform(config.path_extracted_data, config.path_processed_data, config.INDICES.keys(),
                                                  config.INDICES)
     
-    for i in config.INDICES.keys():
-        print(i, transform_composicao_da_carteira.loc_data_html(i))
+    transform_composicao_da_carteira.execution()
     
 
 
