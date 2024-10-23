@@ -7,6 +7,7 @@ from pandas import read_csv
 import difflib
 from bs4 import BeautifulSoup
 import textwrap
+import shutil
 
 class Transform:
     
@@ -184,6 +185,39 @@ class Transform:
                 print(f'Erro ao salvar o arquivo: {e}')
         else:
             print(f'O arquivo já existe: {new_file}')
+    
+    def save_csv(self, path, file_name, indice):
+        """
+        Copia um arquivo CSV de um diretório de origem para um diretório de destino
+        e altera seu nome.
+
+        Args:
+            path (str): O diretório de destino onde o arquivo será salvo. Deve existir.
+            file_name (str): O nome do arquivo CSV que será copiado do diretório de origem.
+            indice (str): O índice usado para renomear o arquivo copiado. O novo nome do arquivo será
+                        formatado como 'Tabela_{indice}.csv'.
+
+        Returns:
+            None: Esta função não retorna nenhum valor. O arquivo é salvo no diretório especificado.
+
+        Raises:
+            FileNotFoundError: Se o arquivo de origem não for encontrado.
+            OSError: Se o diretório de destino não existir ou se ocorrer um erro na cópia do arquivo.
+        """
+        if not exists(path):
+            raise OSError(f'O diretório de destino não existe: {path}')
+        
+        src_file = join(self.path_extracted_data, file_name)
+        dest_file = join(path, f'Tabela_{indice}.csv')
+
+        try:
+            shutil.copy(src_file, dest_file)
+            print(f'Arquivo salvo como: {dest_file}')
+        except FileNotFoundError:
+            raise FileNotFoundError(f'O arquivo de origem não foi encontrado: {src_file}')
+        except Exception as e:
+            raise OSError(f'Erro ao copiar o arquivo: {e}')
+        
 
     def execution(self):
         """
@@ -197,6 +231,7 @@ class Transform:
             file_name = self.loc_data_csv(indice)
             file_csv = self.read_data_csv(file_name)
             self.save_codigos_carteira_setor(new_dir, indice, file_csv, update=False)
+            self.save_csv(new_dir, file_name, indice)
 
             file_name = self.loc_data_htm(indice)
             file_htm = self.read_data_htm(file_name)

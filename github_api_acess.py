@@ -1,5 +1,10 @@
 import requests
 
+"""
+Nota:
+    - raw.github: No inicio da URL retorna o texto 
+"""
+
 def get_codigos(setor:str='IDIV', sa:bool=True) -> list:
     """
     Obtém a lista de códigos de ações de um setor específico a partir de um arquivo TXT no GitHub.
@@ -45,6 +50,32 @@ def get_codigos(setor:str='IDIV', sa:bool=True) -> list:
         lista = [f'{item}.SA' for item in lista]
     return lista
 
-def teste(setor):
-    codigos = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/1.%20%C3%8Dndices%20de%20Segmentos%20e%20Setoriais/Setores/{setor}/C%C3%B3digos_{setor}.txt'  
-    apresentacao = f'{}'
+
+def get_apresentacao(setor:str) -> str: 
+    """
+    Obtém a apresentação de um setor a partir de um arquivo TXT em um repositório no GitHub.
+
+    Args:
+        setor (str): O nome do setor para buscar a apresentação.
+
+    Returns:
+        str: O conteúdo da apresentação.
+
+    Raises:
+        ValueError: Se não for possível acessar a página.
+    """
+    url = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/1.%20%C3%8Dndices%20de%20Segmentos%20e%20Setoriais/Setores/{setor}/Apresenta%C3%A7%C3%A3o_{setor}.txt'
+    response = requests.get(url)
+    if response.status_code != 200:
+        raise ValueError(f'Erro ao acessar a página: {response.status_code}, setor: {setor}')
+    return response.text
+
+def get_tabela(setor:str):
+    pass
+
+
+if __name__ == '__main__':
+    
+    setor = 'AGFS'
+    print(get_apresentacao(setor))
+    print(get_codigos(setor))

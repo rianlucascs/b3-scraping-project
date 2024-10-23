@@ -1,0 +1,1 @@
+![Texto alternativo](https://logodownload.org/wp-content/uploads/2019/08/b3-logo-0.png)
