@@ -1,10 +1,5 @@
 import requests
 
-"""
-Nota:
-    - raw.github: No inicio da URL retorna o texto 
-"""
-
 def get_codigos(setor:str='IDIV', sa:bool=True) -> list:
     """
     Obtém a lista de códigos de ações de um setor específico a partir de um arquivo TXT no GitHub.
@@ -72,7 +67,6 @@ def get_apresentacao(setor:str) -> str:
 
 def get_tabela(setor:str):
     pass
-
 
 if __name__ == '__main__':
     

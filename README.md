@@ -16,3 +16,10 @@ Este projeto tem como objetivo extrair dados da B3 (Bolsa de Valores do Brasil) 
 ## Como Usar
 
 Copie e cole as funções do arquivo **/github_api_acess.py** no seu projeto.
+
+## Dados disponíveis
+
+1. Índices de Segmentos e Setoriais
+    - Lista dos códigos da carteira do índice
+    - Texto de apresentação do índice
+    - Arquivo .CSV com informações do índice
