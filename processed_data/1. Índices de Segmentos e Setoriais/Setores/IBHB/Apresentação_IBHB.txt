@@ -1,0 +1,22 @@
+ApresentaçãoO Índice Bovespa Smart High Beta B3 é
+o resultado de uma carteira teórica de ativos,
+elaborada de acordo com os critérios estabelecidos
+nesta metodologia.ObjetivoO objetivo do Ibovespa
+Smart High Beta B3 (Ibov Smart High Beta B3) é ser
+o indicador de desempenho médio dos ativos de
+maior negociabilidade, representatividade e que
+possuem maior sensibilidade às mudanças nos
+retornos do mercado. Essa relação é medida pelo
+beta individual de cada ativoTipo de índiceO Ibov
+Smart High Beta B3 é um índice de retorno
+total.Ativos ElegíveisO Ibov Smart High Beta B3 é
+composto de ações e units exclusivamente de
+companhias listadas na B3 que atende os critérios
+de inclusão descritos na Metodologia (Metodologia
+Ibov Smart High Beta B3).Não estão inclusos nesse
+universo BDRs e ativos de companhias em
+recuperação judicial ou extrajudicial, regime
+especial de administração temporária, intervenção
+ou que sejam negociadas em qualquer outra situação
+especial de listagem (ver Manual de Definições e
+Procedimentos dos Índices da B3).

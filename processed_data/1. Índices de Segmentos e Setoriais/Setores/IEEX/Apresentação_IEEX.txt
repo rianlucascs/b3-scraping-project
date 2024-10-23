@@ -1,0 +1,27 @@
+ApresentaçãoO IEE é o resultado de uma carteira
+teórica de ativos, elaborada de acordo com os
+critérios estabelecidos nesta metodologia.Os
+índices da BM&FBOVESPA utilizam procedimentos e
+regras constantes do Manual de Definições e
+Procedimentos dos Índices da BM&FBOVESPA.ObjetivoO
+objetivo do IEE é ser o indicador do desempenho
+médio das cotações dos ativos de maior
+negociabilidade e representatividade do setor de
+energia elétrica.Tipo de índiceO IEE é um índice
+de retorno total com reinvestimento no próprio
+ativo.O ajuste é efetuado considerando-se que o
+investidor vendeu as ações pelo último preço de
+fechamento anterior ao início da negociação “ex-
+provento” e utilizou os recursos na compra das
+mesmas ações sem o provento distribuído (“ex-
+provento”).Ativos elegíveisO IEE é composto pelas
+ações e units exclusivamente de ações de
+companhias listadas na BM&FBOVESPA que atendem aos
+critérios de inclusão descritos a seguir.Não estão
+incluídos nesse universo BDRs e ativos de
+companhias em recuperação judicial ou
+extrajudicial, regime especial de administração
+temporária, intervenção ou que sejam negociados em
+qualquer outra situação especial de listagem (ver
+Manual de Definições e Procedimentos dos Índices
+da BM&FBOVESPA).

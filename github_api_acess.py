@@ -45,4 +45,6 @@ def get_codigos(setor:str='IDIV', sa:bool=True) -> list:
         lista = [f'{item}.SA' for item in lista]
     return lista
 
-print(get_codigos())
+def teste(setor):
+    codigos = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/1.%20%C3%8Dndices%20de%20Segmentos%20e%20Setoriais/Setores/{setor}/C%C3%B3digos_{setor}.txt'  
+    apresentacao = f'{}'

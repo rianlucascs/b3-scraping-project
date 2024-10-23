@@ -6,6 +6,7 @@ from pandas import read_csv
 
 import difflib
 from bs4 import BeautifulSoup
+import textwrap
 
 class Transform:
     
@@ -51,14 +52,13 @@ class Transform:
         
         # Tenta encontrar um arquivo exato
         for file in files:
-            if indice.lower() in file.lower():
+            if f'-{indice.lower()}-' in file.lower():
                 return file
 
         # Se não encontrado, calcula a similaridade
         result = {file: difflib.SequenceMatcher(None, file.lower(), self.dict_indices[indice].lower()).ratio() for file in files}
+
         return max(result, key=result.get)
-
-
 
     def read_data_csv(self, file, skiprows=1, skipfooter=2, na_values=['NaN', '']):
         """
@@ -82,13 +82,21 @@ class Transform:
             FileNotFoundError: Se o arquivo não for encontrado.
             Exception: Para outros erros durante a leitura do arquivo.
         """
+        if na_values is None:
+            na_values = ['NaN', '']
         try:
-            file_csv = read_csv(join(self.path_extracted_data, file), encoding='ISO-8859-1', delimiter=';', 
-                                skiprows=skiprows, skipfooter=skipfooter, na_values=na_values, 
-                                on_bad_lines='warn', engine='python').reset_index()
+            file_csv = read_csv(
+                join(self.path_extracted_data, file), 
+                encoding='ISO-8859-1', 
+                delimiter=';', 
+                skiprows=skiprows, 
+                skipfooter=skipfooter, 
+                na_values=na_values, 
+                on_bad_lines='warn', 
+                engine='python'
+            ).reset_index()
             file_csv.columns = ['Código', 'Ação', 'Tipo', 'Qtde. Teórica', 'Part. (%)', '']
             file_csv = file_csv.iloc[:, :-1]  # Remove a última coluna
-
             return file_csv
         except FileNotFoundError:
             print(f"Erro: O arquivo '{file}' não foi encontrado.")
@@ -97,10 +105,36 @@ class Transform:
             print(f"Erro ao ler o arquivo: {e}")
             raise
 
-    def read_data_htm(self, file):
-        with open(join(self.path_extracted_data, file), 'r', encoding='utf-8') as htm:
-            soup = BeautifulSoup(htm, 'html.parser')
-            return soup.get_text(separator=' ', strip=True)
+    def read_data_htm(self, file, encoding='utf-8'):
+        """
+        Lê um arquivo HTML e extrai o texto.
+
+        Esta função abre um arquivo HTML, analisa seu conteúdo com BeautifulSoup
+        e retorna o texto extraído. O texto é retornado como uma string única, 
+        com espaços extras removidos.
+
+        Args:
+            file (str): O nome do arquivo HTML a ser lido.
+            encoding (str): O encoding do arquivo (padrão é 'utf-8').
+
+        Returns:
+            str: O texto extraído do arquivo HTML.
+
+        Raises:
+            FileNotFoundError: Se o arquivo não for encontrado.
+            Exception: Se houver um erro ao ler o arquivo.
+        """
+        file_path = join(self.path_extracted_data, file)
+        
+        if not exists(file_path):
+            raise FileNotFoundError(f'O arquivo {file_path} não foi encontrado.')
+
+        try:
+            with open(file_path, 'r', encoding=encoding) as htm:
+                soup = BeautifulSoup(htm, 'html.parser')
+                return soup.get_text(strip=True)
+        except Exception as e:
+            raise Exception(f'Erro ao ler o arquivo {file_path}: {e}')
 
     def save_codigos_carteira_setor(self, path, file_name, file_csv, update=False):
         """
@@ -123,22 +157,39 @@ class Transform:
             print(f'O arquivo já existe: {new_file}')
 
     def save_informacoes_sobre_o_setor(self, path, file_name, file_htm, update=False):
-        import textwrap
+        """
+        Salva informações sobre um setor em um arquivo de texto.
+
+        Esta função cria um arquivo de texto com uma apresentação do setor,
+        formatando o conteúdo com quebras de linha. O arquivo é criado se não
+        existir ou se a atualização for solicitada.
+
+        Args:
+            path (str): O diretório onde o arquivo será salvo.
+            file_name (str): O nome base do arquivo (sem extensão).
+            file_htm (str): O conteúdo HTML a ser escrito no arquivo.
+            update (bool): Se True, força a atualização do arquivo existente.
+
+        Returns:
+            None
+        """
         new_file = join(path, f'Apresentação_{file_name}.txt')
-        if not exists(new_file) or update is True:
+
+        if not exists(new_file) or update:
             try:
                 with open(new_file, 'w', encoding='utf-8') as file:
                     file.write(textwrap.fill(file_htm, width=50))
                 print(f'Apresentação salva em {new_file}.')
-            except Exception as e:
-                print(f'Erro ao salvar o arquivo {e}')
+            except IOError as e:
+                print(f'Erro ao salvar o arquivo: {e}')
         else:
             print(f'O arquivo já existe: {new_file}')
 
     def execution(self):
-
+        """
+        Executa o fluxo principal de transformação de dados.
+        """
         for indice in self.indices:
-
             new_dir = join(self.path_processed_data, 'Setores', indice)
             if not exists(new_dir):
                 makedirs(new_dir)
@@ -150,14 +201,15 @@ class Transform:
             file_name = self.loc_data_htm(indice)
             file_htm = self.read_data_htm(file_name)
             self.save_informacoes_sobre_o_setor(new_dir, indice, file_htm, update=True)
-            break
-
             
             
 
 if __name__ == '__main__':
-    transform_composicao_da_carteira = Transform(config.path_extracted_data, config.path_processed_data, config.INDICES.keys(),
-                                                 config.INDICES)
+    transform_composicao_da_carteira = Transform(
+        config.path_extracted_data, 
+        config.path_processed_data, 
+        config.INDICES.keys(),
+        config.INDICES)
     
     transform_composicao_da_carteira.execution()
     
