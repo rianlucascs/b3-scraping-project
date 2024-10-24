@@ -186,6 +186,7 @@ class Transform:
         else:
             print(f'O arquivo já existe: {new_file}')
     
+    ### XXX ##
     def save_csv(self, path, file_name, indice):
         """
         Copia um arquivo CSV de um diretório de origem para um diretório de destino
@@ -218,26 +219,91 @@ class Transform:
         except Exception as e:
             raise OSError(f'Erro ao copiar o arquivo: {e}')
         
+    def save_csv_2(self, path, file_csv, indice, update=False):
+        """
+        Salva um DataFrame como um arquivo CSV.
 
-    def execution(self):
+        Args:
+            path (str): O diretório onde o arquivo será salvo.
+            file_csv (DataFrame): O DataFrame que contém os dados a serem salvos.
+            indice (str): O índice para nomear o arquivo CSV.
+            update (bool): Se True, força a atualização do arquivo existente.
+
+        Returns:
+            None
+        """
+        try:
+            file_path = join(path, f'Tabela_{indice}.csv')
+            if not exists(file_path) or update:
+                file_csv.to_csv(file_path, index=False, encoding='utf-8')
+                print(f'Arquivo salvo em: {file_path}')
+            else:
+                print(f'O arquivo já existe: {file_path}')
+        except Exception as e:
+            print(f'Erro ao salvar o arquivo: {e}')
+    
+    def create_directory(self, indice):
+        """
+        Cria um diretório para o índice, se não existir.
+        
+        Args:
+            indice (str): O índice para o qual o diretório será criado.
+        
+        Returns:
+            str: O caminho do diretório criado.
+        """
+        new_dir = join(self.path_processed_data, 'Setores', indice)
+        if not exists(new_dir):
+            makedirs(new_dir)
+            print(f'Diretório criado: {new_dir}')
+        return new_dir
+
+    def process_csv(self, indice, new_dir, update):
+        """
+        Processa e salva os dados CSV para o índice.
+        
+        Args:
+            indice (str): O índice do qual os dados serão processados.
+            new_dir (str): O diretório onde os arquivos serão salvos.
+            update (bool): Se True, força a atualização dos arquivos existentes.
+        
+        Returns:
+            DataFrame: O DataFrame com os dados do índice.
+        """
+        file_name = self.loc_data_csv(indice)
+        file_csv = self.read_data_csv(file_name)
+        self.save_codigos_carteira_setor(new_dir, indice, file_csv, update=update)
+        self.save_csv_2(new_dir, file_csv, indice, update=update)
+        return file_csv
+
+    def process_html(self, indice, new_dir, update):
+        """
+        Processa e salva os dados HTML para o índice.
+        
+        Args:
+            indice (str): O índice do qual os dados serão processados.
+            new_dir (str): O diretório onde os arquivos serão salvos.
+            update (bool): Se True, força a atualização dos arquivos existentes.
+        """
+        file_name = self.loc_data_htm(indice)
+        file_htm = self.read_data_htm(file_name)
+        self.save_informacoes_sobre_o_setor(new_dir, indice, file_htm, update=update)
+
+    def execution(self, update=True):
         """
         Executa o fluxo principal de transformação de dados.
+        
+        Args:
+            update (bool): Se True, força a atualização dos arquivos existentes.
         """
         for indice in self.indices:
-            new_dir = join(self.path_processed_data, 'Setores', indice)
-            if not exists(new_dir):
-                makedirs(new_dir)
-            
-            file_name = self.loc_data_csv(indice)
-            file_csv = self.read_data_csv(file_name)
-            self.save_codigos_carteira_setor(new_dir, indice, file_csv, update=False)
-            self.save_csv(new_dir, file_name, indice)
+            try:
+                new_dir = self.create_directory(indice)
+                file_csv = self.process_csv(indice, new_dir, update)
+                self.process_html(indice, new_dir, update)
 
-            file_name = self.loc_data_htm(indice)
-            file_htm = self.read_data_htm(file_name)
-            self.save_informacoes_sobre_o_setor(new_dir, indice, file_htm, update=True)
-            
-            
+            except Exception as e:
+                print(f'Erro ao processar o índice {indice}: {e}')
 
 if __name__ == '__main__':
     transform_composicao_da_carteira = Transform(
@@ -246,7 +312,9 @@ if __name__ == '__main__':
         config.INDICES.keys(),
         config.INDICES)
     
-    transform_composicao_da_carteira.execution()
+    transform_composicao_da_carteira.execution(
+        update=False
+        )
     
 
 
