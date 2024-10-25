@@ -40,9 +40,7 @@ def get_codigos(setor:str='IDIV') -> list:
     response = requests.get(url)
     if response.status_code != 200:
         raise ValueError(f'Erro ao acessar a página: {response.status_code}, setor: {setor}')
-    return response.text.splitlines()
-    
-
+    return [item.strip() for item in response.text.splitlines()]
 
 def get_apresentacao(setor:str) -> str: 
     """
