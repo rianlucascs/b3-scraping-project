@@ -1,5 +1,6 @@
+
 import requests
-from pandas import read_csv, read_excel
+from pandas import read_csv
 from io import StringIO
 
 # 1. Índices de Segmentos e Setoriais
@@ -76,6 +77,9 @@ def get_tabela_setor(setor:str):
 
     Returns:
         DataFrame: Um DataFrame contendo os dados da tabela. Se a requisição falhar, a função levanta uma exceção.
+    
+    Raises:
+        ValueError: Se não for possível acessar a página.
     """
     url = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/1.%20%C3%8Dndices%20de%20Segmentos%20e%20Setoriais/Setores/{setor}/Tabela_{setor}.csv'
     try:
@@ -87,17 +91,60 @@ def get_tabela_setor(setor:str):
 # 2. Horário de negociação
 
 def get_tabela_horario():
-    url = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/blob/master/processed_data/2.%20Horário%20de%20negociação/Tabela_horarios_de_negociacao_no_mercado_de_acoes.csv'
+    """
+    Obtém a tabela de horários de negociação no mercado de ações.
+
+    Esta função faz uma requisição a uma URL que contém os horários de negociação
+    em formato CSV. Se a requisição for bem-sucedida, os dados são retornados como
+    um DataFrame do pandas. Em caso de erro durante a requisição, uma exceção é levantada.
+
+    Returns:
+        DataFrame: Um DataFrame contendo os dados da tabela de horários de negociação.
+
+    Raises:
+        ValueError: Se não for possível acessar a página.
+    """
+    url = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/2.%20Hor%C3%A1rio%20de%20negocia%C3%A7%C3%A3o/Tabela_horarios_de_negociacao_no_mercado_de_acoes.csv'
     try:
         response = requests.get(url)
     except requests.exceptions.RequestException as e:
         raise ValueError(f'Erro ao acessar a página: {e}')
-    return read_excel(StringIO(response.text), delimiter=',')
+    return read_csv(StringIO(response.text), delimiter=',')
+
+def get_horario_abertura_e_fechamento_mercado_a_vista():
+    """
+    Obtém os horários de abertura e fechamento do mercado à vista.
+
+    Esta função acessa a tabela de horários de negociação e filtra os dados
+    para retornar os horários de início e fim das negociações do mercado à vista.
+    
+    Returns:
+        dict: Um dicionário contendo os horários de início e fim das negociações
+        para o mercado à vista, no seguinte formato:
+        {
+            'Mercado a vista': {
+                'INÍCIO': <horário de início>,
+                'FIM': <horário de fim>
+            }
+        }
+    """
+    table = get_tabela_horario()
+    table = table.loc[table['Mercado1'] == 'Mercado a vista']
+
+    return {'Mercado a vista': {
+        'INÍCIO': table['Negociação "INÍCIO"'].iloc[0],
+        'FIM': table['Negociação "FIM"'].iloc[0]
+    }}
+
+# ?
+
+def correct_url_git_acess(url):
+    url = url.replace('https://github.com/', 'https://raw.githubusercontent.com/')
+    url = url.replace('/blob', '')
+    return url
+
 
 if __name__ == '__main__':
     
     setor = 'IDIV'
-    # print(get_apresentacao(setor))
-    # print(get_codigos(setor))
-
-    print(get_tabela_horario())
+    print(get_horario_abertura_e_fechamento_mercado_a_vista())

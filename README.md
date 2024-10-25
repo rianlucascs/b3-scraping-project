@@ -8,21 +8,65 @@ Este projeto tem como objetivo extrair dados da B3 (Bolsa de Valores do Brasil) 
 ## Funcionalidades
 
 - **Extração de Dados**: Coleta informações atualizadas sobre ações e índices da B3.
-
 - **Tratamento de Dados**: Processa os dados extraídos, limpando e formatando para facilitar a análise.
-
 - **Armazenamento**: Salva os dados em formatos como CSV e TXT para posterior análise.
 
 ## Como Usar
 
-Copie e cole as funções do arquivo **/github_api_acess.py** no seu projeto.
+Copie e cole as funções do arquivo para ter acesso aos dados extraidos **/github_api_acess.py** no seu projeto.
 
-## Dados disponíveis
+### Instalação
 
-1. **Índices de Segmentos e Setoriais**
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/b3-scraping-project.git
 
-    - Lista dos códigos da carteira do índice
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd b3-scraping-project
 
-    - Texto de apresentação do índice
-    
-    - Arquivo .CSV com informações do índice
+3. Instale as dependências:
+    ```bash
+    pip install -r requirements.txt
+
+4. Execute os scripts:
+    ```bash
+    extract_composicao_da_carteira_indices_setoriais.py
+    extract_informacoes_dos_indices.py
+    transform_data_composicao_da_carteira_indices_setoriais.py
+
+    extract_horario_de_negociacao.py
+    transform_horario_de_negociacao.py
+
+## Dados Disponíveis
+
+### 1. Índices de Segmentos e Setoriais
+- **Descrição**: Coleta informações sobre diferentes índices do mercado.
+- **Funcionalidades**:
+  - **Códigos da Carteira**: Lista de códigos das ações que compõem o índice.
+  - **Texto de Apresentação**: Breve descrição sobre o índice, incluindo sua finalidade e características.
+  - **Arquivo CSV**: Contém dados detalhados sobre o índice, como código, ação, qtde.teórica.
+
+### 2. Horário de Negociação
+- **Descrição**: Tabela com os horários de negociação das ações na B3.
+- **Funcionalidades**:
+  - **Arquivo CSV**: Inclui horários de abertura e fechamento do mercado, diferenciando entre tipos de mercado (à vista, opções, etc.).
+
+## Exemplos de Uso
+
+- Para obter os códigos de ações de um índice específico, como o IDIV (Índice de Dividendos):
+  ```python
+  # Obtém os códigos de ações do índice IDIV
+  codigos = get_codigos('IDIV')
+  
+  # Exibe os códigos obtidos
+  print("Códigos de ações do IDIV:")
+  print(codigos)
+
+
+  # Obtém os horários de negociação do mercado à vista
+  horario = get_horario_abertura_e_fechamento_mercado_a_vista()
+
+  # Exibe os horários de abertura e fechamento
+  print("Horários de negociação do mercado à vista:")
+  print(horario)
