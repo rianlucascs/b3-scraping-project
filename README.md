@@ -13,7 +13,7 @@ Este projeto tem como objetivo extrair dados da B3 (Bolsa de Valores do Brasil) 
 
 ## Como Usar
 
-Copie e cole as funções do arquivo para ter acesso aos dados extraidos **/github_api_acess.py** no seu projeto.
+Copie e cole as funções do arquivo para ter acesso aos dados extraidos **[/github_api_acess.py](https://github.com/rianlucascs/b3-scraping-project/blob/master/github_api_acess.py)** no seu projeto.
 
 ### Instalação
 
@@ -80,5 +80,6 @@ Estou à disposição para esclarecer dúvidas ou fornecer mais informações. V
 - **LinkedIn:** [Visite meu perfil no LinkedIn](www.linkedin.com/in/rian-lucas)
 - **GitHub:** [Explore meu repositório no GitHub](https://github.com/rianlucascs)
 - **Celular:** +55 61 96437-9500
+
 
 Fico sempre aberto a colaborações e oportunidades de networking!
