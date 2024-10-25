@@ -72,3 +72,13 @@ Copie e cole as funções do arquivo para ter acesso aos dados extraidos **/gith
   # Exibe os horários de negociação
   print("Tabela de horários de negociação do mercado à vista:")
   print(horarios)
+
+## Contato
+
+Estou à disposição para esclarecer dúvidas ou fornecer mais informações. Você pode entrar em contato através das seguintes opções:
+
+- **LinkedIn:** [Visite meu perfil no LinkedIn](https://www.linkedin.com/in/seuperfil)
+- **GitHub:** [Explore meu repositório no GitHub](https://github.com/rianlucascs)
+- **Celular:** +55 61 96437-9500
+
+Fico sempre aberto a colaborações e oportunidades de networking!
