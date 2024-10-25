@@ -77,7 +77,7 @@ Copie e cole as funções do arquivo para ter acesso aos dados extraidos **/gith
 
 Estou à disposição para esclarecer dúvidas ou fornecer mais informações. Você pode entrar em contato através das seguintes opções:
 
-- **LinkedIn:** [Visite meu perfil no LinkedIn](https://www.linkedin.com/in/seuperfil)
+- **LinkedIn:** [Visite meu perfil no LinkedIn](www.linkedin.com/in/rian-lucas)
 - **GitHub:** [Explore meu repositório no GitHub](https://github.com/rianlucascs)
 - **Celular:** +55 61 96437-9500
 
