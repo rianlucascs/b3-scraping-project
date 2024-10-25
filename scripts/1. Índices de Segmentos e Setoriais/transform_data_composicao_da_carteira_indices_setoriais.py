@@ -150,8 +150,10 @@ class Transform:
         if not exists(new_file) or update is True:
             try:
                 with open(new_file, 'w', encoding='utf-8') as file:
-                    file.write(file_csv['Código'].to_string(index=False, header=False))
-                print(f'Códigos salvos em {new_file}.')
+                    
+                    file.write('\n'.join(file_csv['Código'].values) + '\n') # <---!!
+                
+                print(f'Códigos salvos em {new_file}.') 
             except Exception as e:
                 print(f'Erro ao salvar o arquivo {e}.')
         else:
@@ -313,7 +315,7 @@ if __name__ == '__main__':
         config.INDICES)
     
     transform_composicao_da_carteira.execution(
-        update=False
+        update=True
         )
     
 

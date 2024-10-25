@@ -1,6 +1,6 @@
 import requests
 
-def get_codigos(setor:str='IDIV', sa:bool=True) -> list:
+def get_codigos(setor:str='IDIV') -> list:
     """
     Obtém a lista de códigos de ações de um setor específico a partir de um arquivo TXT no GitHub.
 
@@ -40,10 +40,8 @@ def get_codigos(setor:str='IDIV', sa:bool=True) -> list:
     response = requests.get(url)
     if response.status_code != 200:
         raise ValueError(f'Erro ao acessar a página: {response.status_code}, setor: {setor}')
-    lista = [item.strip() for item in response.text.splitlines() if item.strip()]
-    if sa:
-        lista = [f'{item}.SA' for item in lista]
-    return lista
+    return response.text.splitlines()
+    
 
 
 def get_apresentacao(setor:str) -> str: 
