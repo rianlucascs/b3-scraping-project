@@ -95,8 +95,8 @@ class Transform:
         
         try:
             table = DataFrame(data[1:], columns=cabecalho)
-            table.to_excel(self.path_processed_data, index=False)
-            print(f"Arquivo salvo em: {self}.")
+            table.to_csv(self.path_processed_data, index=False, encoding='utf-8')
+            print(f"Arquivo salvo em: {self.path_processed_data}.")
         except Exception as e:
             print(f"Erro ao salvar os dados: {e}")
     

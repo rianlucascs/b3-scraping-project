@@ -1,5 +1,5 @@
 import requests
-from pandas import read_csv
+from pandas import read_csv, read_excel
 from io import StringIO
 
 # 1. Índices de Segmentos e Setoriais
@@ -64,7 +64,7 @@ def get_apresentacao(setor:str) -> str:
         raise ValueError(f'Erro ao acessar a página: {e}')
     return response.text
 
-def get_tabela(setor:str):
+def get_tabela_setor(setor:str):
     """
     Obtém a tabela de ações de um setor específico a partir de um arquivo CSV no GitHub.
 
@@ -86,10 +86,18 @@ def get_tabela(setor:str):
 
 # 2. Horário de negociação
 
+def get_tabela_horario():
+    url = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/blob/master/processed_data/2.%20Horário%20de%20negociação/Tabela_horarios_de_negociacao_no_mercado_de_acoes.csv'
+    try:
+        response = requests.get(url)
+    except requests.exceptions.RequestException as e:
+        raise ValueError(f'Erro ao acessar a página: {e}')
+    return read_excel(StringIO(response.text), delimiter=',')
+
 if __name__ == '__main__':
     
     setor = 'IDIV'
     # print(get_apresentacao(setor))
     # print(get_codigos(setor))
 
-    print(get_tabela(setor))
+    print(get_tabela_horario())
