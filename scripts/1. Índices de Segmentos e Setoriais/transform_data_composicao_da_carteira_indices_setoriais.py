@@ -183,7 +183,7 @@ class Transform:
                 with open(new_file, 'w', encoding='utf-8') as file:
                     file.write(textwrap.fill(file_htm, width=50))
                 print(f'Apresentação salva em {new_file}.')
-            except IOError as e:
+            except OSError as e:
                 print(f'Erro ao salvar o arquivo: {e}')
         else:
             print(f'O arquivo já existe: {new_file}')
