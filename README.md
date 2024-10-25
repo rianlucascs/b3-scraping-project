@@ -34,7 +34,6 @@ Copie e cole as funções do arquivo para ter acesso aos dados extraidos **/gith
     extract_composicao_da_carteira_indices_setoriais.py
     extract_informacoes_dos_indices.py
     transform_data_composicao_da_carteira_indices_setoriais.py
-
     extract_horario_de_negociacao.py
     transform_horario_de_negociacao.py
 
@@ -55,7 +54,8 @@ Copie e cole as funções do arquivo para ter acesso aos dados extraidos **/gith
 ## Exemplos de Uso
 
 - Para obter os códigos de ações de um índice específico, como o IDIV (Índice de Dividendos):
-  ```python
+  
+  ```bash
   # Obtém os códigos de ações do índice IDIV
   codigos = get_codigos('IDIV')
   
@@ -63,10 +63,12 @@ Copie e cole as funções do arquivo para ter acesso aos dados extraidos **/gith
   print("Códigos de ações do IDIV:")
   print(codigos)
 
+- Para obter a tabela com os horarios de negociação da bolsa
 
-  # Obtém os horários de negociação do mercado à vista
-  horario = get_horario_abertura_e_fechamento_mercado_a_vista()
+  ```bash
+  # Obtém a tabela com os horários de negociação
+  horarios = get_tabela_horario()
 
-  # Exibe os horários de abertura e fechamento
-  print("Horários de negociação do mercado à vista:")
-  print(horario)
+  # Exibe os horários de negociação
+  print("Tabela de horários de negociação do mercado à vista:")
+  print(horarios)
