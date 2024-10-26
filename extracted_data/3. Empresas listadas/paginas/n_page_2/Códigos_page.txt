@@ -1,1 +1,0 @@
-['ABAP', 'BODY', 'ABRL', 'ABGD', 'NNPY', 'GRDR', 'PTGU', 'ABMX', 'ABCC', 'FCEF', 'AACL', 'AYOS', 'SIVR', 'ABPR', 'ATBC', 'TZRD', 'UQMU', 'ACEC', 'BRAV', 'QVQP']
