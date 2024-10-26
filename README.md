@@ -13,13 +13,14 @@ Este projeto tem como objetivo extrair dados da B3 (Bolsa de Valores do Brasil) 
 
 ## Como Usar
 
+### Acesso aos dados
 Copie e cole as funções do arquivo para ter acesso aos dados extraidos **[/github_api_acess.py](https://github.com/rianlucascs/b3-scraping-project/blob/master/github_api_acess.py)** no seu projeto.
 
 ### Instalação
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/b3-scraping-project.git
+   git clone https://github.com/rianlucascs/b3-scraping-project.git
 
 2. Navegue até o diretório do projeto:
     ```bash

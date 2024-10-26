@@ -1,0 +1,1 @@
+['TJMM', 'ARKL', 'ARML', 'ARMB', 'ARQU', 'ASTP', 'AMTE', 'ASIC', 'ASCV', 'ASAB', 'ASCY', 'CPNB', 'ASCS', '0HBV', 'ARTP', 'ARTR', 'ASSR', 'SPRZ', 'AERE', 'AISA']

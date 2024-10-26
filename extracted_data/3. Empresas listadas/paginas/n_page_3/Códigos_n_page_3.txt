@@ -1,0 +1,1 @@
+['AGXY', 'AGNN', 'AGAU', 'NOWS', 'AGVL', 'AGML', 'UNLT', 'AGTL', 'AGAL', 'AGEP', 'AGER', 'AJOT', 'AGVE', 'AGLT', 'AGPT', 'AGPN', 'AFLT', 'APRO', 'AGEO', 'AFYA']

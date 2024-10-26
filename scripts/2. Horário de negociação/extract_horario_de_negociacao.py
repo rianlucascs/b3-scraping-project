@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 from os.path import exists
 import config
 
+__python__ = 3.10
+
 class Extract:
 
     def __init__(self, path_extracted_data):

@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 from os.path import join, exists
 import config
 
+__python__ = 3.10
+
 class Extract:
 
     def __init__(self, path, indices):

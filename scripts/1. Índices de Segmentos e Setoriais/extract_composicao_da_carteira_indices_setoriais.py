@@ -6,6 +6,8 @@ from os import listdir
 from time import sleep
 import config
 
+__python__ = 3.10
+
 class Extract:
 
     def __init__(self, path, indices):

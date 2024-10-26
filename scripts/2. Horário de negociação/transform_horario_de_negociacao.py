@@ -4,6 +4,8 @@ from pandas import DataFrame
 import config
 from bs4 import BeautifulSoup
 
+__python__ = 3.10
+
 class Transform:
 
     def __init__(self, path_extracted_data, path_processed_data):

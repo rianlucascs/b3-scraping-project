@@ -1,0 +1,1 @@
+['BFIB', 'LAGE', 'BCAP', 'BCHN', 'CTPL', 'BBGN', 'CITI', 'CLAS', 'ITAM', 'BGEC', 'BCGL', 'BCLB', 'BNAR', 'FTOR', 'BIFB', 'BCSF', 'BPNB', 'CNHC', 'BAJR', 'SCDI']

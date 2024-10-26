@@ -9,6 +9,8 @@ from bs4 import BeautifulSoup
 import textwrap
 import shutil
 
+__python__ = 3.10
+
 class Transform:
     
     def __init__(self, path_extracted_data, path_processed_data, indices, dict_indices):
