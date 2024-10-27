@@ -266,7 +266,7 @@ class Extract:
         sleep(0.3)
         while True:
             xpath_numero_pagina = self.get_xpath_numero_pagina(driver)
-            sleep(0.3)
+            sleep(0.1)
             
             if xpath_numero_pagina == numero_pagina_loop:
                 return True

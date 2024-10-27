@@ -1,0 +1,1 @@
+['BNDP', 'BIOP', 'EPNC', 'BIOM', 'BMYE', 'BLOC', 'LDCS', 'BNYM', 'BNMS', 'BIOE', 'BGEN', 'BMHY', 'BION', 'BMEP', 'BOLD', 'BLAU', 'BFFT', 'BIZC', 'BFLE', 'SOJA']

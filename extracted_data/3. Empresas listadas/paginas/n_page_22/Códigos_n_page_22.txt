@@ -1,0 +1,1 @@
+['BSPC', 'BLPE', 'BPLR', 'AGRO', 'BRVB', 'BPCH', 'BRSH', 'BRKM', 'BRFA', 'BSEN', 'TEPA', 'BBNK', 'BRDO', 'MNTI', 'BTBP', 'BBFU', 'MXCS', 'BTCL', 'BVGE', 'BPSE']
