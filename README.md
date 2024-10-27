@@ -2,7 +2,11 @@
 
 # B3 SCRAPING PROJECT
 
-https://github.com/rianlucascs/b3-scraping-project/blob/master/empreasas_listadas_demonstracao.mp4
+
+
+https://github.com/user-attachments/assets/ab36ea61-3d94-4807-8fb8-5b977b2cb192
+
+
 
 
 ## Descrição
