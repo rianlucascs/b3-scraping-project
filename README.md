@@ -41,16 +41,24 @@ Copie e cole as funções do arquivo para ter acesso aos dados extraidos **[/git
 ## Dados Disponíveis
 
 ### 1. Índices de Segmentos e Setoriais
-- **Descrição**: Coleta informações sobre diferentes índices do mercado.
+- **Descrição**: Coleta informações sobre diferentes índices do mercado [Saiba mais](https://github.com/rianlucascs/b3-scraping-project/blob/master/scripts/1.%20%C3%8Dndices%20de%20Segmentos%20e%20Setoriais/README.md).
+
 - **Funcionalidades**:
   - **Códigos da Carteira**: Lista de códigos das ações que compõem o índice.
   - **Texto de Apresentação**: Breve descrição sobre o índice, incluindo sua finalidade e características.
   - **Arquivo CSV**: Contém dados detalhados sobre o índice, como código, ação, qtde.teórica.
 
 ### 2. Horário de Negociação
-- **Descrição**: Tabela com os horários de negociação das ações na B3.
+- **Descrição**: Tabela com os horários de negociação das ações na B3 [Saiba mais](https://github.com/rianlucascs/b3-scraping-project/blob/master/scripts/2.%20Hor%C3%A1rio%20de%20negocia%C3%A7%C3%A3o/README.md).
+
 - **Funcionalidades**:
   - **Arquivo CSV**: Inclui horários de abertura e fechamento do mercado, diferenciando entre tipos de mercado (à vista, opções, etc.).
+
+### 3. Empresas Listadas (Renda variável)
+
+- **Descrição**: [Saiba mais](https://github.com/rianlucascs/b3-scraping-project/blob/master/scripts/3.%20Empresas%20listadas/README.md).
+- **Funcionalidades**:
+
 
 ## Exemplos de Uso
 
