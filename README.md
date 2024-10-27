@@ -2,10 +2,8 @@
 
 # B3 SCRAPING PROJECT
 
-<video width="640" height="480" controls>
-  <source src="https://github.com/rianlucascs/b3-scraping-project/blob/master/empreasas_listadas_demonstracao.mp4" type="video/mp4">
-  Seu navegador não suporta a tag de vídeo.
-</video>
+https://github.com/rianlucascs/b3-scraping-project/blob/master/empreasas_listadas_demonstracao.mp4
+
 
 ## Descrição
 Este projeto tem como objetivo extrair dados da B3 (Bolsa de Valores do Brasil) por meio de web scraping. Utilizando técnicas de scraping, a API permite coletar informações sobre índices de mercado, ações, e outros dados relevantes diretamente do site da B3.
