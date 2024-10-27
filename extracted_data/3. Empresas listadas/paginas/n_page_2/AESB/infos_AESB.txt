@@ -1,0 +1,1 @@
+[2, 'AESB', 'AES BRASIL', 'AESB3', '37.663.076/0001-07', 'HOLDING DE INSTITUIÇÕES NÃO FINANCEIRAS', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

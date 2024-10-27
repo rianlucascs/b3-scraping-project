@@ -1,0 +1,1 @@
+[4, 'GSTS', 'AGUASTERESIN', '', 'Serviços públicos de abastecimento de água potável e esgotamento sanitário no Município de Teresina/PI.', 'Não Classificados / Não Classificado / Não Classificados', '', 'EMPRESA']

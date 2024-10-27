@@ -1,0 +1,1 @@
+[8, 'ANIM', 'ANIMA', 'ANIM3', '09.288.252/0001-32', 'Administração. direta ou indireta. de atividade de instituições de 3º e 4º graus. educação profissional.', 'Consumo Cíclico / Diversos / Serviços Educacionais', 'BRADESCO']

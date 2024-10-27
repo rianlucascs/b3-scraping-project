@@ -1,0 +1,1 @@
+[6, 'ALOS', 'ALLOS', 'ALOS3', '05.878.397/0001-32', 'Planejamento. desenvolvimento. implantação e investimentos na área imobiliária. nomeadamente em Shopping Centers e a participação em outras sociedades e/ou em fundos de investimento imobiliário.', 'Financeiro / Exploração de Imóveis / Exploração de Imóveis', 'ITAU CORRETORA ACOES']

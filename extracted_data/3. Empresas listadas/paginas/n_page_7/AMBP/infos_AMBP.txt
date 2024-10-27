@@ -1,0 +1,1 @@
+[7, 'AMBP', 'AMBIPAR', 'AMBP3', '12.648.266/0001-24', 'Gerenciamento e valorização de resíduos. bem como. prestação de serviços de atendimento a emergência.', 'Utilidade Pública / Água e Saneamento / Água e Saneamento', 'BRADESCO']

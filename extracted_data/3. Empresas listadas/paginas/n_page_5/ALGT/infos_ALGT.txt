@@ -1,0 +1,1 @@
+[5, 'ALGT', 'ALGAR TELEC', '', 'Serviços de Telecomunicações em geral', 'Comunicações / Telecomunicações / Telecomunicações', 'http://www.algartelecom.com.br', 'BRADESCO']

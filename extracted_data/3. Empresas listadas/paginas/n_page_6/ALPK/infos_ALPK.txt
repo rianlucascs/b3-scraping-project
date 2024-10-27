@@ -1,0 +1,1 @@
+[6, 'ALPK', 'ESTAPAR', 'ALPK3', '60.537.263/0001-66', 'Outras atividades de publicidade não especificadas anteriormente; gestão de ativos intangíveis não-financeiros; outras atividades de serviços pessoais não especificadas anteriormente.', 'Bens Industriais / Serviços / Serviços Diversos', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

@@ -1,0 +1,1 @@
+[3, 'AGXY', 'AGROGALAXY', 'AGXY3', '21.240.146/0001-84', 'Comércio de insumos agrícolas (fertilizantes. defensivos biológicos. inoculantes e sementes) e de grãos', 'Consumo não Cíclico / Agropecuária / Agricultura', 'ITAU CORRETORA ACOES']

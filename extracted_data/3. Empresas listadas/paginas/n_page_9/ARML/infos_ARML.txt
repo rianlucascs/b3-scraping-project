@@ -1,0 +1,1 @@
+[9, 'ARML', 'ARMAC', 'ARML3', '00.242.184/0001-04', 'Locação de máquinas e equipamentos pesados', 'Bens Industriais / Máquinas e Equipamentos / Máq. e Equip. Industriais', 'ITAU CORRETORA ACOES']

@@ -1,0 +1,1 @@
+[2, 'AERI', 'AERIS', 'AERI3', '12.528.708/0001-07', 'Exploração de negócio de construção e comercialização de pás de rotores para turbinas utilizadas na geração eólica de energia.', 'Bens Industriais / Máquinas e Equipamentos / Máq. e Equip. Industriais', 'ITAU CORRETORA ACOES']

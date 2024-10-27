@@ -1,0 +1,1 @@
+[8, 'TRGO', 'ARGOTRANSM', '', 'Exploração de concessões de serviços públicos de transmissão de energia. prestado mediante a implantação. operação e manutenção de linhas de transmissão e demais serviços complementares necessários', 'Não Classificados / Não Classificados / Não Classificado', '', 'EMPRESA']

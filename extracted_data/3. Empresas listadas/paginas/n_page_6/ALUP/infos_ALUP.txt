@@ -1,0 +1,1 @@
+[6, 'ALUP', 'ALUPAR', 'ALUP11', '08.364.948/0001-38', 'a participação em outras sociedades atuantes nos setores de energia e infra-estrutura. no Brasil ou no exterior; a geração. transformação. transporte. a distribuiçãoe o comércio de energia.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']
