@@ -91,5 +91,3 @@ Estou à disposição para esclarecer dúvidas ou fornecer mais informações. V
 
 
 Fico sempre aberto a colaborações e oportunidades de networking!
-
-r
