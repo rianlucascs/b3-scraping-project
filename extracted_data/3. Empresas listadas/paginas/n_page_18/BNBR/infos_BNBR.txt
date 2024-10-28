@@ -1,0 +1,1 @@
+[18, 'BNBR', 'NORD BRASIL', 'BNBR3', '07.237.373/0001-20', 'Banco Múltiplo com Carteira Comercial', 'Financeiro / Intermediários Financeiros / Bancos', 'BANCO DO NORDESTE DO BRASIL S.A.']

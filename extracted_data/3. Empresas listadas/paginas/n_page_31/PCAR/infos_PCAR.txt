@@ -1,0 +1,1 @@
+[31, 'PCAR', 'P.ACUCAR-CBD', 'PCAR3', '47.508.411/0001-56', 'Comércio Varejista', 'Consumo não Cíclico / Comércio e Distribuição / Alimentos', 'ITAU CORRETORA ACOES']

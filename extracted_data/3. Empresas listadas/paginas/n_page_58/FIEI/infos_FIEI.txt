@@ -1,0 +1,1 @@
+[58, 'FIEI', 'FICA', 'FIEI3', '07.820.907/0001-46', 'Incorporação Imobiliária', 'Consumo Cíclico / Construção Civil / Incorporações', 'ITAU CORRETORA ACOES']

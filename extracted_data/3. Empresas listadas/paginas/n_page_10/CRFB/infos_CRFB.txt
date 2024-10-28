@@ -1,0 +1,1 @@
+[10, 'CRFB', 'CARREFOUR BR', 'CRFB3', '75.315.333/0001-09', 'Comércio varejista e atacadista de mercadorias em geral; Carga e descarga; Correspondentes de instituições financeiras; Atividades de teleatendimento; Serviços de Alimentação entre outros', 'Consumo não Cíclico / Comércio e Distribuição / Alimentos', 'ITAU CORRETORA ACOES']

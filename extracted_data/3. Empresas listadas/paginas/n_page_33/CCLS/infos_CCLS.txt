@@ -1,0 +1,1 @@
+[33, 'CCLS', 'CICLUS AMBIE', '', 'Gestão de resíduos sólidos; captação. tratamento e comercialização de biogás; produção e comercialização de créditos de carbono; serviço de tratamento de chorume; operação de aterro sanitário etc.', 'Utilidade Pública / Água e Saneamento / Água e Saneamento', 'https://ciclusambiental.com.br/investidores', 'EMPRESA']

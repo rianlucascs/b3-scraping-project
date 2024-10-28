@@ -1,0 +1,1 @@
+[45, 'DMVF', 'D1000VFARMA', 'DMVF3', '12.108.897/0001-50', 'A Companhia tem por objeto a participação. como sócia ou acionista. em outras sociedades do varejo farmacêutico. nacionais ou estrangeiras.', 'Saúde / Comércio e Distribuição / Medicamentos e Outros Produtos', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

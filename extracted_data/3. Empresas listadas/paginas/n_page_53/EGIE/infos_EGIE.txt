@@ -1,0 +1,1 @@
+[53, 'EGIE', 'ENGIE BRASIL', 'EGIE3', '02.474.103/0001-19', 'GERAÇÃO. COMERCIALIZAÇÃO E TRANSMISSÃO DE ENERGIA ELÉTRICA', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

@@ -1,0 +1,1 @@
+[36, 'GASM', 'GASMIG', '', 'Exploração dos serviços públicos de distribuição de gás canalizado. aquisição. armazenamento. transporte. transmissão. distribuição e comercialização de gás combustível ou de subprodutos e derivados.', 'Não Classificados / Não Classificado / Não Classificados', 'www.gasmig.com.br', 'EMPRESA']

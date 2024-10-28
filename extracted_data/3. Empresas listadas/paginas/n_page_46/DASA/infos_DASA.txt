@@ -1,0 +1,1 @@
+[46, 'DASA', 'DASA', 'DASA3', '61.486.650/0001-83', 'Medicina Diagnóstica. Hospitais e Oncologia.', 'Saúde / Serv.Méd.Hospit..Análises e Diagnósticos / Serv.Méd.Hospit..Análises e Diagnósticos', 'ITAU CORRETORA ACOES']

@@ -1,0 +1,1 @@
+[41, 'ODER', 'ODERICH', 'ODER4', '97.191.902/0001-94', 'Indústria de alimentos com sede na cidade de São Sebastião do Caí (RS) e filiais nas cidades de Eldorado do Sul (RS). Pelotas (RS). Orizona (GO) e Salvador (BA).', 'Consumo não Cíclico / Alimentos Processados / Alimentos Diversos', 'CONSERVAS ODERICH S.A.']

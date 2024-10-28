@@ -1,0 +1,1 @@
+[23, 'BRIT', 'BRISANET', 'BRIT3', '19.796.586/0001-70', 'Participação em sociedades cujas atividades estejam relacionadas a serviços de telecomunicações e tecnologia', 'Comunicações / Telecomunicações / Telecomunicações', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

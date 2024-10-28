@@ -1,0 +1,1 @@
+[48, 'ERDV', 'ECON', '', 'Serviços de apoio administrativo e de engenharia. exploração direta ou indireta de negócios de concessão de obras e serviços públicos.', 'Bens Industriais / Transporte / Exploração de Rodovias', 'www.ecorodovias.com.br', 'ITAU CORRETORA ACOES']

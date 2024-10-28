@@ -1,0 +1,1 @@
+[33, 'SBSP', 'SABESP', 'SBSP3', '43.776.517/0001-80', 'Abastecimento de água. esgotamento sanitário. drenagem e manejo de águas pluviais urbanas. limpeza urbana. manejo de resíduos sólidos e energia.', 'Utilidade Pública / Água e Saneamento / Água e Saneamento', 'BRADESCO']

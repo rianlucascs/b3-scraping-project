@@ -1,0 +1,1 @@
+[50, 'ELPL', 'ELETROPAULO', '', 'Distribuição de energia elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.aeseletropaulo.com.br', 'ITAU CORRETORA ACOES']

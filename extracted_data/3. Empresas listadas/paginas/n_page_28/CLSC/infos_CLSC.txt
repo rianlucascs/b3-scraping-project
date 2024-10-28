@@ -1,0 +1,1 @@
+[28, 'CLSC', 'CELESC', 'CLSC4', '83.878.892/0001-55', 'Holding do Setor de Energia', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'BRADESCO']

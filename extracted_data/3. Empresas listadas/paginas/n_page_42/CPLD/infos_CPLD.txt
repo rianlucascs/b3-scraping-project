@@ -1,0 +1,1 @@
+[42, 'CPLD', 'COPELSA', '', 'Prestação de serviço de distribuição de energia elétrica e serviços correlatos.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'https://ri.copel.com/subsidiarias/copel-distribuicao-s-a/', 'ITAU CORRETORA DEBENTURES']

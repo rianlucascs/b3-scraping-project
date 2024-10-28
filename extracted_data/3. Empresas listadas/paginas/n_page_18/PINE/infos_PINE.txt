@@ -1,0 +1,1 @@
+[18, 'PINE', 'PINE', 'PINE4', '62.144.175/0001-20', 'Banco regional brasileiro. de capital aberto. que há mais de vinte e cinco anos destaca-se em financiar e assessorar grandes e médias empresas.', 'Financeiro / Intermediários Financeiros / Bancos', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

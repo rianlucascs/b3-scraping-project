@@ -1,0 +1,1 @@
+[21, 'BRML', 'BR MALLS PAR', '', 'Holding', 'Financeiro / Exploração de Imóveis / Exploração de Imóveis', 'www.brmalls.com.br', 'ITAU CORRETORA ACOES']

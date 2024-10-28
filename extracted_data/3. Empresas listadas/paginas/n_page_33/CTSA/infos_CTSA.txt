@@ -1,0 +1,1 @@
+[33, 'CTSA', 'SANTANENSE', 'CTSA4', '21.255.567/0001-89', 'Indústria têxtil', 'Consumo Cíclico / Tecidos. Vestuário e Calçados / Fios e Tecidos', 'CIA TECIDOS SANTANENSE']

@@ -1,0 +1,1 @@
+[53, 'ENJU', 'ENJOEI', 'ENJU3', '16.922.038/0001-51', 'Plataforma digital de compra e venda de para produtos usados. por meio da criação de \x93lojas virtuais\x94 pelos próprios usuários', 'Tecnologia da Informação / Programas e Serviços / Programas e Serviços', 'BRADESCO']

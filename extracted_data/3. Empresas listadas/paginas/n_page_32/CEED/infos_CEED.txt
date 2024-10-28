@@ -1,0 +1,1 @@
+[32, 'CEED', 'CEEE-D', 'CEED4', '08.467.115/0001-00', 'Prestação de serviços de natureza pública ou privada. no setor de distribuição de energia elétrica.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

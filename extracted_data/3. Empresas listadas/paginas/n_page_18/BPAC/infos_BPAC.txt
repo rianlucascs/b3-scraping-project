@@ -1,0 +1,1 @@
+[18, 'BPAC', 'BTGP BANCO', 'BPAC11', '30.306.294/0001-45', 'A Companhia e suas controladas formam um grupo de prestação de serviços financeiros sediado no Brasil. atuando como banco múltiplo. com carteira de investimento. nos termos da legislação aplicável.', 'Financeiro / Intermediários Financeiros / Bancos', 'BRADESCO']

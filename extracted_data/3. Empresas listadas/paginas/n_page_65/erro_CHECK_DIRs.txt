@@ -1,0 +1,1 @@
+[['GLPX', 'GNLB', 'GLPO', 'BPFR', 'BEDC', 'BCAT', 'BSIL', 'GLBO', 'BPVE', 'BPFV', 'BSRE', 'BDVD', 'GLFG', 'BHER', 'BSDV', 'BSOC', 'GLPI', 'GOED', 'GMRE', 'BURA'], ['BCAT', 'BDVD', 'BEDC', 'BHER', 'BPFR', 'BPFV', 'BPVE', 'BSDV', 'BSIL', 'BSOC', 'BSRE', 'BURA', 'GLBO', 'GLFG', 'GLPI', 'GLPO', 'GLPX', 'GMRE', 'GNEC', 'GNLB', 'GOED'], ['GNEC']]

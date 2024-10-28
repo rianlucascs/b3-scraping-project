@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 from os.path import join, exists, splitext
-from os import makedirs, listdir
+from os import makedirs, listdir, remove
 import config
 from selenium.common.exceptions import (
     NoSuchElementException,
@@ -273,7 +273,7 @@ class Extract:
             
             self.next_page(driver)
 
-    def check_dirs_codigos(self, lista_codigos: List[str], path_dir_page: str, numero_da_pagina: int) -> bool:
+    def check_dirs_codigos(self, path_dir_page: str, numero_da_pagina: int) -> bool:
         """
         Verifica se todos os diretórios em um caminho específico estão presentes em uma lista de códigos.
 
@@ -284,15 +284,25 @@ class Extract:
         :param path_dir_page: Caminho do diretório onde os diretórios serão verificados.
         :param numero_da_pagina: O número da página atual.
         """
+        path_erro = join(path_dir_page, 'erro_CHECK_DIRs.txt')
         try:
+            with open(join(path_dir_page, f'Códigos_n_page_{numero_da_pagina}.txt'), 'r', encoding='utf-8') as file:
+                lista_codigos = eval(file.read())
+
             # Lista os diretórios no caminho especificado
-            list_files_dir = [item for item in listdir(path_dir_page) if splitext(item)[1] == '']
+            list_dir_page = listdir(path_dir_page)
+            list_files_dir = [item for item in list_dir_page if splitext(item)[1] == '']
+            
             # Verifica se todos os diretórios estão na lista de códigos
             if all(item in lista_codigos for item in list_files_dir):
+                if exists(path_erro):
+                    remove(path_erro)
                 print(f'Diretórios dos códigos criados corretamente, Página: {numero_da_pagina}')
             else:
+                divergentes = list(set(list_files_dir) - set(lista_codigos))
+                self.save_file(join(path_dir_page, 'erro_CHECK_DIRs.txt'), content=[lista_codigos, list_files_dir, divergentes], 
+                               update=True)
                 print(f'Alguns diretórios dos códigos não foram criados corretamente na Página: {numero_da_pagina}')
-                self.save_file(join(path_dir_page, 'erro_CHECK_DIRs.txt'), content=[list_files_dir, lista_codigos])
 
         except OSError as e:
             print(f'Erro ao acessar o diretório {path_dir_page}: {e}')
@@ -309,6 +319,7 @@ class Extract:
         :param numero_da_pagina: O número da página atual.
         :raises OSError: Se ocorrer um erro ao acessar diretórios ou arquivos.
         """
+        path_erro = join(path_dir_page, 'erro_CHECK_URLs.txt')
         try:
             list_files_dir = [item for item in listdir(path_dir_page) if splitext(item)[1] == '']
             dicionario: Dict[str, bool] = {}
@@ -320,10 +331,13 @@ class Extract:
                     dicionario[indice] = indice in conteudo
         
             if all(dicionario.values()):
+                if exists(path_erro):
+                    remove(path_erro)
                 print(f'URLs criadas corretamente.')
+            
             else:
-                print(f'Algumas URLs não foram criados corretamente na Página: {numero_da_pagina}.')
                 self.save_file(join(path_dir_page, 'erro_CHECK_URLs.txt'), content=dicionario)
+                print(f'Algumas URLs não foram criados corretamente na Página: {numero_da_pagina}.')
 
         except OSError as e:
             print(f'Erro ao acessar arquivos em {path_dir_page}: {e}')
@@ -369,38 +383,44 @@ class Extract:
         :raises Exception: Levanta exceções gerais em caso de falhas durante a interação com o navegador 
                         ou ao acessar elementos na página.
         """
-        
-        options = webdriver.ChromeOptions()
-        with webdriver.Chrome(options=options) as driver:
-            driver.get(config.url)
-            total_paginas = self.get_quantidade_de_paginas(driver)
-            
-            for numero_da_pagina in range(1, total_paginas + 1):
-                self.adjust_numero_pagina(driver, numero_da_pagina)
-                print(f'Número da página: {numero_da_pagina}')
-                path_dir_page = self.create_dir_numero_pagina(numero_da_pagina)
-                lista_codigos = self.get_codigos_page(driver)
-                self.save_list_codigo(lista_codigos, numero_da_pagina, path_dir_page, update=False)
-                sleep(3)
-
-                for n_item in range(1, len(lista_codigos) + 1):
-                    self.adjust_numero_pagina(driver, numero_da_pagina)
-                    codigo = self.get_codigo_page(driver, n_item)
-                    print(f'Página {numero_da_pagina}, Item: {n_item}, Código: {codigo}')
-                    
-                    if not exists(join(path_dir_page, codigo)):
-                        sleep(3)
-                        self.acess_page_codigo(driver, n_item)
-                        sleep(3)
-                        path_dir_codigo = self.create_dir_codigo(numero_da_pagina, codigo)
-                        self.save_url_codigo(driver.current_url, codigo, path_dir_codigo, update=True)
-                        sleep(3)
-                        driver.back()
-                        sleep(2)
+        try:
+            options = webdriver.ChromeOptions()
+            with webdriver.Chrome(options=options) as driver:
+                driver.get(config.url)
+                total_paginas = self.get_quantidade_de_paginas(driver)
                 
-                self.check_dirs_codigos(lista_codigos, path_dir_page, numero_da_pagina)
+                for numero_da_pagina in range(1, total_paginas + 1):
+                    self.adjust_numero_pagina(driver, numero_da_pagina)
+                    print(f'Número da página: {numero_da_pagina}')
+                    path_dir_page = self.create_dir_numero_pagina(numero_da_pagina)
+                    lista_codigos = self.get_codigos_page(driver)
+                    self.save_list_codigo(lista_codigos, numero_da_pagina, path_dir_page, update=False)
+                    sleep(3)
 
-                self.check_urls_arquivos(path_dir_page, numero_da_pagina)
+                    for n_item in range(1, len(lista_codigos) + 1):
+                        self.adjust_numero_pagina(driver, numero_da_pagina)
+                        codigo = self.get_codigo_page(driver, n_item)
+                        print(f'Página {numero_da_pagina}, Item: {n_item}, Código: {codigo}')
+                        
+                        if not exists(join(path_dir_page, codigo)) or not exists(join(path_dir_page, codigo, f'url_{codigo}.txt')):
+                            sleep(3)
+                            self.acess_page_codigo(driver, n_item)
+                            sleep(3)
+                            path_dir_codigo = self.create_dir_codigo(numero_da_pagina, codigo)
+                            self.save_url_codigo(driver.current_url, codigo, path_dir_codigo, update=True)
+                            sleep(3)
+                            driver.back()
+                            sleep(2)
+                    
+                    self.check_dirs_codigos(path_dir_page, numero_da_pagina)
+                    self.check_urls_arquivos(path_dir_page, numero_da_pagina)
+
+        except Exception as e:
+            print(f"Erro ao processar as páginas: {e}")
+            print("Tentando reiniciar o processo...")
+            sleep(20)
+            self.run()
+
             
 if __name__ == '__main__':
     

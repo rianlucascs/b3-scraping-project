@@ -3,6 +3,7 @@ import config
 from os import listdir
 from os.path import join, splitext, exists
 from typing import List, Dict
+from time import sleep
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -53,6 +54,8 @@ class Extract:
             return dicionario
         except OSError as e:
             print(f'Erro ao acessar arquivos em {path_file}: {e}')
+            self.save_data(join(path_dir_page_numero, 'erro_CHECK_URLs_2.txt'), dir_codigo)
+            return {}
 
     def get_element_xpath(self, driver: webdriver.Chrome, nome: str, xpath: str) -> None:
         try:
@@ -67,7 +70,7 @@ class Extract:
             print(f"Erro ao interagir com o WebDriver '{nome}'")
             return ""
         
-    def save_data(self, path: str, dados: List[str], update: bool = False):
+    def save_data(self, path: str, dados, update: bool = False):
         if not exists(path) or update:
             try:
                 with open(path, 'w', encoding='utf-8') as file:
@@ -90,24 +93,31 @@ class Extract:
             for numero_da_pagina in range(1, self.get_qtd_pages() + 1):
                 print(f'* Número da Página: {numero_da_pagina}')
                 dict_urls = self.get_urls(numero_da_pagina)
-
-                for codigo, url in dict_urls.items():
-                    try:
-                        driver.get(url) 
-                        
-                        nome_do_pregao = self.get_element_xpath(driver, 'Nome do Pregão', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/p[2]')
-                        codigo_de_negociacao = self.get_element_xpath(driver, 'Código de Negociação', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/p[4]/a')
-                        cnpj = self.get_element_xpath(driver, 'CNPJ', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[2]/p[2]')
-                        atividade_principal = self.get_element_xpath(driver, 'Atividade Principal', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[3]/p[2]')
-                        classificacao_setorial = self.get_element_xpath(driver, 'Classificação Setorial', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[4]/p[2]')
-                        escriturador = self.get_element_xpath(driver, 'Escriturador', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[2]/div/div/p[2]/span[1]')
-                        
+                if dict_urls != {}:
+                    for codigo, url in dict_urls.items():
                         path_save = join(self.dir_page, f'n_page_{numero_da_pagina}', codigo, f'infos_{codigo}.txt')
-                        self.save_data(path_save, [numero_da_pagina, codigo, nome_do_pregao, codigo_de_negociacao, cnpj, 
-                                                   atividade_principal, classificacao_setorial, escriturador])
-                    
-                    except WebDriverException as e:
-                        print(f"Erro ao acessar a URL {url} ou extrair dados: {e}")
+                        if not exists(path_save):
+                            try:
+                                driver.get(url) 
+                                
+                                nome_do_pregao = self.get_element_xpath(driver, 'Nome do Pregão', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/p[2]')
+                                codigo_de_negociacao = self.get_element_xpath(driver, 'Código de Negociação', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/p[4]/a')
+                                cnpj = self.get_element_xpath(driver, 'CNPJ', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[2]/p[2]')
+                                atividade_principal = self.get_element_xpath(driver, 'Atividade Principal', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[3]/p[2]')
+                                classificacao_setorial = self.get_element_xpath(driver, 'Classificação Setorial', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[4]/p[2]')
+                                escriturador = self.get_element_xpath(driver, 'Escriturador', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[2]/div/div/p[2]/span[1]')
+                                
+                                
+                                self.save_data(path_save, [numero_da_pagina, codigo, nome_do_pregao, codigo_de_negociacao, cnpj, 
+                                                        atividade_principal, classificacao_setorial, escriturador])
+                            
+                            except WebDriverException as e:
+                                print(f"Erro ao acessar a URL {url} ou extrair dados: {e}")
+                            except Exception as e:
+                                print(f"Erro ao processar as páginas: {e}")
+                                print("Tentando reiniciar o processo...")
+                                sleep(20)
+                                self.run2()
 
         finally:
             driver.quit() 

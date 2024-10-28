@@ -1,0 +1,1 @@
+[50, 'PGMN', 'PAGUE MENOS', 'PGMN3', '06.626.253/0001-51', 'Comércio de produtos farmacêuticos. perfumarias e afins. sem manipulação de fórmulas.', 'Saúde / Comércio e Distribuição / Medicamentos e Outros Produtos', 'ITAU CORRETORA ACOES']

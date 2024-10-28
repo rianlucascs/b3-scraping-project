@@ -1,0 +1,1 @@
+[35, 'COMR', 'COMERC PAR', 'COMR3', '25.369.840/0001-57', 'Partic. em outras soc. no setor de energia. infraest. e afins; prestação de serviços de consult. e gerenciamento de energia elétrica de consumidores livres; e compra. import..export..venda de energia', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

@@ -1,0 +1,1 @@
+[56, 'EVEN', 'EVEN', 'EVEN3', '43.470.988/0001-65', 'Construção. incorporação e loteamento.', 'Consumo Cíclico / Construção Civil / Incorporações', 'ITAU CORRETORA ACOES']

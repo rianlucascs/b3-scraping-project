@@ -1,0 +1,1 @@
+[17, 'BBML', 'BBMLOGISTICA', 'BBML3', '01.107.327/0001-20', 'Prestação de serviços logísticos através de operações dedicadas e transporte de carga geral fracionada.', 'Bens Industriais / Serviços / Serviços Diversos', 'ITAU CORRETORA ACOES']

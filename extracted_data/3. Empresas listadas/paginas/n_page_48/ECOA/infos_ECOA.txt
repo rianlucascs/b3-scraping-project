@@ -1,0 +1,1 @@
+[48, 'ECOA', 'ECO SEC AGRO', '', 'Aquisição de direitos creditórios do agronegócio e imobiliários com a consequente emissão de Certificados de Recebíveis do Agronegócio ou Imóbiliários no mercado financeiro e de capitais.', 'Financeiro / Securitizadoras de Recebíveis / Securitizadoras de Recebíveis', 'www.ecoagro.agr.br', 'BNY MELLON SERVIÇOS FINANCEIROS DTVM S.A']

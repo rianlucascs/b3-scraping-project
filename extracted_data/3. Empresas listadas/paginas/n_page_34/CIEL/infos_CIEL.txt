@@ -1,0 +1,1 @@
+[34, 'CIEL', 'CIELO', '', 'Empresa prestadora de serviços de adquirência e meios de pagamento.', 'Financeiro / Serviços Financeiros Diversos / Serviços Financeiros Diversos', 'www.cielo.com.br', 'BRADESCO']

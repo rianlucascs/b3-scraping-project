@@ -1,0 +1,1 @@
+[13, 'BAHI', 'BAHEMA', 'BAHI3', '45.987.245/0001-92', 'Prestação de serviços educacionais. diretamente ou por meio de participação em outras sociedades. nas áreas de educação pré-escolar. infantil e básica (ensino fundamental ao ensino médio).', 'Consumo Cíclico / Diversos / Serviços Educacionais', 'ITAUBANCO - ACOES']

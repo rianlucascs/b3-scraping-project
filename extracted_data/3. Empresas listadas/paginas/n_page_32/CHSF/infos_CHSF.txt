@@ -1,0 +1,1 @@
+[32, 'CHSF', 'CHESF', '', 'Produção e Transmissão de Energia Elétrica', 'Não Classificados / Não Classificado / Não Classificados', '', 'EMPRESA']

@@ -1,0 +1,1 @@
+[13, 'BMGB', 'BANCO BMG', 'BMGB4', '61.186.680/0001-74', 'Prática de todas as operações ativas. passivas e acessórias permitidas nas normas legais e regulamentares para o funcionamento dos bancos com carteira comercial. de investimento. inclusive câmbio', 'Financeiro / Intermediários Financeiros / Bancos', 'ITAU CORRETORA ACOES']

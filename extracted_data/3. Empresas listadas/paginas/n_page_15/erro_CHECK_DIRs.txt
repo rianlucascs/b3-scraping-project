@@ -1,1 +1,0 @@
-[['BCFT', 'BCGM', 'BCHD', 'BCLB', 'BFIA', 'BFRD', 'BKEB', 'BMXM', 'BNRJ', 'BSTD', 'DCLS', 'FICS', 'FNTC', 'GNBR', 'HSBI', 'IBML', 'ITAC', 'JPMG', 'LUSO', 'SAFR'], ['BCFT', 'JPMG', 'BFIA', 'SAFR', 'BMXM', 'IBML', 'ITBB', 'GNBR', 'BCGM', 'BKEB', 'HSBI', 'FNTC', 'BCHD', 'FICS', 'BFRD', 'BSTD', 'DCLS', 'ITAC', 'BNRJ', 'LUSO']]

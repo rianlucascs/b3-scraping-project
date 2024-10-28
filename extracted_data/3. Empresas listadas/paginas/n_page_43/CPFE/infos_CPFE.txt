@@ -1,0 +1,1 @@
+[43, 'CPFE', 'CPFL ENERGIA', 'CPFE3', '02.429.144/0001-93', 'Gestão de Participações Societárias (Holdings)', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'BRASIL']

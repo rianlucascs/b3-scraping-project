@@ -1,0 +1,1 @@
+[32, 'LCAM', 'LOCAMERICA', '', 'A Companhia tem por objeto a atividade de locação de veículos nacionais e importados com ou sem motorista.', 'Consumo Cíclico / Diversos / Aluguel de carros', 'www.locamerica.com.br', 'ITAU CORRETORA ACOES']

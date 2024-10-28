@@ -1,0 +1,1 @@
+[33, 'CSMG', 'COPASA', 'CSMG3', '17.281.106/0001-03', 'Planejar. executar. ampliar. remodelar e explorar serviços públicos de saneamento básico. envolvendo abastecimento de água potável. esgotamento sanitário e limpeza urbana e manejo de resíduos sólidos.', 'Utilidade Pública / Água e Saneamento / Água e Saneamento', 'BRADESCO']

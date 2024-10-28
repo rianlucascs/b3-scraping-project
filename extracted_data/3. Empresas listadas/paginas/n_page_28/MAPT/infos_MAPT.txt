@@ -1,0 +1,1 @@
+[28, 'MAPT', 'CEMEPE', 'MAPT4', '93.828.986/0001-73', 'HOLDING', 'Outros / Outros / Outros', 'ITAU CORRETORA ACOES']

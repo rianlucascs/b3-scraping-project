@@ -1,0 +1,1 @@
+[32, 'CGAS', 'COMGAS', 'CGAS5', '61.856.571/0001-17', 'Setor de atividade: Utilidade Pública: Distribuição de gás natural canalizado.', 'Utilidade Pública / Gás / Gás', 'ITAUBANCO - ACOES']

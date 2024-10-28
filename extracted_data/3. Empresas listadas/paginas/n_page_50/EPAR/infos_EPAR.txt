@@ -1,0 +1,1 @@
+[50, 'EPAR', 'EMBPAR S/A', 'EPAR3', '42.331.462/0001-31', 'Industrialização e comércio de madeiras; Prestação de serviços sob a forma de trading company; Partic. em outras sociedades.', 'Bens Industriais / Comércio / Material de Transporte', 'BRADESCO']

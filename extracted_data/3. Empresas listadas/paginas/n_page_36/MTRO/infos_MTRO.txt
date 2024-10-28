@@ -1,0 +1,1 @@
+[36, 'MTRO', 'METRO-SP', '', 'É responsável pela operação e expansão de rede metroviária. planejamento de transporte metropolitano de passageiros da Região Metropolitana de São Paulo.', 'Bens Industriais / Comércio / Material de Transporte', '', 'EMPRESA']

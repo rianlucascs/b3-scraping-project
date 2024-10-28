@@ -1,0 +1,1 @@
+[19, 'SANB', 'SANTANDER BR', 'SANB11', '90.400.888/0001-42', 'Banco Múltiplo com Carteira Comercial', 'Financeiro / Intermediários Financeiros / Bancos', 'SANTANDER']

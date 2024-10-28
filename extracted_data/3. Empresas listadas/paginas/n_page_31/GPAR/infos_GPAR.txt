@@ -1,0 +1,1 @@
+[31, 'GPAR', 'CELGPAR', 'GPAR3', '08.560.444/0001-93', 'Participação em outras sociedades como acionista ou sócio-cotista e. ainda. a explotação direta ou indireta de serviços de energia elétrica.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAUBANCO - ACOES']

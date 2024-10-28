@@ -1,0 +1,1 @@
+[50, 'ELRV', 'ELETRORIVERS', '', '', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', '', 'OLIVEIRA TRUST']

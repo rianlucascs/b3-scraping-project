@@ -1,0 +1,1 @@
+[53, 'ENSE', 'ENERGIPE', '', 'Concessionária de serviço público de distribuição de energia elétrica.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.energisa.com.br', 'EMPRESA']

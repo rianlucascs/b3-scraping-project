@@ -1,0 +1,1 @@
+[28, 'CMGT', 'CEMIG GT', '', 'Realiza atividades de geração. transmissão e comercialização de energia elétrica e serviços correlatos que lhe tenham sido ou venham a ser concedidos.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'http://ri.cemig.com.br', 'CEMIG GERACAO E TRANSMISSAO S.A.']

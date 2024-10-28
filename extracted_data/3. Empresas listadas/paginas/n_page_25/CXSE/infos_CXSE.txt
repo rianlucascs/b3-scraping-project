@@ -1,0 +1,1 @@
+[25, 'CXSE', 'CAIXA SEGURI', 'CXSE3', '22.543.331/0001-00', 'Participar. direta ou indiretamente. do capital de outras sociedades relacionadas a seguridade e corretagem de seguros.', 'Financeiro / Previdência e Seguros / Seguradoras', 'BRADESCO']

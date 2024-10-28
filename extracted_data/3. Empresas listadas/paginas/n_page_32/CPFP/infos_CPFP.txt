@@ -1,0 +1,1 @@
+[32, 'CPFP', 'CPFL PIRATIN', '', 'Prestação de serviços públicos de distribuição de energia elétrica.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.cpfl.com.br', 'BRASIL']

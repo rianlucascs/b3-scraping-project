@@ -1,0 +1,1 @@
+[40, 'ECAR', 'ECAR', '', 'A realização. sob regime de concessão. da exploração da infraestrutura e da prestação de serviços públicos. conforme Edital de Concessão 01/2021 da Agência Nacional de Transportes Terrestres (\x93ANTT\x94).', 'Não Classificados / Não Classificados / Não Classificado', 'https://www.ecoviasdoaraguaia.com.br/', 'EMPRESA']

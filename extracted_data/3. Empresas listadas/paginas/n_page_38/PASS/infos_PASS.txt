@@ -1,0 +1,1 @@
+[38, 'PASS', 'COMPASS', 'PASS5', '21.389.501/0001-81', 'Holding de empresas do setor de gás combustível ou de subprodutos e derivados. bem como de água e energia elétrica.', 'Utilidade Pública / Gás / Gás', 'ITAU CORRETORA ACOES']

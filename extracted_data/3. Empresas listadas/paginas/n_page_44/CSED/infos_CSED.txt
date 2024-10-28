@@ -1,0 +1,1 @@
+[44, 'CSED', 'CRUZEIRO EDU', 'CSED3', '62.984.091/0001-02', 'Atividades relacionadas à prestação de serviços do setor de educação e áreas associadas. administração de bens próprios e participação em outras sociedades.', 'Consumo Cíclico / Diversos / Serviços Educacionais', 'BRADESCO']

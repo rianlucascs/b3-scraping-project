@@ -1,0 +1,1 @@
+[32, 'CEBR', 'CEB', 'CEBR5', '00.070.698/0001-11', 'HOLDING - GERAÇÃO DE ENERGIA ELÉTRICA E ILUMINAÇÃO PÚBLICA', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'BRADESCO']

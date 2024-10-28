@@ -1,0 +1,1 @@
+[43, 'CPFG', 'CPFL GERACAO', '', 'Geração de Energia Elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.cpfl.com.br', 'BRASIL']

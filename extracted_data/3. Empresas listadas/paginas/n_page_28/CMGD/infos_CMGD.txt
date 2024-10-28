@@ -1,0 +1,1 @@
+[28, 'CMGD', 'CEMIG DIST', '', 'O objetivo da Companhia é estudar. planejar. projetar. construir. operar e explorar sistemas de distribuição e comercialização de energia elétrica e serviços correlatos.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.cemig.infoinvest.com.br', 'CEMIG DISTRIBUICAO S.A.']

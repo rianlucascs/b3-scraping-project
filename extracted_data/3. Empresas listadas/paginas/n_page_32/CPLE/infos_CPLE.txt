@@ -1,0 +1,1 @@
+[32, 'CPLE', 'COPEL', 'CPLE5', '76.483.817/0001-20', 'Geração. Transmissão. Comercialização e Distribuição de Energia Elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

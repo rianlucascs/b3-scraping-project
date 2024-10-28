@@ -1,0 +1,1 @@
+[28, 'ELET', 'ELETROBRAS', 'ELET5', '00.001.180/0001-26', 'Empresa Holding de Geração. Transmissão de Energia', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

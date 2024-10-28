@@ -1,0 +1,1 @@
+[['FRCS', 'FURN', 'G5HO', 'FZCH', 'GAFL', 'FRNQ', 'FRPR', 'FZRC', 'FSAI', 'GCRD', 'FRTY', 'FRAS', 'G2DI', 'GFSA', 'GCII', 'FW15', 'GCIV', 'FSFT', 'TRFS', 'FYPE'], ['FOBR', 'FRAS', 'FRCS', 'FRNQ', 'FRPR', 'FRTY', 'FSAI', 'FSFT', 'FURN', 'FW15', 'FYPE', 'FZCH', 'FZRC', 'G2DI', 'G5HO', 'GAFL', 'GCII', 'GCIV', 'GCRD', 'GFSA', 'TRFS'], ['FOBR']]

@@ -1,0 +1,1 @@
+{'BFTS': True, 'EZTC': False, 'FACL': True, 'FASP': True, 'FATE': True, 'FAZE': True, 'FBRI': True, 'FBRX': True, 'FCCL': True, 'FEEN': True, 'FENS': True, 'FFLV': True, 'FGEN': True, 'FGRU': True, 'FHER': True, 'FIEI': True, 'FIOS': True, 'FRAG': True, 'FRTR': True, 'FSHO': True, 'VSPT': True}

@@ -1,0 +1,1 @@
+[44, 'TRPL', 'TRAN PAULIST', 'TRPL4', '02.998.611/0001-04', 'Transmissão de Energia Elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

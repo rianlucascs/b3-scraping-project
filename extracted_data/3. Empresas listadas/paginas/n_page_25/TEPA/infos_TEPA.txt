@@ -1,0 +1,1 @@
+[25, 'TEPA', 'BR TECNO', '', 'Participação em sociedades. administração de negócios; análise de necessidades. especificação técnica; assessoria em sistemas/equipamentos de informática; gerência de projetos de informática.', 'Tecnologia da Informação / Computadores e Equipamentos / Computadores e Equipamentos', 'ri.brasiltecpar.com.br', 'BTG PACTUAL SERVIÇOS FINANC. S.A. DTVM']

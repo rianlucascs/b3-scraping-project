@@ -1,0 +1,1 @@
+[39, 'RDVT', 'ROD TIETE', 'RDVT-DEB11', '10.678.505/0001-63', '', 'Bens Industriais / Transporte / Exploração de Rodovias', 'CONCESSIONÁRIA RODOVIAS DO TIETÊ S.A.']

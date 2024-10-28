@@ -1,0 +1,1 @@
+[44, 'CMIN', 'CSNMINERACAO', 'CMIN3', '08.902.291/0001-15', 'Mineração e comercialização de minério de ferro. infraestrutura de transporte portuária; geração de energia e participação em sociedades com objeto social compatível com o da Companhia.', 'Materiais Básicos / Mineração / Minerais Metálicos', 'BRADESCO']

@@ -1,0 +1,1 @@
+[37, 'ENMI', 'MIRANDA', '', 'A principal atividade da Companhia é a geração de energia elétrica mediante a operação da Usina Hidrelétrica Miranda.', 'Não Classificados / Não Classificados / Não Classificado', '', 'EMPRESA']

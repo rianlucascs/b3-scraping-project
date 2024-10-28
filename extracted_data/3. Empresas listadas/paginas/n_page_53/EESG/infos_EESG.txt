@@ -1,0 +1,1 @@
+[53, 'EESG', 'ENVIRONMENT', '', 'Holding de sociedades que atuam no gerenciamento e valorização de resíduos; manufatura reversa; transporte de cargas; produção e comercialização de produtos; e administração de bens próprios.', 'Não Classificados / Não Classificado / Não Classificados', '', 'EMPRESA']

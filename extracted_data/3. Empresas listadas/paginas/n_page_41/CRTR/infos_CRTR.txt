@@ -1,0 +1,1 @@
+[41, 'CRTR', 'RODTRIANG', '', 'A exploração. sob regime de concessão. do complexo rodoviário \x93Triangulo Mineiro\x94. conforme Edital de Concessão da Concorrência Internacional n.º 002/2021 da SEINFRA.', 'Construção e Transporte / Transporte / Exploração de Rodovias', '', 'OLIVEIRA TRUST']

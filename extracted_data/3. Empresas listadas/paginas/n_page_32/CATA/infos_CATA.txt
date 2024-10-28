@@ -1,0 +1,1 @@
+[32, 'CATA', 'IND CATAGUAS', 'CATA4', '19.526.748/0001-50', 'indústria têxtil e a comercialização de fios e tecidos em geral e produtos intermediários têxteis.', 'Consumo Cíclico / Tecidos. Vestuário e Calçados / Fios e Tecidos', 'CIA INDUSTRIAL CATAGUASES']

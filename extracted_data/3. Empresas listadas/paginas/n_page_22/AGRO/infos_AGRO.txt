@@ -1,0 +1,1 @@
+[22, 'AGRO', 'BRASILAGRO', 'AGRO3', '07.628.528/0001-59', 'EMPRESA DE DESENVOLVIMENTO AGROPECUARIO', 'Consumo não Cíclico / Agropecuária / Agricultura', 'ITAU CORRETORA ACOES']

@@ -1,0 +1,1 @@
+[19, 'BMKS', 'BIC MONARK', 'BMKS3', '56.992.423/0001-90', 'Fabricação e Comercialização de Bicicletas', 'Consumo Cíclico / Viagens e Lazer / Bicicletas', 'BRADESCO']

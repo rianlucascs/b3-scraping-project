@@ -1,0 +1,1 @@
+{'FOBR': False, 'FRAS': True, 'FRCS': True, 'FRNQ': True, 'FRPR': True, 'FRTY': True, 'FSAI': True, 'FSFT': True, 'FURN': True, 'FW15': True, 'FYPE': True, 'FZCH': True, 'FZRC': True, 'G2DI': True, 'G5HO': True, 'GAFL': True, 'GCII': True, 'GCIV': True, 'GCRD': True, 'GFSA': True, 'TRFS': True}

@@ -1,0 +1,1 @@
+[31, 'CASN', 'CASAN', 'CASN4', '82.508.433/0001-17', 'Atuar como instituição integrante do sistema de saneamento básico e de saúde do Estado de Santa Catarina através dos serviços de captação. tratamento e distribuição de água e tratamento de esgoto.', 'Utilidade Pública / Água e Saneamento / Água e Saneamento', 'ITAUBANCO - ACOES']

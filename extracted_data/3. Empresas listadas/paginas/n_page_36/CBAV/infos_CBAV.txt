@@ -1,0 +1,1 @@
+[36, 'CBAV', 'CBA', 'CBAV3', '61.409.892/0001-73', 'Extração de minério de alumínio. serviços de usinagem. caldeira e montagem de maquinário.', 'Materiais Básicos / Mineração / Minerais Metálicos', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

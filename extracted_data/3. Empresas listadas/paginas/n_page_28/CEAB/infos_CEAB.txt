@@ -1,0 +1,1 @@
+[28, 'CEAB', 'CEA MODAS', 'CEAB3', '45.242.914/0001-05', 'Atuação no varejo nos setores de vestuário. acessórios. calçados. higiene. eletrônicos. dentre outros.', 'Consumo Cíclico / Comércio / Tecidos. Vestuário e Calçados', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

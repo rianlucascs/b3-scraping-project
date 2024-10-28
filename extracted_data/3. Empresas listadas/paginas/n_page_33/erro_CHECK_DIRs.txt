@@ -1,0 +1,1 @@
+[['CSNA', 'CFRT', 'CTNM', 'SCCC', 'RSAN', 'CIBP', 'CRCG', 'CRFN', '5VRT', 'CDDN', 'CMLA', 'SAPR', 'SBSP', 'CIMO', 'VERL', 'SCVR', 'CCLS', 'CSMG', 'CSVO', 'CTSA'], ['5VRT', 'AUUT', 'CCLS', 'CDDN', 'CFRT', 'CIBP', 'CIMO', 'CMLA', 'CRCG', 'CRFN', 'CSMG', 'CSNA', 'CSVO', 'CTNM', 'CTSA', 'RSAN', 'SAPR', 'SBSP', 'SCCC', 'SCVR', 'VERL'], ['AUUT']]

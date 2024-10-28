@@ -1,0 +1,1 @@
+[21, 'BDLS', 'BRADESCO LSG', '', 'Prática das operações de arrendamento mercantil. observadas as disposições da legislação em vigor.', 'Financeiro / Intermediários Financeiros / Soc. Arrendamento Mercantil', 'www.bradescoleasing.com.br', 'BRADESCO']

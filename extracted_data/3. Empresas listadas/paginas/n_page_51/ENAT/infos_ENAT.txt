@@ -1,0 +1,1 @@
+[51, 'ENAT', 'ENAUTA PART', '', 'Participação em sociedades que se dediquem à exploração. produção e comercialização de petróleo. gás natural e seus derivados. seja como sócia ou acionista ou outras formas de associações.', 'Petróleo. Gás e Biocombustíveis / Petróleo. Gás e Biocombustíveis / Exploração. Refino e Distribuição', 'www.enauta.com.br', 'ITAU CORRETORA ACOES']

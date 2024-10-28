@@ -1,0 +1,1 @@
+[42, 'CPGT', 'COPEL G T SA', '', 'Geração. Transmissão. Comercialização de Energia e Prestação de Serviços Correlatos', 'Não Classificados / Não Classificado / Não Classificados', '', 'EMPRESA']

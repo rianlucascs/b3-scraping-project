@@ -1,0 +1,1 @@
+[47, 'DOTZ', 'DOTZ SA', 'DOTZ3', '18.174.270/0001-84', 'Desenvolvimento e gerenciamento de programa de fidelização de clientes em razão do consumo de bens e serviços oferecidos por parceiros; comercialização de direitos de resgate e prêmios.', 'Consumo Cíclico / Diversos / Programas de Fidelização', 'ITAU CORRETORA ACOES']

@@ -1,0 +1,1 @@
+[55, 'EQMA', 'EQTLMARANHAO', 'EQMA5B', '06.272.793/0001-84', 'Empresa distribuidora de energia elétrica para todo o Estado do Maranhão.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']
