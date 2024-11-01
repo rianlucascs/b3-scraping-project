@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 from os.path import join, exists, splitext
-from os import makedirs, listdir, remove
+from os import makedirs, listdir
 import config
 from selenium.common.exceptions import (
     NoSuchElementException,
@@ -194,16 +194,12 @@ class Extract:
         xpath_numero_pagina = self.get_xpath_numero_pagina(driver)
         if xpath_numero_pagina == numero_pagina_loop:
             return True
-        
         sleep(0.2)
         while True:
             xpath_numero_pagina = self.get_xpath_numero_pagina(driver)
             sleep(0.1)
-            
             if xpath_numero_pagina == numero_pagina_loop:
-                sleep(1)
                 return True
-            
             self.next_page(driver)
         
     def save_file(self, path: str, content: str, update: bool = False) -> None:
@@ -228,21 +224,6 @@ class Extract:
                 print(f'Erro ao salvar o arquivo: {e}')
         else:
             print(f'O arquivo já existe: {path}')
-
-    def check_urls_arquivos(self, path_dir_page: str, numero_da_pagina: int) -> bool:
-        try:
-            list_files_dir = [item for item in listdir(path_dir_page) if splitext(item)[1] == '']
-            dicionario: Dict[str, bool] = {}
-
-            for indice in list_files_dir:
-                file_path = join(path_dir_page, indice, f'url_{indice}.txt')
-                with open(file_path, 'r', encoding='utf-8') as file:
-                    conteudo = file.read()
-                    dicionario[indice] = indice in conteudo
-    
-        except OSError as e:
-            print(f'Erro ao acessar arquivos em {path_dir_page}: {e}')
-            return False
     
     def run(self):
         """
@@ -267,6 +248,7 @@ class Extract:
             options = webdriver.ChromeOptions()
             with webdriver.Chrome(options=options) as driver:
                 driver.get(config.url)
+                sleep(3)
                 total_paginas = self.get_quantidade_de_paginas(driver)
                 print(f'Número de páginas total: {total_paginas}')
                 
@@ -293,21 +275,20 @@ class Extract:
                             sleep(3)
                             self.acess_page_codigo(driver, n_item)
                             sleep(3)
-                            self.save_file(join(self.path_extracted_data, f'url_{codigo}.txt'), driver.current_url, update=False)
+                            self.save_file(join(self.path_extracted_data, codigo, f'url_{codigo}.txt'), driver.current_url, update=False)
                             sleep(3)
                             driver.back()
                             sleep(2)
                     
-                    # self.check_urls_arquivos(path_dir_page, numero_da_pagina)
+            # CHECK
 
         except Exception as e:
-            
-            # Tem que tirar a criação de diretórios por página;
-            # Pois está travando e causando erros desenecessários 
+
             print(f"Erro ao processar as páginas: {e}")
             print("Tentando reiniciar o processo...")
             sleep(40)
             self.run()
+
 
             
 if __name__ == '__main__':

@@ -3,20 +3,24 @@
 # B3 SCRAPING PROJECT
 
 ## Descrição
-Este projeto tem como objetivo extrair dados da B3 (Bolsa de Valores do Brasil) por meio de web scraping. Utilizando técnicas de scraping, a API permite coletar informações sobre índices de mercado, ações, e outros dados relevantes diretamente do site da B3.
+Este projeto tem como objetivo extrair dados da B3 ([Bolsa de Valores do Brasil](https://www.b3.com.br/pt_br/para-voce)) por meio de web scraping. Utilizando técnicas de scraping, a API permite coletar informações sobre índices de mercado, ações, e outros dados relevantes diretamente do site da B3.
 
 ## Funcionalidades
 
 - **Extração de Dados**: Coleta informações atualizadas sobre ações e índices da B3.
+
 - **Tratamento de Dados**: Processa os dados extraídos, limpando e formatando para facilitar a análise.
+
 - **Armazenamento**: Salva os dados em formatos como CSV e TXT para posterior análise.
+
+- **Disponibilidade**: Disponibiliza os dados para serem acessados em formato de API.
 
 ## Como Usar
 
 ### Acesso aos dados
-Copie e cole as funções do arquivo para ter acesso aos dados extraidos **[/github_api_acess.py](https://github.com/rianlucascs/b3-scraping-project/blob/master/github_api_acess.py)** no seu projeto.
+Copie e cole as funções do arquivo **[/github_api_acess.py](https://github.com/rianlucascs/b3-scraping-project/blob/master/github_api_acess.py)** para ter acesso aos dados extraidos no seu projeto.
 
-### Instalação
+### Instalação do Projeto
 
 1. Clone o repositório:
    ```bash
@@ -92,5 +96,3 @@ Estou à disposição para esclarecer dúvidas ou fornecer mais informações. V
 
 
 Fico sempre aberto a colaborações e oportunidades de networking!
-
-r
