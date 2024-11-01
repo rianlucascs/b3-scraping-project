@@ -3,7 +3,7 @@
 # B3 SCRAPING PROJECT
 
 ## Descrição
-Este projeto tem como objetivo extrair dados da B3 ([Bolsa de Valores do Brasil](https://www.b3.com.br/pt_br/para-voce)) por meio de web scraping. Utilizando técnicas de scraping, a API permite coletar informações sobre índices de mercado, ações, e outros dados relevantes diretamente do site da B3.
+Este projeto tem como objetivo extrair dados da B3 ([Bolsa de Valores do Brasil](https://www.b3.com.br/pt_br/para-voce)) por meio de web scraping. 
 
 ## Funcionalidades
 
