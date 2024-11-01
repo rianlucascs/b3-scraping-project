@@ -1,1 +1,0 @@
-['BCFT', 'JPMG', 'BFIA', 'SAFR', 'BMXM', 'IBML', 'ITBB', 'GNBR', 'BCGM', 'BKEB', 'HSBI', 'FNTC', 'BCHD', 'FICS', 'BFRD', 'BSTD', 'DCLS', 'ITAC', 'BNRJ', 'LUSO']

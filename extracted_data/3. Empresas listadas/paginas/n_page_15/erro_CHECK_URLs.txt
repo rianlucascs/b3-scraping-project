@@ -1,1 +1,0 @@
-{'BCFT': True, 'BCGM': True, 'BCHD': True, 'BCLB': False, 'BFIA': True, 'BFRD': True, 'BKEB': True, 'BMXM': True, 'BNRJ': True, 'BSTD': True, 'DCLS': True, 'FICS': True, 'FNTC': True, 'GNBR': True, 'HSBI': True, 'IBML': True, 'ITAC': True, 'JPMG': True, 'LUSO': True, 'SAFR': True}

@@ -1,1 +1,0 @@
-[['CAEL', 'CPTE', 'CXSE', 'CLNG', 'BZEP', 'C6HG', 'CAEP', 'CAIV', 'CBDB', 'UNIK', 'CLMO', 'CAWP', 'CAEC', 'CAAT', 'KEDU', 'CGEN', 'CLGE', 'CGRS', 'CAIT', 'CABA'], ['BRQB', 'BZEP', 'C6HG', 'CAAT', 'CABA', 'CAEC', 'CAEL', 'CAEP', 'CAIT', 'CAIV', 'CAWP', 'CBDB', 'CGEN', 'CGRS', 'CLGE', 'CLMO', 'CLNG', 'CPTE', 'CXSE', 'HVRD', 'KEDU', 'TEPA', 'UNIK'], ['HVRD', 'BRQB', 'TEPA']]

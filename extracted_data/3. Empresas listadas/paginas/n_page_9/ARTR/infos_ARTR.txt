@@ -1,1 +1,0 @@
-[9, 'ARTR', 'ARTERIS', '', 'Gerenciamento de concessões públicas', 'Bens Industriais / Transporte / Exploração de Rodovias', 'www.arteris.com.br', 'ITAU CORRETORA ACOES']

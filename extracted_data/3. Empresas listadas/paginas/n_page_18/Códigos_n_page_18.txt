@@ -1,1 +1,0 @@
-['BCGE', 'ABCB', 'BBDC', 'BPAN', 'BMIN', 'BNBR', 'BRSR', 'ITCP', 'BGIP', 'RBPT', 'CEFI', 'BPAR', 'BCLV', 'BBOP', 'PINE', 'BPAC', 'BMAX', 'BMEB', 'BBAS', 'BAZA']

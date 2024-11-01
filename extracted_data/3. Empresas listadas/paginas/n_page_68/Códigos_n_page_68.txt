@@ -1,1 +1,0 @@
-['HENZ', 'INTL', 'HAPV', 'HVSP', 'HLXI', 'HALE', 'HERB', 'HEIN', 'HAUS', 'HVAN', 'HFTE', 'HLIO', 'HETA', 'HECG', 'HIIN', 'HFCK', 'HBRE', 'HAGA', 'HBOR', 'GBRE']

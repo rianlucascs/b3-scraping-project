@@ -1,1 +1,0 @@
-['EGBJ', 'ENAT', 'ELTE', 'EMES', 'ETEM', 'ETAL', 'ENTE', 'EGII', 'ENDE', 'ENBP', 'EOPM', 'ENEL', 'ETES', 'EMSA', 'ENLS', 'EPSD', 'ETAU', 'ETVG', 'EGCL', 'ETEP']

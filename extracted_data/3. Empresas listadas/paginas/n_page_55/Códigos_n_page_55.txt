@@ -1,1 +1,0 @@
-['EVII', 'EQTI', 'EQED', 'ESVV', 'SSTN', 'CGOS', 'EPRI', 'ESVP', 'EQSP', 'CEAL', 'EQTS', 'EQTN', 'CPIS', 'EQPA', 'EQSE', 'EQTL', 'EQUA', 'ETSP', 'EQMA', 'EQTC']

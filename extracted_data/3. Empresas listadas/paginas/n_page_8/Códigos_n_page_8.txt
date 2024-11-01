@@ -1,1 +1,0 @@
-['AEEP', 'ASPF', 'ARPR', 'AREG', 'AGEM', 'APOL', 'INSU', 'AFOZ', 'ARSP', 'ACES', 'AEDU', 'TRGO', 'ARGV', 'ARCV', 'ARSN', 'AOVS', 'ARON', 'ANIM', 'AARJ', 'AGBP']

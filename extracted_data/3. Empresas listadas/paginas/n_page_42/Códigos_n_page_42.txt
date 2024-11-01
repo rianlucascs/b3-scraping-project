@@ -1,1 +1,0 @@
-['CTCP', 'CPGT', 'CPPA', 'CPEL', 'CGEP', 'CBRL', 'CPLD', 'CSPS', 'CORE', 'CDGS', 'CCSP', 'CVCN', 'TEND', 'CRII', 'CQGV', 'CTEP', 'CSTI', 'CORK', 'COLE', 'CRRP']

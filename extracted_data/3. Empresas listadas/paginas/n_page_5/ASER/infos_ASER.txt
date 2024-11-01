@@ -1,1 +1,0 @@
-[5, 'ASER', 'AGUASSERTAO', '', 'O principal ramo de atividade da Companhia é a prestação regionalizada de atividades integradas que compreendem a totalidade dos serviços a serem prestados pela Companhia nos termos do Contrato de Con', 'Utilidade Pública / Água e Saneamento / Água e Saneamento', '', 'BTG PACTUAL SERVIÇOS FINANC. S.A. DTVM']

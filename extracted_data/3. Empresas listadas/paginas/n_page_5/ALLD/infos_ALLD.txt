@@ -1,1 +1,0 @@
-[5, 'ALLD', 'ALLIED', 'ALLD3', '20.247.322/0001-47', 'Desenvolvimento e licenciamento de plataformas digitais para comercialização de serviços de tecnologia. além de soluções logísticas e de distribuição de produtos.', 'Consumo Cíclico / Comércio / Eletrodomésticos', 'ITAU CORRETORA ACOES']

@@ -1,1 +1,0 @@
-['GREM', 'GPIV', 'GRPE', 'GGEN', 'CGRA', 'GLFV', 'GFCA', 'GRAI', 'GRNS', 'GRAQ', 'GGPS', 'GTSA', 'GREL', 'EGGY', 'GRMX', 'GLRP', 'GRPS', 'GYEH', 'GSBR', 'GOLL']

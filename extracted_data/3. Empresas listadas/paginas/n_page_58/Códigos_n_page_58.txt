@@ -1,1 +1,0 @@
-['FHER', 'BFTS', 'FIEI', 'FGEN', 'FRTR', 'FBRI', 'FATE', 'FASP', 'FIOS', 'FBRX', 'FRAG', 'FENS', 'FCCL', 'FEEN', 'VSPT', 'FFLV', 'FSHO', 'FGRU', 'FACL', 'FAZE']

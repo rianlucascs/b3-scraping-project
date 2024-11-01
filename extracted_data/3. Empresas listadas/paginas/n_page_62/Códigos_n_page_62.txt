@@ -1,1 +1,0 @@
-['GNEC', 'GBSP', 'GDMG', 'GSHP', '2GAV', 'GSTE', 'GAZN', 'GIVS', 'GASV', 'GZHD', 'GALE', 'GBXT', 'GDPS', 'GARN', 'GDSL', 'GLVP', 'OPGM', 'GDSN', 'GCBF', 'GMLR']

@@ -1,1 +1,0 @@
-['CPLE', 'CSRN', 'CEDO', 'PALF', 'CEPE', 'COCE', 'CEED', 'PEAB', 'HBTS', 'CMIG', 'CGAS', 'CATA', 'CPFP', 'MSPA', 'CGEE', 'CEBR', 'CTGE', 'LCAM', 'CHSF', 'FESA']

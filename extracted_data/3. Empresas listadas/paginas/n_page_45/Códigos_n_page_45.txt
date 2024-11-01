@@ -1,1 +1,0 @@
-['CYRE', 'DETA', 'DCHO', 'DB3S', 'PTMI', 'DESA', 'DENE', 'DENG', 'DUTI', 'DESK', 'DEET', 'DMTA', 'DCEL', 'DXCO', 'DELG', 'SRGI', 'DEHO', 'DMVF', 'LLBI', 'DBSA']

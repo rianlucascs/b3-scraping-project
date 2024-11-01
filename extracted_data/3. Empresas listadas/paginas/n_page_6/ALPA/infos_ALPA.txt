@@ -1,1 +1,0 @@
-[6, 'ALPA', 'ALPARGATAS', 'ALPA4', '61.079.117/0001-05', 'Indústria e comércio de calçados e artigos esportivos', 'Consumo Cíclico / Tecidos. Vestuário e Calçados / Calçados', 'ITAU CORRETORA ACOES']

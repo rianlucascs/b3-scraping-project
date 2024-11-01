@@ -1,1 +1,0 @@
-['CAEL', 'CPTE', 'CXSE', 'CLNG', 'BZEP', 'C6HG', 'CAEP', 'CAIV', 'CBDB', 'UNIK', 'CLMO', 'CAWP', 'CAEC', 'CAAT', 'KEDU', 'CGEN', 'CLGE', 'CGRS', 'CAIT', 'CABA']

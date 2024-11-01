@@ -1,1 +1,0 @@
-['EGSP', 'CEAC', 'ENMT', 'ERVT', 'EGPN', 'ENTS', 'EGCS', 'EGNS', 'EGNO', 'CENF', 'FLCL', 'ERVE', 'ENER', 'EAZT', 'EGNL', 'EGVE', 'EGVG', 'ENGT', 'ENVE', 'EGME']

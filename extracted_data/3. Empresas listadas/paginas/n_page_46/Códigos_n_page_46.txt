@@ -1,1 +1,0 @@
-['DIKK', 'DGTL', 'DIRR', 'DALG', 'DEXP', 'DGBL', 'DGRA', 'DVOM', 'PNVL', 'DPGR', 'DIXE', 'DASA', 'DMPR', 'DMAD', 'RBPL', 'DBEN', 'DACM', 'AGFO', 'DNBG', 'DMFN']

@@ -1,1 +1,0 @@
-['AEGP', 'QUAT', 'AENB', 'RNEP', 'AERI', 'AFFX', 'ADAG', 'AESO', 'ACHE', 'ACQO', 'VRCP', 'AETE', 'AEAB', 'ADGE', 'AHBR', 'TCII', 'ACPE', 'ACOV', 'AESB', 'ADMA']

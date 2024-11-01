@@ -1,1 +1,0 @@
-[6, 'ALTF', 'ALTHAIA SA', '', 'A Companhia dedica-se à industrialização. comercialização e distribuição de produtos farmacêuticos em geral.', 'Saúde / Medicamentos e Outros Produtos / Medicamentos e Outros Produtos', '', 'ITAU CORRETORA DEBENTURES']

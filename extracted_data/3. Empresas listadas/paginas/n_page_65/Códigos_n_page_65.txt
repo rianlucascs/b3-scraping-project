@@ -1,1 +1,0 @@
-['GLPX', 'GNLB', 'GLPO', 'BPFR', 'BEDC', 'BCAT', 'BSIL', 'GLBO', 'BPVE', 'BPFV', 'BSRE', 'BDVD', 'GLFG', 'BHER', 'BSDV', 'BSOC', 'GLPI', 'GOED', 'GMRE', 'BURA']

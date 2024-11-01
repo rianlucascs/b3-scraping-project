@@ -1,1 +1,0 @@
-['CSNP', 'ENMI', 'CPNA', 'ENJG', 'CNQB', 'CNCC', 'PTGR', 'CEJA', 'CMNP', 'NEEC', 'VCP7', 'CMPD', 'MTRN', 'GYRA', 'LIGN', 'CVRT', 'RPAY', 'CPGS', 'CPJG', 'CFLO']

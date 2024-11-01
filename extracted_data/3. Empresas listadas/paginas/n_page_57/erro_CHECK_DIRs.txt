@@ -1,1 +1,0 @@
-[[], ['BAUH', 'EVLZ', 'EVOL', 'EVTC', 'EXAS', 'EXAT', 'EXEI', 'EXTE', 'EXTZ', 'EZTC', 'FABZ', 'FAMR', 'FARX', 'FCMN', 'FCTA', 'FMUE', 'NEPO', 'NISS', 'PTPA', 'VINH'], ['FCTA', 'FARX', 'FABZ', 'EVOL', 'VINH', 'EVLZ', 'EXEI', 'FMUE', 'EXAS', 'NISS', 'EXTE', 'EVTC', 'EXAT', 'EZTC', 'FAMR', 'NEPO', 'FCMN', 'BAUH', 'PTPA', 'EXTZ']]

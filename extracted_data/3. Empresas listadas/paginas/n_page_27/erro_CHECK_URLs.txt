@@ -1,1 +1,0 @@
-{'CARU': True, 'CBCF': True, 'CBOS': True, 'CBVV': True, 'CCAB': True, 'CCRO': True, 'CMSF': True, 'CNOR': False, 'CPCL': True, 'CRBP': True, 'CRHF': True, 'CRNG': True, 'CRUN': True, 'CSTR': True, 'CSVE': True, 'CTGO': True, 'CTTL': True, 'CVAN': True, 'CVRJ': True, 'HOSK': True, 'SLFN': True}

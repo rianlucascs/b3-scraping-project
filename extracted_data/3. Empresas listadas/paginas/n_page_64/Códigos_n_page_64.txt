@@ -1,1 +1,0 @@
-['BSNS', 'BLPA', 'TBIL', 'BQYL', 'GRSS', 'BDRI', 'BAIQ', 'BFNX', 'BCPX', 'BCTE', 'BCHQ', 'BLPX', 'BGNO', 'BLBT', 'BMIL', 'GJAI', 'BOTZ', 'BCLO', 'BBUG', 'BKCH']

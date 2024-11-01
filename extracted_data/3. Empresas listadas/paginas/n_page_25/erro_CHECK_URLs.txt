@@ -1,1 +1,0 @@
-{'BRQB': False, 'BZEP': True, 'C6HG': True, 'CAAT': True, 'CABA': True, 'CAEC': True, 'CAEL': True, 'CAEP': True, 'CAIV': True, 'CAWP': True, 'CBDB': True, 'CGEN': True, 'CGRS': True, 'CLGE': True, 'CLMO': True, 'CLNG': True, 'CPTE': True, 'CXSE': True, 'KEDU': True, 'TEPA': True, 'UNIK': True}
