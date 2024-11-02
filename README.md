@@ -18,7 +18,7 @@ Este projeto tem como objetivo extrair dados da B3 ([Bolsa de Valores do Brasil]
 ## Como Usar
 
 ### Acesso aos dados
-Copie e cole as funções do arquivo **[/github_api_acess.py](https://github.com/rianlucascs/b3-scraping-project/blob/master/github_api_acess.py)** em seu projeto para acessar os dados extraídos.
+Copie e cole as funções do arquivo **[/github_api_acess.ipynb](https://github.com/rianlucascs/b3-scraping-project/blob/master/github_api_acess.ipynb)** em seu projeto para acessar os dados extraídos.
 
 ### Instalação do Projeto
 
