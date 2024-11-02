@@ -16,9 +16,8 @@ class Transform:
     Atributos:
         path_extracted_data (str): Caminho para o diretório onde os dados extraídos estão armazenados.
         path_processed_data (str): Caminho para o diretório onde os dados processados serão salvos.
-        dir_page (str): Caminho para o diretório das páginas extraídas.
     """
-
+    
     def __init__(self, path_extracted_data: str, path_processed_data: str):
         """
         Inicializa a classe Transform.
@@ -28,29 +27,48 @@ class Transform:
         """
         self.path_extracted_data = path_extracted_data
         self.path_processed_data = path_processed_data
-        self.dir_page = join(self.path_extracted_data, 'paginas')
 
     def read_data(self) -> DataFrame:
         """
-        Lê os dados dos arquivos de informações e os compila em um DataFrame.
+        Lê e compila dados de arquivos de informações em um DataFrame.
 
-        Esta função percorre todos os diretórios de páginas e lê os arquivos de
-        informações correspondentes, retornando um DataFrame com as colunas adequadas.
+        Esta função percorre todos os diretórios dentro do caminho especificado para
+        dados extraídos, procurando arquivos nomeados 'infos_<codigo>.txt'. Cada arquivo
+        é lido e os dados, que devem estar em formato de lista, são armazenados em uma 
+        lista. Essa lista é então convertida em um DataFrame do Pandas.
 
-        :return: Um DataFrame contendo os dados coletados, com colunas para cada atributo relevante.
-        """   
+        Espera-se que cada arquivo contenha uma lista com os seguintes elementos:
+        
+        - [0]: 'codigo' (Identificador único do item)
+        - [1]: 'nome_do_pregao' (Nome do pregão correspondente)
+        - [2]: 'codigo_de_negociacao' (Código usado para negociação)
+        - [3]: 'cnpj' (Cadastro Nacional da Pessoa Jurídica)
+        - [4]: 'atividade_principal' (Descrição da atividade principal)
+        - [5]: 'classificacao_setorial' (Classificação do setor econômico)
+        - [6]: 'escriturador' (Nome do escriturador responsável)
+
+        A função trata erros ao tentar ler arquivos, imprimindo uma mensagem no console 
+        caso ocorra algum problema, mas a execução continuará para os demais arquivos.
+
+        :return: Um DataFrame contendo os dados coletados, com colunas correspondentes
+                aos atributos relevantes.
+        """
         lista = []
-        for n_page in listdir(self.dir_page):
-            path_n_page = join(self.dir_page, n_page)
-            for codigo in listdir(path_n_page):
-                if not '.' in codigo:
-                    path_infos_codigo = join(path_n_page, codigo, f'infos_{codigo}.txt') 
-                    if exists(path_infos_codigo):
-                        with open(path_infos_codigo, 'r', encoding='utf-8') as file:
-                            data = eval(file.read())
-                            lista.append(data)
+        erros = []
+        for codigo in listdir(self.path_extracted_data):
+            path_infos_codigo = join(self.path_extracted_data, codigo, f'infos_{codigo}.txt') 
+            if exists(path_infos_codigo):
+                try:
+                    with open(path_infos_codigo, 'r', encoding='utf-8') as file:
+                        data = eval(file.read())
+                        lista.append(data)
+                except OSError as e:
+                    erros.append(codigo)
+                    print(f"Erro ao ler o arquivo {path_infos_codigo}: {e}")
+        if erros:
+            print(f'Erros ao ler os arquivos: {erros}')
 
-        headers = ['numero_da_pagina', 'codigo', 'nome_do_pregao', 'codigo_de_negociacao', 'cnpj', 'atividade_principal', 
+        headers = ['codigo', 'nome_do_pregao', 'codigo_de_negociacao', 'cnpj', 'atividade_principal', 
                    'classificacao_setorial', 'escriturador']
         
         return DataFrame(lista, columns=headers)
@@ -62,9 +80,8 @@ class Transform:
         Esta função chama o método read_data para obter os dados e os salva em um arquivo CSV.
         """
         data = self.read_data()
-        data.to_csv(join(self.path_processed_data, 'teste.csv'), sep=';')
+        data.to_csv(join(self.path_processed_data, 'todas_empresas_listadas.csv'), sep=';', index=False)
         
-
 if __name__ == '__main__':
     transform = Transform(config.path_extracted_data, config.path_processed_data)
     transform.run()

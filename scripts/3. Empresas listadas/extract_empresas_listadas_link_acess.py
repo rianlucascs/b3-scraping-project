@@ -23,11 +23,10 @@ class Extract:
     """
     Classe para extrair informações de empresas listadas na B3.
 
-    Esta classe utiliza o Selenium para interagir com a interface web da B3,
-    permitindo a extração de códigos de ações, salvamento de URLs, e organização
-    dos dados em diretórios específicos. As operações incluem navegação por páginas,
-    verificação da existência de arquivos e diretórios, e salvamento de informações
-    em arquivos CSV e TXT.
+    Esta classe utiliza o Selenium para interagir com a interface web da B3, permitindo a 
+    extração de códigos de ações, salvamento de URLs, e organização dos dados em diretórios 
+    específicos. As operações incluem navegação por páginas, verificação da existência de 
+    arquivos e diretórios, e salvamento de informações em arquivos CSV e TXT.
 
     Attributes:
         path_extracted_data (str): Caminho para o diretório onde os dados extraídos serão salvos.
@@ -35,18 +34,26 @@ class Extract:
     Methods:
         run(): Inicia o processo de extração de informações da B3.
     """
+    
     def __init__(self, path_extracted_data: str):
+        """
+        Inicializa a classe Extract.
+
+        :param path_extracted_data: Caminho para o diretório onde os dados extraídos serão salvos.
+        """
         self.path_extracted_data = path_extracted_data
     
     def get_codigos_page(self, driver: webdriver.Chrome) -> List[str]:
         """
         Extrai códigos de empresas listadas na página atual.
 
-        Esta função localiza todos os elementos com a classe 'card-title2'
-        e retorna uma lista de textos únicos contidos nesses elementos.
+        Esta função localiza todos os elementos com a classe 'card-title2' e retorna uma lista
+        de textos únicos contidos nesses elementos.
 
         :param driver: Instância do WebDriver para interação com a página.
         :return: Lista de códigos extraídos, sem duplicatas.
+        :raises NoSuchElementException: Se nenhum elemento com a classe 'card-title2' for encontrado.
+        :raises WebDriverException: Se ocorrer um erro durante a interação com o WebDriver.
         """
         try:
             WebDriverWait(driver, 10).until(
@@ -63,14 +70,14 @@ class Extract:
 
     def get_quantidade_de_paginas(self, driver:webdriver.Chrome):
         """
-        Extrai códigos de empresas listadas na página atual.
+        Extrai o número total de páginas disponíveis.
 
-        Esta função localiza todos os elementos com a classe 'card-title2'
-        e retorna uma lista de textos únicos contidos nesses elementos.
+        Localiza o elemento que contém a quantidade total de páginas e retorna esse número.
 
         :param driver: Instância do WebDriver para interação com a página.
-        :return: Lista de códigos extraídos, sem duplicatas.
-        :raises NoSuchElementException: Se nenhum elemento com a classe 'card-title2' for encontrado.
+        :return: Número total de páginas como um inteiro.
+        :raises NoSuchElementException: Se o elemento que contém a quantidade de páginas não for encontrado.
+        :raises ValueError: Se o texto encontrado não puder ser convertido para um inteiro.
         :raises WebDriverException: Se ocorrer um erro durante a interação com o WebDriver.
         """
         try:
@@ -89,9 +96,7 @@ class Extract:
         """
         Extrai o texto do código na página com base na posição do item.
 
-        Esta função localiza um elemento com base no índice fornecido e retorna
-        seu texto. O índice deve corresponder à posição do elemento dentro do
-        contêiner de navegação.
+        Localiza um elemento com base no índice fornecido e retorna seu texto.
 
         :param driver: Instância do WebDriver para interação com a página.
         :param n_item: Índice do item a ser extraído (baseado em 1).
@@ -115,8 +120,7 @@ class Extract:
         """
         Extrai o número da página atual a partir do elemento com a classe 'current'.
 
-        Esta função localiza o elemento que indica a página atual e retorna o
-        número da página. O número é extraído da segunda linha do texto do elemento.
+        Localiza o elemento que indica a página atual e retorna o número da página.
 
         :param driver: Instância do WebDriver para interação com a página.
         :return: Número da página atual como um inteiro.
@@ -165,9 +169,8 @@ class Extract:
         """
         Clica na próxima página nos resultados da B3.
 
-        Esta função espera que o botão de próxima página esteja clicável e,
-        em seguida, realiza o clique. Se o botão não estiver disponível, 
-        será levantada uma exceção.
+        Espera que o botão de próxima página esteja clicável e, em seguida, realiza o clique.
+        Se o botão não estiver disponível, será levantada uma exceção.
 
         :param driver: Instância do WebDriver (ex: webdriver.Chrome).
         :raises TimeoutException: Se o botão de próxima página não se tornar clicável dentro do tempo limite.
@@ -187,7 +190,7 @@ class Extract:
         """
         Ajusta a página atual do driver até que o número da página corresponda ao esperado.
 
-        Esta função verifica continuamente o número da página exibido e navega para a próxima página
+        Verifica continuamente o número da página exibido e navega para a próxima página
         até que o número atual seja igual ao número esperado.
 
         :param driver: Instância do WebDriver para interagir com o navegador.
@@ -209,9 +212,8 @@ class Extract:
         """
         Salva o conteúdo em um arquivo no caminho especificado.
 
-        Esta função verifica se o arquivo já existe. Se não existir ou se
-        o parâmetro `update` for True, o conteúdo será salvo. Caso contrário,
-        uma mensagem informando que o arquivo já existe será exibida.
+        Verifica se o arquivo já existe. Se não existir ou se o parâmetro `update` for True,
+        o conteúdo será salvo. Caso contrário, uma mensagem informando que o arquivo já existe será exibida.
 
         :param path: Caminho do arquivo onde o conteúdo será salvo.
         :param content: O conteúdo a ser salvo no arquivo.
@@ -229,6 +231,14 @@ class Extract:
             print(f'O arquivo já existe: {path}')
     
     def check_urls(self):
+        """
+        Verifica a validade das URLs salvas.
+
+        Percorre os códigos de empresas extraídos e valida as URLs correspondentes. Se uma URL
+        não contiver o código esperado, a URL é removida.
+
+        :return: True se alguma URL inválida foi encontrada e removida, False caso contrário.
+        """
         chave = False
         for codigo in listdir(self.path_extracted_data):
             path = join(self.path_extracted_data, codigo, f'url_{codigo}.txt')
@@ -248,9 +258,9 @@ class Extract:
         """
         Extrai informações de empresas listadas na B3 a partir da interface web.
 
-        Este método inicializa um navegador Chrome, acessa a página de listagem de empresas e itera
+        Inicializa um navegador Chrome, acessa a página de listagem de empresas e itera
         através de todas as páginas disponíveis. Para cada página, ele extrai códigos de empresas,
-        salva-os em arquivos e verifica a existência de diretórios correspondentes. Além disso, 
+        salva-os em arquivos e verifica a existência de diretórios correspondentes. Além disso,
         acessa páginas específicas para cada código, salvando as URLs.
 
         O fluxo do processo é o seguinte:
@@ -258,11 +268,11 @@ class Extract:
         2. Obtém o total de páginas disponíveis.
         3. Para cada página, ajusta o número da página no navegador, extrai os códigos e os salva.
         4. Para cada código extraído, acessa a página correspondente, salva a URL e volta para a lista.
-        5. Realiza verificações para assegurar que os diretórios e URLs estão corretos.
+        5. Realiza verificações para assegurar que as URLs estão corretas.
 
         :raises Exception: Levanta exceções gerais em caso de falhas durante a interação com o navegador 
                         ou ao acessar elementos na página.
-        """ 
+        """
         try:
             
             with webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=config.options) as driver:
