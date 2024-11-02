@@ -96,7 +96,8 @@ class Transform:
             return
         
         try:
-            table = DataFrame(data[1:], columns=cabecalho)
+            # table = DataFrame(data[1:], columns=cabecalho)
+            table = DataFrame(data[1:])
             table.to_csv(self.path_processed_data, index=False, encoding='utf-8')
             print(f"Arquivo salvo em: {self.path_processed_data}.")
         except Exception as e:
