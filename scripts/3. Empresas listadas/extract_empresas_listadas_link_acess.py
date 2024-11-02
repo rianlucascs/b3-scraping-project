@@ -2,9 +2,13 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+
 from time import sleep
 from os.path import join, exists, splitext
-from os import makedirs, listdir
+from os import makedirs, listdir, remove
 import config
 from selenium.common.exceptions import (
     NoSuchElementException,
@@ -12,7 +16,7 @@ from selenium.common.exceptions import (
     ElementClickInterceptedException,
     WebDriverException,
 )
-from typing import Dict, List
+from typing import List
 
 __python__ = 3.10
 
@@ -225,6 +229,22 @@ class Extract:
         else:
             print(f'O arquivo já existe: {path}')
     
+    def check_urls(self):
+        chave = False
+        for codigo in listdir(self.path_extracted_data):
+            path = join(self.path_extracted_data, codigo, f'url_{codigo}.txt')
+            with open(path, 'r', encoding='utf-8') as file:
+                file = file.read()
+            if not codigo in file:
+                remove(path)
+                chave = True
+                print(f'Informações incorretas: {codigo}.')
+                print(f'Arquivo deletado: {path}.')
+            else:
+                print(f'Codigo: {codigo}, Status: OK')
+                    
+        return chave
+
     def run(self):
         """
         Extrai informações de empresas listadas na B3 a partir da interface web.
@@ -244,9 +264,17 @@ class Extract:
         :raises Exception: Levanta exceções gerais em caso de falhas durante a interação com o navegador 
                         ou ao acessar elementos na página.
         """
+        options = Options()
+        options.add_argument("--start-maximized") 
+        options.add_argument("--disable-infobars")  
+        options.add_argument("--disable-extensions")  
+        options.add_argument("--incognito")  
+        options.add_argument("--disable-gpu")  
+        options.add_argument("--no-sandbox")  
+        options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36")  
         try:
-            options = webdriver.ChromeOptions()
-            with webdriver.Chrome(options=options) as driver:
+            
+            with webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options) as driver:
                 driver.get(config.url)
                 sleep(3)
                 total_paginas = self.get_quantidade_de_paginas(driver)
@@ -280,17 +308,16 @@ class Extract:
                             driver.back()
                             sleep(2)
                     
-            # CHECK
+            if self.check_urls():
+                self.run()
 
         except Exception as e:
-
             print(f"Erro ao processar as páginas: {e}")
             print("Tentando reiniciar o processo...")
+            driver.quit() 
             sleep(40)
             self.run()
 
-
-            
 if __name__ == '__main__':
     
     extract = Extract(config.path_extracted_data)

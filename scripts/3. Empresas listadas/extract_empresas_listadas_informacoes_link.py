@@ -30,44 +30,18 @@ class Extract:
     """
     def __init__(self, path_extracted_data: str):
         self.path_extracted_data = path_extracted_data
-        self.dir_page = join(self.path_extracted_data, 'paginas')
-
-    def get_qtd_pages(self) -> int:
-        """
-        Conta o número de páginas armazenadas no diretório.
-
-        Esta função verifica a quantidade de diretórios presentes em `self.dir_page`,
-        que representam as páginas extraídas.
-
-        :return: O número total de páginas disponíveis.
-        """
-        qtd_pages = len(listdir(self.dir_page))
-        print(f"Quantidade de paginas disponíveis: {qtd_pages}")
-        return qtd_pages
     
-    def get_urls(self, numero_da_pagina: int) -> Dict[str, str]:
-        """
-        Obtém as URLs armazenadas em arquivos 'url_{codigo}.txt' dentro de subdiretórios.
-
-        Esta função lê os arquivos correspondentes a uma página específica e
-        armazena as URLs em um dicionário.
-
-        :param numero_da_pagina: O número da página cujos URLs estão sendo recuperados.
-        :return: Um dicionário onde as chaves são os códigos dos diretórios e os valores são o conteúdo dos arquivos de URL.
-        """
-        dicionario: Dict[str, str] = {}
-        path_dir_page_numero = join(self.dir_page, f'n_page_{numero_da_pagina}')
+    def get_urls(self, codigo: str) -> str:
         try:
-            for dir_codigo in [item for item in listdir(path_dir_page_numero) if splitext(item)[1] == '']:
-                path_file = join(path_dir_page_numero, dir_codigo, f'url_{dir_codigo}.txt')
-                with open(path_file, 'r', encoding='utf-8') as file:
-                    dicionario[dir_codigo] = file.read()
-                print(f"Sucesso ao abrir o arquivo: '{dir_codigo}'.")
-            return dicionario
+            path_dir_page = join(self.path_extracted_data, codigo, f'url_{codigo}.txt')
+            with open(path_dir_page, 'r', encoding='utf-8') as file:
+                file = file.read()
+                if codigo in file:
+                    print(f"Sucesso ao abrir o arquivo: '{codigo}'.")
+                    return file
         except OSError as e:
-            print(f'Erro ao acessar arquivos em {path_file}: {e}')
-            self.save_data(join(path_dir_page_numero, 'erro_CHECK_URLs_2.txt'), dir_codigo)
-            return {}
+            print(f'Erro ao acessar arquivos em {path_dir_page}: {e}')
+            
 
     def get_element_xpath(self, driver: webdriver.Chrome, nome: str, xpath: str) -> str:
         """
@@ -81,7 +55,7 @@ class Extract:
         :return: O texto do elemento se encontrado; caso contrário, uma string vazia.
         """
         try:
-            elemento = WebDriverWait(driver, 10).until(
+            elemento = WebDriverWait(driver, 0.1).until(
                 EC.presence_of_element_located((By.XPATH, xpath))
             )
             return elemento.text
@@ -113,7 +87,7 @@ class Extract:
         else:
             print(f'O arquivo já existe: {path}')
 
-    def run(self):
+    def run(self, update):
         """
         Executa o processo de extração de dados das URLs.
 
@@ -125,41 +99,75 @@ class Extract:
 
         try:
 
-            for numero_da_pagina in range(1, self.get_qtd_pages() + 1):
-                print(f'* Número da Página: {numero_da_pagina}')
-                dict_urls = self.get_urls(numero_da_pagina)
-                if dict_urls != {}:
-                    for codigo, url in dict_urls.items():
-                        path_save = join(self.dir_page, f'n_page_{numero_da_pagina}', codigo, f'infos_{codigo}.txt')
-                        if not exists(path_save):
-                            try:
-                                driver.get(url) 
+            for i, codigo in enumerate(listdir(self.path_extracted_data)):
+                print(f'Codigo: {codigo}, N° {i}')
+                url = self.get_urls(codigo)
+                path_save = join(self.path_extracted_data, codigo, f'infos_{codigo}.txt')
+                
+                if not exists(path_save) or update:
+                    try:
+                        
+                        print(codigo, url)
+                        print(codigo in url)
+
+                        driver.get(url) 
                                 
-                                nome_do_pregao = self.get_element_xpath(driver, 'Nome do Pregão', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/p[2]')
-                                codigo_de_negociacao = self.get_element_xpath(driver, 'Código de Negociação', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/p[4]/a')
-                                cnpj = self.get_element_xpath(driver, 'CNPJ', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[2]/p[2]')
-                                atividade_principal = self.get_element_xpath(driver, 'Atividade Principal', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[3]/p[2]')
-                                classificacao_setorial = self.get_element_xpath(driver, 'Classificação Setorial', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[4]/p[2]')
-                                escriturador = self.get_element_xpath(driver, 'Escriturador', '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[2]/div/div/p[2]/span[1]')
-                                
-                                
-                                self.save_data(path_save, [numero_da_pagina, codigo, nome_do_pregao, codigo_de_negociacao, cnpj, 
-                                                        atividade_principal, classificacao_setorial, escriturador])
+                        nome_do_pregao = self.get_element_xpath(
+                            driver, 
+                            'Nome do Pregão', 
+                            '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/p[2]'
+                            )
+                        
+                        codigo_de_negociacao = self.get_element_xpath(
+                            driver, 
+                            'Código de Negociação', 
+                            '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/p[4]/a'
+                            )
+                        
+                        cnpj = self.get_element_xpath(
+                            driver, 
+                            'CNPJ', 
+                            '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[2]/p[2]'
+                            )
+                        atividade_principal = self.get_element_xpath(
+                            driver, 
+                            'Atividade Principal', 
+                            '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[3]/p[2]'
+                            )
+                        
+                        classificacao_setorial = self.get_element_xpath(
+                            driver, 
+                            'Classificação Setorial', 
+                            '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[4]/p[2]'
+                            )
+                        
+                        escriturador = self.get_element_xpath(
+                            driver, 
+                            'Escriturador', 
+                            '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[2]/div/div/p[2]/span[1]'
+                            )
+                        
+                        infos = [codigo, nome_do_pregao, codigo_de_negociacao, cnpj, atividade_principal, 
+                                classificacao_setorial, escriturador]
+                        
+                        self.save_data(path_save, infos)
+
+                        print(infos)
                             
-                            except WebDriverException as e:
-                                print(f"Erro ao acessar a URL {url} ou extrair dados: {e}")
-                            except Exception as e:
-                                driver.quit()
-                                print(f"Erro ao processar as páginas: {e}")
-                                print("Tentando reiniciar o processo...")
-                                sleep(20)
-                                self.run()
+                    except WebDriverException as e:
+                        print(f"Erro ao acessar a URL {url} ou extrair dados: {e}")
+                    except Exception as e:
+                        driver.quit()
+                        print(f"Erro ao processar as páginas: {e}")
+                        print("Tentando reiniciar o processo...")
+                        sleep(20)
+                        self.run()
 
         finally:
             driver.quit() 
 
 if __name__ == '__main__':
     extract = Extract(config.path_extracted_data)
-    extract.run()
+    extract.run(update=True)
 
     
