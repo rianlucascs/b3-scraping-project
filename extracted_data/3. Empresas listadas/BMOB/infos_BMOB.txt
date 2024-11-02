@@ -1,1 +1,1 @@
-[19, 'BMOB', 'BEMOBI TECH', 'BMOB3', '09.042.817/0001-05', 'Desenvolvimento e licenciamento de programas de computador não-customizáveis', 'Tecnologia da Informação / Programas e Serviços / Programas e Serviços', 'ITAU CORRETORA ACOES']
+['BMOB', 'BEMOBI TECH', 'BMOB3', '10/02/2021', '09.042.817/0001-05', 'Desenvolvimento e licenciamento de programas de computador não-customizáveis', 'ITAU CORRETORA ACOES']

@@ -1,1 +1,1 @@
-[48, 'ERDV', 'ECON', '', 'Serviços de apoio administrativo e de engenharia. exploração direta ou indireta de negócios de concessão de obras e serviços públicos.', 'Bens Industriais / Transporte / Exploração de Rodovias', 'www.ecorodovias.com.br', 'ITAU CORRETORA ACOES']
+['ERDV', 'ECON', '', '08.873.873/0001-10', 'Serviços de apoio administrativo e de engenharia. exploração direta ou indireta de negócios de concessão de obras e serviços públicos.', 'Bens Industriais / Transporte / Exploração de Rodovias', 'ITAU CORRETORA ACOES']

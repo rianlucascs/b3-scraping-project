@@ -1,1 +1,1 @@
-['BEWA', '', 'BEWA39', '', '', '', '']
+['BEWA', 'MSCIAUSTRALI', 'BEWA39', '', '', '', '']

@@ -1,1 +1,1 @@
-[43, 'CPRE', 'CPFL RENOVAV', '', 'Geração de energias renováveis.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.cpflrenovaveis.com.br', 'ITAU CORRETORA ACOES']
+['CPRE', 'CPFL RENOVAV', '', '08.439.659/0001-50', 'Geração de energias renováveis.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

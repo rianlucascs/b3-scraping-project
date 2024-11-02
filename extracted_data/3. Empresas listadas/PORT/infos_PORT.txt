@@ -1,0 +1,1 @@
+['PORT', 'WILSON SONS', 'PORT3', '25/10/2021', '33.130.691/0001-05', 'Administração dos bens da Companhia e participação no capital de outras sociedades.', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

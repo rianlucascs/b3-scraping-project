@@ -1,0 +1,1 @@
+['PSSA', 'PORTO SEGURO', 'PSSA3', '22/11/2004', '02.149.205/0001-69', 'Gestão de Participações Societárias (holding)', 'ITAU CORRETORA ACOES']

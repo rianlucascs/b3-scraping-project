@@ -1,1 +1,1 @@
-['AMAR', 'LOJAS MARISA', 'AMAR3', '28/06/2010', '61.189.288/0001-89', 'Comércio varejista de artigos do vestuário e acessórios. prestação de serviços de correspondente bancário. intermediação de negócios e congêneres. atuação como representante de seguros.', 'ITAU CORRETORA ACOES']
+['AMAR', '', 'AMAR3', '28/06/2010', '61.189.288/0001-89', 'Comércio varejista de artigos do vestuário e acessórios. prestação de serviços de correspondente bancário. intermediação de negócios e congêneres. atuação como representante de seguros.', 'ITAU CORRETORA ACOES']

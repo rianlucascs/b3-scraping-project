@@ -1,1 +1,1 @@
-[55, 'ETSP', 'EQUATO 7 SPE', '', 'Explorar e operar a concessão de serviço público de transmissão de energia elétrica para construção. montagem e manutenção de instalações de transmissão.', 'Não Classificados / Não Classificados / Não Classificado', '', 'EMPRESA']
+['ETSP', 'EQUATO 7 SPE', '', '26.845.702/0001-60', 'Explorar e operar a concessão de serviço público de transmissão de energia elétrica para construção. montagem e manutenção de instalações de transmissão.', 'Não Classificados / Não Classificados / Não Classificado', 'EMPRESA']

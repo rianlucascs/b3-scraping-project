@@ -1,1 +1,1 @@
-[20, 'BNDP', 'BNDESPAR', '', '', 'Financeiro / Serviços Financeiros Diversos / Gestão de Recursos e Investimentos', 'http://www.bndes.gov.br', 'BNDES PARTICIPACOES S.A. - BNDESPAR']
+['BNDP', 'BNDESPAR', '', '00.383.281/0001-09', '', 'Financeiro / Serviços Financeiros Diversos / Gestão de Recursos e Investimentos', 'BNDES PARTICIPACOES S.A. - BNDESPAR']

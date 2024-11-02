@@ -1,0 +1,1 @@
+['STEN', '', '', '09.391.823/0001-60', 'Desenvolvimento do projeto de implementação da UHE Santo Antônio e seu sistema de transmissão. assim como a condução de todas as atividades necessárias à construção. operação. manutenção e exploração.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

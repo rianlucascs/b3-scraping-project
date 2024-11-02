@@ -1,1 +1,1 @@
-[19, 'SFSA', 'SOFISABM', '', '', '', 'www.sofisa.com.br', '']
+['SFSA', 'SOFISABM', '', '60.889.128/0001-80', '', '', '']

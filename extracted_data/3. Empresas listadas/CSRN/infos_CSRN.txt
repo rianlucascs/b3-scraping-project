@@ -1,1 +1,1 @@
-[32, 'CSRN', 'COSERN', '', 'Serviço Público de Distribuição de Energia Elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.cosern.com.br', 'ITAU CORRETORA ACOES']
+['CSRN', 'COSERN', '', '08.324.196/0001-81', 'Serviço Público de Distribuição de Energia Elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

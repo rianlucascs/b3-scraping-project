@@ -1,1 +1,1 @@
-[47, 'DOHL', 'DOHLER', 'DOHL4', '84.683.408/0001-03', 'Tecelagem de Fios de Algodão e Fibras sintéticas', 'Consumo Cíclico / Tecidos. Vestuário e Calçados / Fios e Tecidos', 'BRADESCO']
+['DOHL', 'DOHLER', 'DOHL4', '16/09/1981', '84.683.408/0001-03', 'Tecelagem de Fios de Algodão e Fibras sintéticas', 'BRADESCO']

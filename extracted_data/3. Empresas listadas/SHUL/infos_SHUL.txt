@@ -1,0 +1,1 @@
+['SHUL', 'SCHULZ', 'SHUL4', '10/01/1995', '84.693.183/0001-68', 'Indústria Metalúrgica', 'BRADESCO']

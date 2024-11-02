@@ -1,0 +1,1 @@
+['SIMH', 'SIMPAR', 'SIMH3', '18/09/2020', '07.415.333/0001-20', 'Participação em outras sociedades empresariais. como sócia ou acionista.', 'BRADESCO']

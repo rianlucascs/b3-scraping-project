@@ -1,0 +1,1 @@
+['STBP', '', 'STBP3', '21/11/2007', '02.762.121/0001-04', 'A Companhia tem por objeto a exploração portuária através de operações com contêineres. carga geral. veículos. granéis ou afins. operações de logística integrada e a participação em outras sociedades.', 'ITAU CORRETORA ACOES']

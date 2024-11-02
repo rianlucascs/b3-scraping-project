@@ -1,1 +1,1 @@
-[31, 'CEGR', 'CEG', 'CEGR3', '33.938.119/0001-69', 'Distribuição de gás natural na região metropolitana do Estado do Rio de Janeiro.', 'Utilidade Pública / Gás / Gás', 'ITAU CORRETORA ACOES']
+['CEGR', 'CEG', 'CEGR3', '12/07/2000', '33.938.119/0001-69', 'Distribuição de gás natural na região metropolitana do Estado do Rio de Janeiro.', 'ITAU CORRETORA ACOES']

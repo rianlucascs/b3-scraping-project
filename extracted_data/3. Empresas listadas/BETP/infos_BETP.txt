@@ -1,1 +1,1 @@
-[19, 'BETP', 'BETAPART', 'BETP3', '02.762.124/0001-30', 'Participação em outras sociedades.', 'Outros / Outros / Outros', 'ITAU CORRETORA ACOES']
+['BETP', '', 'BETP3', '11/10/2023', '02.762.124/0001-30', 'Participação em outras sociedades.', 'ITAU CORRETORA ACOES']

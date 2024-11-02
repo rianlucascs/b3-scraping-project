@@ -1,1 +1,1 @@
-[24, 'BRKP', 'BRK AMBI PAR', '', 'Explorar e participar de sociades que explorem serviços públicos de abastecimento de água potável e esgotamento sanitário.', 'Não Classificados / Não Classificado / Não Classificados', 'www.ri.brkambiental.com.br', 'ITAU CORRETORA ACOES']
+['BRKP', 'BRK AMBI PAR', '', '24.396.489/0001-20', 'Explorar e participar de sociades que explorem serviços públicos de abastecimento de água potável e esgotamento sanitário.', 'Não Classificados / Não Classificado / Não Classificados', 'ITAU CORRETORA ACOES']

@@ -1,0 +1,1 @@
+['HCAR', 'HOSPITALCARE', '', '25.249.439/0001-83', 'Atividades de consultoria em gestão empresarial e serviços combinados de escritório e apoio administrativo.', 'Não Classificados / Não Classificado / Não Classificados', 'EMPRESA']

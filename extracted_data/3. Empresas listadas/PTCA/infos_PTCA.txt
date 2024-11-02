@@ -1,0 +1,1 @@
+['PTCA', 'PRATICA', 'PTCA3', '04/10/2018', '08.574.411/0001-00', 'A Companhia tem por objeto social: (i) a fabricação de fornos e equipamentos voltados para os mercados de panificação e gastronômico; e (ii) a participação societária em outras companhias.', 'BRADESCO']

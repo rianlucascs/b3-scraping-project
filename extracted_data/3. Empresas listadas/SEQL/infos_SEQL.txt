@@ -1,0 +1,1 @@
+['SEQL', 'SEQUOIA LOG', 'SEQL3', '07/10/2020', '01.599.101/0001-93', 'Logística.transporte rodoviário de cargas em geral. municipal. intermunicipal. estadual e interestadual. serviços de entrega rápida e carga e descarga. dentre outros.', 'ITAU CORRETORA ACOES']

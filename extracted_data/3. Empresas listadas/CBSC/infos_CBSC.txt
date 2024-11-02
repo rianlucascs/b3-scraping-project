@@ -1,0 +1,1 @@
+['CBSC', 'CIBRASEC', '', '02.105.040/0001-23', 'Consiste em um processo financeiro estruturado através do qual créditos são adquiridos. permitindo a emissão de valores mobiliários (CRI ou CRA) a serem negociados no mercado financeiro e de capitais.', 'Financeiro / Securitizadoras de Recebíveis / Securitizadoras de Recebíveis', 'CIBRASEC - CIA BRAS DE SECURITIZACAO']

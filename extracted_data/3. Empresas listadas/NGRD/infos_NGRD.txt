@@ -1,0 +1,1 @@
+['NGRD', 'NEOGRID', 'NGRD3', '17/12/2020', '10.139.870/0001-08', 'Participação em outras empresas ou sociedades. negócios e empreendimentos; desenvolvimento. licenciamento e implementação de softwares; e prestação de serviços de assessoria técnica e de treinamento.', 'ITAU CORRETORA ACOES']

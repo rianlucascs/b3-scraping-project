@@ -1,0 +1,1 @@
+['PLSC', 'POLO CAP SEC', 'PLSC-CRI1C', '', '12.261.588/0001-16', 'Setor de atividade: Securitização de Recebíveis/Aquisição e securitização de créditos imobiliários e hipotecários; prestação de serviços referentes a operações nos mercados secundários; emissão de CRI', 'POLO CAPITAL SECURITIZADORA']

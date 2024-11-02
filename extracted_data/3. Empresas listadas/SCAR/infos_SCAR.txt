@@ -1,0 +1,1 @@
+['SCAR', 'SAO CARLOS', 'SCAR3', '20/09/1999', '29.780.061/0001-09', 'Compra e venda de imóveis prontos ou a construir; locação de bens imóveis; administração de empreendimentos imobiliários próprios ou de terceiros; exercício de outras atividades correlatas; e outros', 'ITAU CORRETORA ACOES']

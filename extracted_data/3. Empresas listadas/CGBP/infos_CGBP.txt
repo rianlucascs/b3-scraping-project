@@ -1,1 +1,1 @@
-[56, 'CGBP', 'CONTOUR', '', '', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', '', 'OLIVEIRA TRUST']
+['CGBP', 'CONTOUR', '', '07.802.794/0001-56', '', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'OLIVEIRA TRUST']

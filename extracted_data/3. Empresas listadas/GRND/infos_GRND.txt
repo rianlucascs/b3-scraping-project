@@ -1,0 +1,1 @@
+['GRND', 'GRENDENE', 'GRND3', '29/10/2004', '89.850.341/0001-60', 'Fabricação de calçados em geral', 'BRADESCO']

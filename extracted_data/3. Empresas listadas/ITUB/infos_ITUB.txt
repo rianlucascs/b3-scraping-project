@@ -1,0 +1,1 @@
+['ITUB', 'ITAUUNIBANCO', 'ITUB4', '24/03/2003', '60.872.504/0001-23', 'A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas. inclusive a de operações de câmbio.', 'ITAU CORRETORA ACOES']

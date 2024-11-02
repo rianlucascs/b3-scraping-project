@@ -1,1 +1,1 @@
-[17, 'BBSE', 'BBSEGURIDADE', 'BBSE3', '17.344.597/0001-94', 'Participação no capital social de outras sociedades que realizem quaisquer atividades reguladas pela SUSEP e ANS. além de corretagem desses produtos.', 'Financeiro / Previdência e Seguros / Seguradoras', 'BRASIL']
+['BBSE', '', 'BBSE3', '29/04/2013', '17.344.597/0001-94', 'Participação no capital social de outras sociedades que realizem quaisquer atividades reguladas pela SUSEP e ANS. além de corretagem desses produtos.', 'BRASIL']

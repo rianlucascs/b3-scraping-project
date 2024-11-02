@@ -1,1 +1,1 @@
-[25, 'CPTE', 'CACHOEIRA', '', '', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.isoluxcorsan.com/cachoeirapaulista', 'CACHOEIRA PAULISTA TRANSMIS. ENERGIA S.A']
+['CPTE', 'CACHOEIRA', '', '05.336.882/0001-84', '', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'CACHOEIRA PAULISTA TRANSMIS. ENERGIA S.A']

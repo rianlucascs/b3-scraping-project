@@ -1,1 +1,1 @@
-[32, 'CGEE', 'CEEE-G', '', 'Geração de Energia Elétrica.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', '', 'ITAU CORRETORA ACOES']
+['CGEE', '', '', '39.881.421/0001-04', 'Geração de Energia Elétrica.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

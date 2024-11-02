@@ -1,1 +1,1 @@
-[42, 'TEND', 'TENDA', 'TEND3', '71.476.527/0001-35', '', 'Consumo Cíclico / Construção Civil / Incorporações', 'ITAU CORRETORA ACOES']
+['TEND', '', 'TEND3', '04/05/2017', '71.476.527/0001-35', '', 'ITAU CORRETORA ACOES']

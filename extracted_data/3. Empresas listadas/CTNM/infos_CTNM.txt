@@ -1,1 +1,1 @@
-[33, 'CTNM', 'COTEMINAS', 'CTNM4', '22.677.520/0001-76', 'Holding', 'Consumo Cíclico / Tecidos. Vestuário e Calçados / Fios e Tecidos', 'CIA TECIDOS NORTE DE MINAS COTEMINAS']
+['CTNM', 'COTEMINAS', 'CTNM4', '24/03/1992', '22.677.520/0001-76', 'Holding', 'CIA TECIDOS NORTE DE MINAS COTEMINAS']

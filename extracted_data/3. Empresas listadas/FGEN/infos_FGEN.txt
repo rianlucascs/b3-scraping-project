@@ -1,1 +1,1 @@
-[58, 'FGEN', 'FGENERGIA', '', 'construção. operação e exploração de potencial de energia hidráulica e comercialização ou utilização da energia elétrica produzida', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.ferreiragomesenergia.com.br', 'ITAU CORRETORA ACOES']
+['FGEN', '', '', '12.489.315/0001-23', 'construção. operação e exploração de potencial de energia hidráulica e comercialização ou utilização da energia elétrica produzida', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

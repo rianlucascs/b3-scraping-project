@@ -1,1 +1,1 @@
-['BEWY', '', 'BEWY39', '', '', '', '']
+['BEWY', 'MSCISOUTHKOR', 'BEWY39', '', '', '', '']

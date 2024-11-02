@@ -1,14 +1,16 @@
 
 import config
-from os import listdir
-from os.path import join, splitext, exists
-from typing import Dict
+from os import listdir, remove
+from os.path import join, exists
 from time import sleep
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 
 from selenium.common.exceptions import (
     NoSuchElementException,
@@ -86,21 +88,38 @@ class Extract:
                 print(f'Erro ao salvar o arquivo: {e}')
         else:
             print(f'O arquivo já existe: {path}')
+    
+    def check_infos(self):
+        for i, codigo in enumerate(listdir(self.path_extracted_data)):
+            path_info = join(self.path_extracted_data, codigo, f'infos_{codigo}.txt')
+            with open(path_info, 'r', encoding='utf-8') as file:
+                file = file.read()
+            if not codigo in file:
+                print(f'Informações incorretas: {codigo}, N° {i}')
+                print(f'Arquivo deletado: {path_info}.')
+                remove(path_info)
+            else:
+                print(f'Código: {codigo}, Status: OK, N° {i}')
+            
+            if len(eval(file)) != 7:
+                print(f'Quantidade de informações incorretas: {codigo}, N° {i}')
+                print(f'Arquivo deletado: {path_info}.')
+                remove(path_info)
 
-    def run(self, update):
+    def run(self, update=False):
         """
         Executa o processo de extração de dados das URLs.
 
         Esta função percorre todas as páginas disponíveis, obtém as URLs correspondentes,
         e extrai informações relevantes de cada uma delas usando um navegador controlado pelo Selenium.
         """
-        options = webdriver.ChromeOptions()
-        driver = webdriver.Chrome(options=options)
+
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=config.options)
 
         try:
 
             for i, codigo in enumerate(listdir(self.path_extracted_data)):
-                print(f'Codigo: {codigo}, N° {i}')
+                print(f'Código: {codigo}, N° {i}')
                 url = self.get_urls(codigo)
                 path_save = join(self.path_extracted_data, codigo, f'infos_{codigo}.txt')
                 
@@ -110,44 +129,38 @@ class Extract:
                         driver.get(url) 
                                 
                         nome_do_pregao = self.get_element_xpath(
-                            driver, 
-                            'Nome do Pregão', 
+                            driver, 'Nome do Pregão', 
                             '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/p[2]'
                             )
                         
                         codigo_de_negociacao = self.get_element_xpath(
-                            driver, 
-                            'Código de Negociação', 
+                            driver, 'Código de Negociação', 
                             '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/p[4]/a'
                             )
                         
                         cnpj = self.get_element_xpath(
-                            driver, 
-                            'CNPJ', 
+                            driver, 'CNPJ', 
                             '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[2]/p[2]'
                             )
                         atividade_principal = self.get_element_xpath(
-                            driver, 
-                            'Atividade Principal', 
+                            driver, 'Atividade Principal', 
                             '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[3]/p[2]'
                             )
                         
                         classificacao_setorial = self.get_element_xpath(
-                            driver, 
-                            'Classificação Setorial', 
+                            driver, 'Classificação Setorial', 
                             '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[1]/div/div/div[4]/p[2]'
                             )
                         
                         escriturador = self.get_element_xpath(
-                            driver, 
-                            'Escriturador', 
+                            driver, 'Escriturador', 
                             '//*[@id="divContainerIframeB3"]/app-companies-overview/div/div[2]/div/div/p[2]/span[1]'
                             )
                         
                         infos = [codigo, nome_do_pregao, codigo_de_negociacao, cnpj, atividade_principal, 
                                 classificacao_setorial, escriturador]
                         
-                        self.save_data(path_save, infos)
+                        self.save_data(path_save, infos, update)
 
                         print(infos)
                             
@@ -161,10 +174,11 @@ class Extract:
                         self.run(update=False)
 
         finally:
+            self.check_infos()
             driver.quit() 
 
 if __name__ == '__main__':
     extract = Extract(config.path_extracted_data)
-    extract.run(update=True)
+    extract.run()
 
     

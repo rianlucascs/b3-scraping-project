@@ -1,0 +1,1 @@
+['WEGE', 'WEG', 'WEGE3', '02/08/2004', '84.429.695/0001-11', 'A WEG SA é uma sociedade de participação não operacional (holding) e também sociedade de comando do Grupo WEG.', 'BRADESCO']

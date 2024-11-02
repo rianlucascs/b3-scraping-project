@@ -1,0 +1,1 @@
+['LUPA', 'LUPATECH', 'LUPA3', '15/05/2006', '89.463.822/0001-12', 'Fabricante de equipamentos e provedor de serviços para o setor de Petróleo e Gás.', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

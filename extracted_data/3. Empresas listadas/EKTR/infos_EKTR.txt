@@ -1,1 +1,1 @@
-[49, 'EKTR', 'ELEKTRO', 'EKTR4', '02.328.280/0001-97', 'Distribuição de Energia Elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']
+['EKTR', 'ELEKTRO', 'EKTR4', '25/08/1998', '02.328.280/0001-97', 'Distribuição de Energia Elétrica', 'ITAU CORRETORA ACOES']

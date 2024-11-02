@@ -1,0 +1,1 @@
+['COLN', 'ROD COLINAS', '', '03.025.305/0001-46', 'Exploração do Sistema Rodoviário relativo ao Lote 13: Malha Rodoviária Estadual de Ligação entre Rio Claro. Piracicaba. Tietê. Jundiaí e Itu. Campinas.', 'Bens Industriais / Transporte / Exploração de Rodovias', 'RODOVIAS DAS COLINAS S.A.']

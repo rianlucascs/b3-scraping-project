@@ -1,0 +1,1 @@
+['IGSN', 'IGUA SA', 'IGSN3', '03/02/2014', '08.159.965/0001-33', 'Prestação de serviços públicos de água e esgoto.', 'ITAU CORRETORA ACOES']

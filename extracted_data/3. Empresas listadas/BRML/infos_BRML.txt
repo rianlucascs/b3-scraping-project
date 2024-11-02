@@ -1,1 +1,1 @@
-[21, 'BRML', 'BR MALLS PAR', '', 'Holding', 'Financeiro / Exploração de Imóveis / Exploração de Imóveis', 'www.brmalls.com.br', 'ITAU CORRETORA ACOES']
+['BRML', 'BR MALLS PAR', '', '06.977.745/0001-91', 'Holding', 'Financeiro / Exploração de Imóveis / Exploração de Imóveis', 'ITAU CORRETORA ACOES']

@@ -1,1 +1,1 @@
-[7, 'CBEE', 'AMPLA ENERG', 'CBEE3', '33.050.071/0001-58', 'Distribuição de energia elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']
+['CBEE', 'AMPLA ENERG', 'CBEE3', '15/08/1969', '33.050.071/0001-58', 'Distribuição de energia elétrica', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

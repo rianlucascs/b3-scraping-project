@@ -1,1 +1,1 @@
-[1, 'QVQP', '524 PARTICIP', 'QVQP3', '01.851.771/0001-55', 'Holding - participação em outras sociedades', 'Outros / Outros / Outros', 'ITAU CORRETORA ACOES']
+['QVQP', '524 PARTICIP', 'QVQP3', '11/10/2023', '01.851.771/0001-55', 'Holding - participação em outras sociedades', 'ITAU CORRETORA ACOES']

@@ -1,0 +1,1 @@
+['ESTR', 'ESTRELA', 'ESTR4', '28/06/1968', '61.082.004/0001-50', 'Fabricação de Brinquedos e Jogos Recreativos', 'MANUFATURA DE BRINQUEDOS ESTRELA S.A.']

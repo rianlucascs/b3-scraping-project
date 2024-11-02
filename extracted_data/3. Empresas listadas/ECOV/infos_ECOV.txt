@@ -1,1 +1,1 @@
-[38, 'ECOV', 'ECOVIAS', '', 'Concessão e exploração de rodovias', 'Bens Industriais / Transporte / Exploração de Rodovias', 'www.ecovias.com.br', 'BRADESCO']
+['ECOV', 'ECOVIAS', '', '02.509.491/0001-26', 'Concessão e exploração de rodovias', 'Bens Industriais / Transporte / Exploração de Rodovias', 'BRADESCO']

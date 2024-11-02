@@ -1,1 +1,1 @@
-[45, 'DXCO', 'DEXCO', 'DXCO3', '97.837.181/0001-47', 'Fabricação. Comércio. Importação e Exportação de Produtos derivados de Madeira. de Produtos de Metais e Materiais Cerâmicos', 'Materiais Básicos / Madeira e Papel / Madeira', 'ITAU CORRETORA ACOES']
+['DXCO', 'DEXCO', 'DXCO3', '08/10/2009', '97.837.181/0001-47', 'Fabricação. Comércio. Importação e Exportação de Produtos derivados de Madeira. de Produtos de Metais e Materiais Cerâmicos', 'ITAU CORRETORA ACOES']

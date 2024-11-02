@@ -1,1 +1,1 @@
-[23, 'BRFS', 'BRF SA', 'BRFS3', '01.838.723/0001-27', 'Holding Operacional', 'Consumo não Cíclico / Alimentos Processados / Carnes e Derivados', 'ITAU CORRETORA ACOES']
+['BRFS', 'BRF SA', 'BRFS3', '30/06/1997', '01.838.723/0001-27', 'Holding Operacional', 'ITAU CORRETORA ACOES']

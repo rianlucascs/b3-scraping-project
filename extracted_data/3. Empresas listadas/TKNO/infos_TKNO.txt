@@ -1,0 +1,1 @@
+['TKNO', 'TEKNO', 'TKNO4', '20/07/1977', '33.467.572/0001-34', 'Pintura de Bobinas e Chapas Metálicas', 'ITAU CORRETORA ACOES']

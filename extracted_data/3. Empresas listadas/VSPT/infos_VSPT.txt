@@ -1,1 +1,1 @@
-[58, 'VSPT', 'FER C ATLANT', 'VSPT4', '00.924.429/0001-75', 'Serviço de Transporte Ferroviário', 'Bens Industriais / Transporte / Transporte Ferroviário', 'BRADESCO']
+['VSPT', 'FER C ATLANT', 'VSPT4', '16/02/1996', '00.924.429/0001-75', 'Serviço de Transporte Ferroviário', 'BRADESCO']

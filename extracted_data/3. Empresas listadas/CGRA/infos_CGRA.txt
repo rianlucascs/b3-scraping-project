@@ -1,0 +1,1 @@
+['CGRA', 'GRAZZIOTIN', 'CGRA4', '04/06/1979', '92.012.467/0001-70', 'Comércio Varejista de Vesturio e Bazar.', 'ITAU CORRETORA ACOES']

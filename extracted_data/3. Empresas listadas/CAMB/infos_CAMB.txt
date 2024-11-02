@@ -1,1 +1,1 @@
-[26, 'CAMB', 'CAMBUCI', 'CAMB3', '61.088.894/0001-08', '', 'Consumo Cíclico / Tecidos. Vestuário e Calçados / Calçados', 'ITAU CORRETORA ACOES']
+['CAMB', 'CAMBUCI', 'CAMB3', '05/02/1985', '61.088.894/0001-08', '', 'ITAU CORRETORA ACOES']

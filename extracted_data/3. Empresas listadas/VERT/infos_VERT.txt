@@ -1,0 +1,1 @@
+['VERT', 'VERTCIASEC', '', '25.005.683/0001-09', 'a aquisição e securitização de quaisquer direitos creditórios do agronegócio e de títulos e valores mobiliários lastreados em direitos de crédito do agronegócio e direitos de crédito imobiliários', 'Financeiro / Securitizadoras de Recebíveis / Securitizadoras de Recebíveis', 'VERT COMPANHIA SECURITIZADORA']

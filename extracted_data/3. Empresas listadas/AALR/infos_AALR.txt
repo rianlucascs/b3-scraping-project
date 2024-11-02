@@ -1,1 +1,1 @@
-['AALR', '', '', '', '', '', '']
+['AALR', '', 'AALR3', '28/10/2016', '42.771.949/0001-35', 'Prestação de serviços de medicina diagnóstica', 'ITAU CORRETORA ACOES']

@@ -1,1 +1,1 @@
-['APTI', 'ALIPERTI', 'APTI4', '14/07/1986', '61.156.931/0001-78', 'Fabricação de peças e acessórios para o sistema de direção e suspensão de veículos automotores', 'BRADESCO']
+['APTI', '', 'APTI4', '14/07/1986', '61.156.931/0001-78', 'Fabricação de peças e acessórios para o sistema de direção e suspensão de veículos automotores', 'BRADESCO']

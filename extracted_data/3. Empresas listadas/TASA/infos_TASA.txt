@@ -1,0 +1,1 @@
+['TASA', 'TAURUS ARMAS', 'TASA4', '24/05/1982', '92.781.335/0001-02', 'Indústria e comércio de armas', 'ITAU CORRETORA ACOES']

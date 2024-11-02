@@ -1,0 +1,1 @@
+['JOPA', 'JOSAPAR', 'JOPA4', '02/01/1989', '87.456.562/0001-22', 'Beneficiamento de Arroz e Participações', 'ITAU CORRETORA ACOES']

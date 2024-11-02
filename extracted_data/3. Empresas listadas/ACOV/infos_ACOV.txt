@@ -1,1 +1,1 @@
-[2, 'ACOV', 'ACO VERDE', '', 'Industrialização. comercialização. inclusive importação e exportação de produtos siderúrgicos. em especial aço e ferro gusa em todas as suas formas e seus subprodutos.', 'Não Classificados / Não Classificado / Não Classificados', '', 'EMPRESA']
+['ACOV', '', '', '07.636.657/0001-99', 'Industrialização. comercialização. inclusive importação e exportação de produtos siderúrgicos. em especial aço e ferro gusa em todas as suas formas e seus subprodutos.', 'Não Classificados / Não Classificado / Não Classificados', 'EMPRESA']

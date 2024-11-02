@@ -1,1 +1,1 @@
-[11, 'AURA', 'AURA 360', 'AURA33', '07.857.093/0001-14', 'Aproveitamento de jazidas minerais. principalmente por meio de exploração e extração de minérios. com foco em ouro e cobre.', 'Materiais Básicos / Mineração / Minerais Metálicos', '']
+['AURA', 'AURA 360', 'AURA33', '', '07.857.093/0001-14', 'Aproveitamento de jazidas minerais. principalmente por meio de exploração e extração de minérios. com foco em ouro e cobre.', '']

@@ -1,0 +1,1 @@
+['MSRO', 'MAESTROLOC', '', '08.795.211/0001-70', 'A Companhia presta serviços de locação de veículos e gestão de frotas.', 'Consumo Cíclico / Diversos / Aluguel de carros', 'ITAU CORRETORA ACOES']

@@ -1,1 +1,1 @@
-['AGAU', '', '', '', '', '', '']
+['AGAU', '', '', '04.212.396/0001-91', 'Tecnologia e Informática', 'Bens Industriais / Tecnologia da Informação / Computadores e Equipamentos', 'ITAUBANCO - DEBENTURES']

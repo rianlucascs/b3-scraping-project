@@ -1,0 +1,1 @@
+['BSDY', 'FT SMID CAP', 'BSDY39', '', '', '', '']

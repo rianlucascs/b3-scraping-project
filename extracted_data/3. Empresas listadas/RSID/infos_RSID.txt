@@ -1,0 +1,1 @@
+['RSID', 'ROSSI RESID', 'RSID3', '22/07/1997', '61.065.751/0001-80', 'Compra e venda de imóveis. desmembramento e loteamento de terrenos. incorporação imobiliária. construção de imóveis destinados à venda. e a participação em outras sociedades.', 'BRADESCO']

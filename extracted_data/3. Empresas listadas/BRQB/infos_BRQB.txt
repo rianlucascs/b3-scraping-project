@@ -1,1 +1,1 @@
-[24, 'BRQB', 'BRQ', 'BRQB3', '36.542.025/0001-64', 'Prestação de Serviços de Transformação Digital com propósito de acelerar negócios através da inteligência e tecnologia da informação (TI)', 'Tecnologia da Informação / Programas e Serviços / Programas e Serviços', 'BRADESCO']
+['BRQB', '', 'BRQB3', '13/01/2016', '36.542.025/0001-64', 'Prestação de Serviços de Transformação Digital com propósito de acelerar negócios através da inteligência e tecnologia da informação (TI)', 'BRADESCO']

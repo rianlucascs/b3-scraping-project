@@ -1,1 +1,1 @@
-[11, 'AURE', 'AUREN', 'AURE3', '28.594.234/0001-23', 'Participação em empresas de geração. transmissão e comercialização de energia elétrica e a prestação de serviços correlatos.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']
+['AURE', '', 'AURE3', '28/03/2022', '28.594.234/0001-23', 'Participação em empresas de geração. transmissão e comercialização de energia elétrica e a prestação de serviços correlatos.', 'ITAU CORRETORA ACOES']

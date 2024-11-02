@@ -1,0 +1,1 @@
+['PPAR', 'POLPAR', 'PPAR3', '31/05/1989', '59.789.545/0001-71', 'Participação em outras empresas', 'ITAU CORRETORA ACOES']

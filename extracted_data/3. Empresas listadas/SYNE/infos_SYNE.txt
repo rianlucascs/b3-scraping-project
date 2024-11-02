@@ -1,0 +1,1 @@
+['SYNE', '', 'SYNE3', '09/08/2007', '08.801.621/0001-86', 'Desenvolvimento. locação. administração e operação de imóveis comerciais', 'BRADESCO']

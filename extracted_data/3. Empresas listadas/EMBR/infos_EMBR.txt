@@ -1,1 +1,1 @@
-[50, 'EMBR', 'EMBRAER', 'EMBR3', '07.689.002/0001-89', 'Projeto. desenvolvimento. fabricação. comercialização de aeronaves e sistemas e fornecimento de suporte e serviços de pós-venda.', 'Bens Industriais / Material de Transporte / Material Aeronáutico e de Defesa', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']
+['EMBR', 'EMBRAER', 'EMBR3', '05/06/2006', '07.689.002/0001-89', 'Projeto. desenvolvimento. fabricação. comercialização de aeronaves e sistemas e fornecimento de suporte e serviços de pós-venda.', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

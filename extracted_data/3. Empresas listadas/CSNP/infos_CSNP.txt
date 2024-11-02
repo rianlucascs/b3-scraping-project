@@ -1,1 +1,1 @@
-[37, 'CSNP', 'SINOPENERG', '', '', 'Não Classificados / Não Classificados / Não Classificado', 'https://ri.sinopenergia.com.br', 'EMPRESA']
+['CSNP', 'SINOPENERG', '', '19.527.586/0001-75', '', 'Não Classificados / Não Classificados / Não Classificado', 'EMPRESA']

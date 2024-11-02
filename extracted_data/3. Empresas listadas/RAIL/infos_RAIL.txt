@@ -1,0 +1,1 @@
+['RAIL', 'RUMO S.A.', 'RAIL3', '15/03/2004', '02.387.241/0001-60', 'Prestar serviços de transporte de cargas através dos modais ferroviário e rodoviário. dentre outros. isoladamente ou combinados entre si de forma intermodal ou multimodal. entre outros.', 'ITAU CORRETORA ACOES']

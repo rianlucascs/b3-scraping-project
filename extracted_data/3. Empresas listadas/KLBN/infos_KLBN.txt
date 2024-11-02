@@ -1,0 +1,1 @@
+['KLBN', 'KLABIN S/A', 'KLBN11', '02/01/2002', '89.637.490/0001-45', 'Empresa brasileira de base florestal. Produtora de papéis e cartões para embalagens. embalagens de papelão ondulado e sacos industriais. além de ser recicladora e produtora de toras para serrarias.', 'ITAU CORRETORA ACOES']

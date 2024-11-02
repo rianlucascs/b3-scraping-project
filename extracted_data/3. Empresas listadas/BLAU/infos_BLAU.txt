@@ -1,1 +1,1 @@
-[20, 'BLAU', 'BLAU', 'BLAU3', '58.430.828/0001-60', 'A Companhia dedica-se à fabricação. comercialização. pesquisa e desenvolvimento de medicamentos de alta complexidade.', 'Saúde / Comércio e Distribuição / Medicamentos e Outros Produtos', 'ITAU CORRETORA ACOES']
+['BLAU', '', 'BLAU3', '19/04/2021', '58.430.828/0001-60', 'A Companhia dedica-se à fabricação. comercialização. pesquisa e desenvolvimento de medicamentos de alta complexidade.', 'ITAU CORRETORA ACOES']

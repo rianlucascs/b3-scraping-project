@@ -1,1 +1,1 @@
-[11, 'APRB', 'AUTOREGIS', '', 'Concessionária de rodovias', 'Não Classificados / Não Classificado / Não Classificados', '', 'ITAU CORRETORA ACOES']
+['APRB', 'AUTOREGIS', '', '09.336.431/0001-06', 'Concessionária de rodovias', 'Não Classificados / Não Classificado / Não Classificados', 'ITAU CORRETORA ACOES']

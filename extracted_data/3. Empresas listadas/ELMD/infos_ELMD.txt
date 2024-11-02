@@ -1,1 +1,1 @@
-[50, 'ELMD', 'ELETROMIDIA', 'ELMD3', '09.347.516/0001-81', 'Prestação de serviços de distribuição e comercialização de painés eletrônicos e publicidade.', 'Comunicações / Mídia / Publicidade e Propaganda', 'ITAU CORRETORA ACOES']
+['ELMD', 'ELETROMIDIA', 'ELMD3', '17/02/2021', '09.347.516/0001-81', 'Prestação de serviços de distribuição e comercialização de painés eletrônicos e publicidade.', 'ITAU CORRETORA ACOES']

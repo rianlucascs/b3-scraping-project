@@ -1,0 +1,1 @@
+['SVEA', '', '', '40.263.170/0001-83', 'Gerenciamento e valorização de resíduos. bem como. prestação de serviços de atendimento a emergência.', 'Não Classificados / Não Classificado / Não Classificados', 'EMPRESA']

@@ -1,1 +1,1 @@
-[32, 'CMIG', 'CEMIG', 'CMIG4', '17.155.730/0001-64', 'Concessionária de serviço público de energia elétrica.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']
+['CMIG', 'CEMIG', 'CMIG4', '14/01/1972', '17.155.730/0001-64', 'Concessionária de serviço público de energia elétrica.', 'ITAU CORRETORA ACOES']

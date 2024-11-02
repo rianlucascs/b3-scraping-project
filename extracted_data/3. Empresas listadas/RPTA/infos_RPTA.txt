@@ -1,1 +1,1 @@
-[38, 'RPTA', 'CONC RAPOSO', '', '', 'Bens Industriais / Transporte / Exploração de Rodovias', 'www.cartsp.com.br/', 'BRADESCO']
+['RPTA', 'CONC RAPOSO', '', '10.531.501/0001-58', '', 'Bens Industriais / Transporte / Exploração de Rodovias', 'BRADESCO']

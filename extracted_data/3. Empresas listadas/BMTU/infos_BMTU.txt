@@ -1,0 +1,1 @@
+['BMTU', 'MSCIUSAMOM F', 'BMTU39', '', '', '', '']

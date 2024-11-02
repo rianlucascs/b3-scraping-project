@@ -1,0 +1,1 @@
+['LAND', 'TERRASANTAPA', 'LAND3', '02/08/2021', '40.337.136/0001-06', 'Aquisição. administração e arrendamento de propriedades rurais com potencial de geração de valor por meio da valorização de terras e da receita de arrendamento das mesmas.', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

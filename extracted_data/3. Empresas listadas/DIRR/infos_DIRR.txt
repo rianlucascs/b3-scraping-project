@@ -1,1 +1,1 @@
-[46, 'DIRR', 'DIRECIONAL', 'DIRR3', '16.614.075/0001-00', 'Incorporação. construção e comercialização de imóveis próprios ou de terceiros e prestação de serviços de engenharia.', 'Consumo Cíclico / Construção Civil / Incorporações', 'ITAU CORRETORA ACOES']
+['DIRR', 'DIRECIONAL', 'DIRR3', '19/11/2009', '16.614.075/0001-00', 'Incorporação. construção e comercialização de imóveis próprios ou de terceiros e prestação de serviços de engenharia.', 'ITAU CORRETORA ACOES']

@@ -1,1 +1,1 @@
-[55, 'EQTL', 'EQUATORIAL', 'EQTL3', '03.220.438/0001-73', 'Holding com participação em sociedades no setor de energia elétrica e saneamento.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']
+['EQTL', 'EQUATORIAL', 'EQTL3', '03/04/2006', '03.220.438/0001-73', 'Holding com participação em sociedades no setor de energia elétrica e saneamento.', 'ITAU CORRETORA ACOES']

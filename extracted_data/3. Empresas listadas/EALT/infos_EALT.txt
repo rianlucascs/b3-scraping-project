@@ -1,1 +1,1 @@
-[49, 'EALT', 'ACO ALTONA', 'EALT4', '82.643.537/0001-34', 'Fundição de Ferro e Aço', 'Bens Industriais / Máquinas e Equipamentos / Máq. e Equip. Industriais', 'ITAU CORRETORA ACOES']
+['EALT', 'ACO ALTONA', 'EALT4', '20/04/1974', '82.643.537/0001-34', 'Fundição de Ferro e Aço', 'ITAU CORRETORA ACOES']

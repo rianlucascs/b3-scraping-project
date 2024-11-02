@@ -1,1 +1,1 @@
-[55, 'CGOS', 'EQTL GOIAS', '', '', 'Não Classificados / Não Classificados / Não Classificado', 'www.celg.com.br', 'EMPRESA']
+['CGOS', 'EQTL GOIAS', '', '01.543.032/0001-04', '', 'Não Classificados / Não Classificados / Não Classificado', 'EMPRESA']

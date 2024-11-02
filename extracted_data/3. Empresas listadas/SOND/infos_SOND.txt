@@ -1,0 +1,1 @@
+['SOND', '', 'SOND5', '19/08/1980', '33.386.210/0001-19', 'Serviços de Engenharia.', 'ITAU CORRETORA ACOES']

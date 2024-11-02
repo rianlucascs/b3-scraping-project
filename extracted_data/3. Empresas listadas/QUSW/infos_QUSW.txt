@@ -1,0 +1,1 @@
+['QUSW', 'QUALITY SOFT', 'QUSW3', '11/02/2014', '35.791.391/0001-94', 'Serviços nos Setores de informática. auditoria de sistemas softwares; treinamentos.desenvolvimento de sistemas de suporte técnico; hardware e software em geral; design gráfico e editoração eletronica.', 'BRADESCO']

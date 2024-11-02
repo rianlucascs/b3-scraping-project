@@ -1,0 +1,1 @@
+['HETA', 'HERCULES', 'HETA4', '01/11/1968', '92.749.225/0001-63', 'Fabricação e a comercialização de toda a espécie de talheres e outros artigos de mesa para uso doméstico. artigos de adorno. beleza. higiene. móveis. material escolar. de escritório e profissional.', 'BRADESCO']

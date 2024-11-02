@@ -1,1 +1,1 @@
-['BEEF', '', 'BEEF3', '20/07/2007', '67.620.377/0001-14', 'Líder na América do Sul na exportação de carne bovina in natura e seus derivados. e que atua também no segmento de processados.', 'ITAU CORRETORA ACOES']
+['BEEF', 'MINERVA', 'BEEF3', '20/07/2007', '67.620.377/0001-14', 'Líder na América do Sul na exportação de carne bovina in natura e seus derivados. e que atua também no segmento de processados.', 'ITAU CORRETORA ACOES']

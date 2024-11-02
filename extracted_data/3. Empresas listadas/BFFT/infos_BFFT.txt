@@ -1,1 +1,1 @@
-[20, 'BFFT', 'BLUEFIT', '', 'Atividades de condicionamento físico', 'Não Classificados / Não Classificado / Não Classificados', 'www.bluefit.com.br', 'EMPRESA']
+['BFFT', 'BLUEFIT', '', '24.921.465/0001-43', 'Atividades de condicionamento físico', 'Não Classificados / Não Classificado / Não Classificados', 'EMPRESA']

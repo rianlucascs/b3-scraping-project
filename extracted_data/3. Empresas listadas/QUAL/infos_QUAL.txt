@@ -1,0 +1,1 @@
+['QUAL', 'QUALICORP', 'QUAL3', '29/06/2011', '11.992.680/0001-93', 'Prestação de serviços e gestão de benefícios de assistência à saúde.', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

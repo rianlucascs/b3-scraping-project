@@ -1,1 +1,1 @@
-[2, 'AESO', 'AESOPERACOES', 'AESO3', '00.194.724/0001-13', 'Geração e comercialização de energia elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']
+['AESO', 'AESOPERACOES', 'AESO3', '03/12/2021', '00.194.724/0001-13', 'Geração e comercialização de energia elétrica', 'ITAU CORRETORA ACOES']

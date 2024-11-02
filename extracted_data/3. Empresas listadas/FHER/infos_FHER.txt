@@ -1,1 +1,1 @@
-[58, 'FHER', 'FER HERINGER', 'FHER3', '22.266.175/0001-88', 'Produção. comercialização e distribuição de fertilizantes. com atuação nacional.', 'Materiais Básicos / Químicos / Fertilizantes e Defensivos', 'ITAU CORRETORA ACOES']
+['FHER', 'FER HERINGER', 'FHER3', '12/04/2007', '22.266.175/0001-88', 'Produção. comercialização e distribuição de fertilizantes. com atuação nacional.', 'ITAU CORRETORA ACOES']

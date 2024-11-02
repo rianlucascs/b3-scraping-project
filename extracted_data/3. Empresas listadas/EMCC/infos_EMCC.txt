@@ -1,1 +1,1 @@
-[50, 'EMCC', 'EMCCAMP', '', '', 'Não Classificados / Não Classificados / Não Classificado', 'https://emccamp.com.br/', 'ITAU CORRETORA ACOES']
+['EMCC', 'EMCCAMP', '', '19.403.252/0001-90', '', 'Não Classificados / Não Classificados / Não Classificado', 'ITAU CORRETORA ACOES']

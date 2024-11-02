@@ -1,1 +1,1 @@
-[38, 'AGRU', 'GRUAIRPORT', 'AGRU-DEB21', '15.578.569/0001-06', 'Concessão Aeroportuária', 'Bens Industriais / Transporte / Serviços de Apoio e Armazenagem', 'ITAU CORRETORA ACOES']
+['AGRU', '', 'AGRU-DEB21', '', '15.578.569/0001-06', 'Concessão Aeroportuária', 'ITAU CORRETORA ACOES']

@@ -1,1 +1,1 @@
-[32, 'CEDO', 'CEDRO', 'CEDO4', '17.245.234/0001-00', 'Indústria têxtil', 'Consumo Cíclico / Tecidos. Vestuário e Calçados / Fios e Tecidos', 'BRADESCO']
+['CEDO', 'CEDRO', 'CEDO4', '14/05/1981', '17.245.234/0001-00', 'Indústria têxtil', 'BRADESCO']

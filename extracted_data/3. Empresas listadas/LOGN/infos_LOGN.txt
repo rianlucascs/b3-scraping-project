@@ -1,0 +1,1 @@
+['LOGN', 'LOG-IN', 'LOGN3', '21/06/2007', '42.278.291/0001-24', 'A Log-In oferece soluções logísticas integradas através do transporte marítimo em navios porta-contêineres. terminal portuário. terminais intermodais e transporte rodoviário de curta distância.', 'ITAU CORRETORA ACOES']

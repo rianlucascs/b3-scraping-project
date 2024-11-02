@@ -1,1 +1,1 @@
-[46, 'DBEN', 'DIBENS LSG', '', 'Arrendamento Mercantil', 'Financeiro / Intermediários Financeiros / Soc. Arrendamento Mercantil', 'www.itau-unibanco.com.br/dibensleasing', 'DIBENS LEASING S.A. - ARREND.MERCANTIL']
+['DBEN', 'DIBENS LSG', '', '65.654.303/0001-73', 'Arrendamento Mercantil', 'Financeiro / Intermediários Financeiros / Soc. Arrendamento Mercantil', 'DIBENS LEASING S.A. - ARREND.MERCANTIL']

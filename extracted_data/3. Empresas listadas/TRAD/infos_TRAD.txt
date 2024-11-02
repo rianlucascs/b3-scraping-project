@@ -1,0 +1,1 @@
+['TRAD', '', 'TRAD3', '28/07/2021', '26.345.998/0001-50', 'Desenvolvimento e gestão de plataformas para oferecer produtos e serviços para o mercado financeiro.', 'ITAU CORRETORA ACOES']

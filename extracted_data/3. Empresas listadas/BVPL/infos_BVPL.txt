@@ -1,1 +1,1 @@
-[21, 'BVPL', 'VIPAL', '', 'A Companhia dedica-se a fabricação. reforma e reparo de pneus.', 'Não Classificados / Não Classificado / Não Classificados', 'www.vipal.com.br', 'BRADESCO']
+['BVPL', 'VIPAL', '', '87.870.952/0001-44', 'A Companhia dedica-se a fabricação. reforma e reparo de pneus.', 'Não Classificados / Não Classificado / Não Classificados', 'BRADESCO']

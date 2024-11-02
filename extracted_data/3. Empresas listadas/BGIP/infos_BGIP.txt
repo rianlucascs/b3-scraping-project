@@ -1,1 +1,1 @@
-[18, 'BGIP', 'BANESE', 'BGIP4', '13.009.717/0001-46', '', 'Financeiro / Intermediários Financeiros / Bancos', 'BCO ESTADO DE SERGIPE S.A. - BANESE']
+['BGIP', 'BANESE', 'BGIP4', '26/08/1988', '13.009.717/0001-46', '', 'BCO ESTADO DE SERGIPE S.A. - BANESE']

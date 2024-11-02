@@ -1,1 +1,1 @@
-[17, 'BEES', 'BANESTES', 'BEES4', '28.127.603/0001-78', 'Intermediação Financeira inerente aos Bancos Múltiplos por meio das carteiras autorizadas. inclusive Operações de Câmbio.', 'Financeiro / Intermediários Financeiros / Bancos', 'ITAUBANCO - ACOES']
+['BEES', '', 'BEES4', '20/07/1977', '28.127.603/0001-78', 'Intermediação Financeira inerente aos Bancos Múltiplos por meio das carteiras autorizadas. inclusive Operações de Câmbio.', 'ITAUBANCO - ACOES']

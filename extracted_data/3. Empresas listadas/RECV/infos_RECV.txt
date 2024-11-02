@@ -1,0 +1,1 @@
+['RECV', 'PETRORECSA', 'RECV3', '05/05/2021', '03.342.704/0001-30', 'Exploração e produção de petróleo e gás natural', 'ITAU CORRETORA ACOES']

@@ -1,1 +1,1 @@
-[40, 'IVIA', 'RODPAULISTA', '', 'Concessionaria de Rodovias', 'Não Classificados / Não Classificado / Não Classificados', '', 'ITAU CORRETORA ACOES']
+['IVIA', 'RODPAULISTA', '', '03.207.703/0001-83', 'Concessionaria de Rodovias', 'Não Classificados / Não Classificado / Não Classificados', 'ITAU CORRETORA ACOES']

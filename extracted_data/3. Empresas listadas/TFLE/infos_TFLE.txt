@@ -1,0 +1,1 @@
+['TFLE', 'LOCALFLEET', '', '02.286.479/0001-08', 'Gestão de frotas', 'Não Classificados / Não Classificados / Não Classificado', 'EMPRESA']

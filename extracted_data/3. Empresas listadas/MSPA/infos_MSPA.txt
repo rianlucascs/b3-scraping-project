@@ -1,1 +1,1 @@
-[32, 'MSPA', 'MELHOR SP', 'MSPA4', '60.730.348/0001-66', '', 'Materiais Básicos / Madeira e Papel / Papel e Celulose', 'BRADESCO']
+['MSPA', 'MELHOR SP', 'MSPA4', '08/08/1910', '60.730.348/0001-66', '', 'BRADESCO']

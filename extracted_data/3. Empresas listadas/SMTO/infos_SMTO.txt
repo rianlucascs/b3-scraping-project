@@ -1,0 +1,1 @@
+['SMTO', '', 'SMTO3', '12/02/2007', '51.466.860/0001-56', 'Fabricação e comércio de açúcar. álcool e derivados.', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

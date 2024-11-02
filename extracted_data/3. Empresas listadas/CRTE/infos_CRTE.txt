@@ -1,1 +1,1 @@
-[39, 'CRTE', 'CONC RIO TER', 'CRTE5', '00.938.574/0001-05', 'Administração. Operação e Conservação de Rodovia', 'Bens Industriais / Transporte / Exploração de Rodovias', 'CONCESSIONARIA RIO-TERESOPOLIS S.A.']
+['CRTE', 'CONC RIO TER', 'CRTE5', '11/10/2023', '00.938.574/0001-05', 'Administração. Operação e Conservação de Rodovia', 'CONCESSIONARIA RIO-TERESOPOLIS S.A.']

@@ -1,0 +1,1 @@
+['LETS', '', '', '00.873.894/0001-24', 'Transporte de passageiros e locação de automóveis com motorista. locação de automóveis sem condutor e de outros meios de transporte não especificados anteriormente. sem condutor.', 'Consumo Cíclico / Diversos / Aluguel de carros', 'BRADESCO']

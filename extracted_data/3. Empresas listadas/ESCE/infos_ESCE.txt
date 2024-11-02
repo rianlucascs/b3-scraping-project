@@ -1,1 +1,1 @@
-[49, 'ESCE', 'ESCELSA', '', 'Distribuição de energia elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.escelsa.com.br', 'ITAUBANCO - ACOES']
+['ESCE', 'ESCELSA', '', '28.152.650/0001-71', 'Distribuição de energia elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAUBANCO - ACOES']

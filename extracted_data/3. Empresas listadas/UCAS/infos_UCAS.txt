@@ -1,0 +1,1 @@
+['UCAS', '', 'UCAS3', '27/04/2012', '90.441.460/0001-48', 'Indústria. comércio. prestação de serviços. importação e exportação de produtos relacionados ao ramo de mobiliário em geral. planejado e modulado de madeira. ferro. aço. alumínio e outros materiais.', 'BRADESCO']

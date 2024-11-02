@@ -1,0 +1,1 @@
+['OCTS', 'OCTANTE SEC', '', '12.139.922/0001-63', 'Securitização de direitos creditórios imobiliários e do agronegócio. emissão de Certificados de Recebíveis Imobiliários e Certificados de Recebíveis do Agronegócio', 'Financeiro / Securitizadoras de Recebíveis / Securitizadoras de Recebíveis', 'BNY MELLON SERVIÇOS FINANCEIROS DTVM S.A']

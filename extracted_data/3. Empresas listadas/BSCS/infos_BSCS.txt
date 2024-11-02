@@ -1,1 +1,1 @@
-[23, 'BSCS', 'BRAZILIAN SC', 'BSCS-CRIT2B0', '03.767.538/0001-14', '', 'Financeiro / Securitizadoras de Recebíveis / Securitizadoras de Recebíveis', 'BRAZILIAN SECURITIES CIA SECURITIZACAO']
+['BSCS', 'BRAZILIAN SC', 'BSCS-CRIT2B0', '', '03.767.538/0001-14', '', 'BRAZILIAN SECURITIES CIA SECURITIZACAO']

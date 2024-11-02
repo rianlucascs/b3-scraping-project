@@ -1,1 +1,1 @@
-['ATOM', '', 'ATOM3', '28/02/2000', '00.359.742/0001-08', 'Holding de instituições não financeiras.', 'BRADESCO']
+['ATOM', 'ATOMPAR', 'ATOM3', '28/02/2000', '00.359.742/0001-08', 'Holding de instituições não financeiras.', 'BRADESCO']

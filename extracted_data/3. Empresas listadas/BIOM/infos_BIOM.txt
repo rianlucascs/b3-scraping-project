@@ -1,1 +1,1 @@
-[20, 'BIOM', 'BIOMM', 'BIOM3', '04.752.991/0001-10', 'Empresa brasileira com sua atividade focada no desenvolvimento e comercialização de medicamentos biotecnológicos por meio de parcerias estratégicas e fábrica própria.', 'Saúde / Medicamentos e Outros Produtos / Medicamentos e Outros Produtos', 'ITAU CORRETORA ACOES']
+['BIOM', 'BIOMM', 'BIOM3', '03/02/2014', '04.752.991/0001-10', 'Empresa brasileira com sua atividade focada no desenvolvimento e comercialização de medicamentos biotecnológicos por meio de parcerias estratégicas e fábrica própria.', 'ITAU CORRETORA ACOES']

@@ -1,0 +1,1 @@
+['LGTE', 'LIGHTENERG', '', '01.917.818/0001-36', '', 'Não Classificados / Não Classificados / Não Classificado', 'EMPRESA']

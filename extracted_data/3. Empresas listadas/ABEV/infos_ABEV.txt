@@ -1,1 +1,1 @@
-[7, 'ABEV', 'AMBEV S/A', 'ABEV3', '07.526.557/0001-00', 'Fabricação e distribuição de cervejas. refrigerantes e bebidas não carbonatadas e não alcoólicas.', 'Consumo não Cíclico / Bebidas / Cervejas e Refrigerantes', 'BRADESCO']
+['ABEV', 'AMBEV S/A', 'ABEV3', '11/11/2013', '07.526.557/0001-00', 'Fabricação e distribuição de cervejas. refrigerantes e bebidas não carbonatadas e não alcoólicas.', 'BRADESCO']

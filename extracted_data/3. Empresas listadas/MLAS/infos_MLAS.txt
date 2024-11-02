@@ -1,0 +1,1 @@
+['MLAS', 'MULTILASER', 'MLAS3', '22/07/2021', '59.717.553/0001-02', 'Fabricação de periféricos para equipamentos de informática', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

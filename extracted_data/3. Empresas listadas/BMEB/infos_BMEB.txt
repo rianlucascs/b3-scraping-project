@@ -1,1 +1,1 @@
-[18, 'BMEB', 'MERCANTIL', 'BMEB4', '17.184.037/0001-10', 'Finanças. Banco Múltiplo', 'Financeiro / Intermediários Financeiros / Bancos', 'BANCO MERCANTIL DO BRASIL S.A.']
+['BMEB', '', 'BMEB4', '20/07/1977', '17.184.037/0001-10', 'Finanças. Banco Múltiplo', 'BANCO MERCANTIL DO BRASIL S.A.']

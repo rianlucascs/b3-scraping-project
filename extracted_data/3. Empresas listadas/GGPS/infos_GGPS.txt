@@ -1,0 +1,1 @@
+['GGPS', 'GPS', 'GGPS3', '26/04/2021', '09.229.201/0001-30', 'Administração patrimonial de bens e interesses próprios e de suas subsidiárias e coligadas; participação em empreendimentos comerciais e industriais; participação como acionista ou sócia de sociedade', 'ITAU CORRETORA ACOES']

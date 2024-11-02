@@ -1,1 +1,1 @@
-[48, 'ECOR', 'ECORODOVIAS', 'ECOR3', '04.149.454/0001-80', 'Exploração direta ou indireta de negócios de concessão de obras e serviços públicos e organização logísitica do transporte de carga.', 'Bens Industriais / Transporte / Exploração de Rodovias', 'ITAU CORRETORA ACOES']
+['ECOR', 'ECORODOVIAS', 'ECOR3', '01/04/2010', '04.149.454/0001-80', 'Exploração direta ou indireta de negócios de concessão de obras e serviços públicos e organização logísitica do transporte de carga.', 'ITAU CORRETORA ACOES']

@@ -1,1 +1,1 @@
-[55, 'EQPA', 'EQTL PARA', 'EQPA5', '04.895.728/0001-80', 'Distribuição de energia elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']
+['EQPA', 'EQTL PARA', 'EQPA5', '13/07/1999', '04.895.728/0001-80', 'Distribuição de energia elétrica', 'ITAU CORRETORA ACOES']

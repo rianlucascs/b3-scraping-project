@@ -1,1 +1,1 @@
-[39, 'CRBD', 'RT BANDEIRAS', '', 'Exploração. sob o regime de concessão. do sistema rodoviário constituído pela malha rodoviária estadual do Corredor Dom Pedro I', 'Bens Industriais / Transporte / Exploração de Rodovias', 'www.rotadasbandeiras.com.br/ri', 'BRADESCO']
+['CRBD', 'RT BANDEIRAS', '', '10.647.979/0001-48', 'Exploração. sob o regime de concessão. do sistema rodoviário constituído pela malha rodoviária estadual do Corredor Dom Pedro I', 'Bens Industriais / Transporte / Exploração de Rodovias', 'BRADESCO']

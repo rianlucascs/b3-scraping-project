@@ -1,1 +1,1 @@
-[39, 'ASCP', 'ECOPISTAS', '', 'Concessão e exploração de rodovias.', 'Bens Industriais / Transporte / Exploração de Rodovias', 'www.ecopistas.com.br', 'ITAU CORRETORA ACOES']
+['ASCP', 'ECOPISTAS', '', '10.841.050/0001-55', 'Concessão e exploração de rodovias.', 'Bens Industriais / Transporte / Exploração de Rodovias', 'ITAU CORRETORA ACOES']

@@ -1,0 +1,1 @@
+['TEKA', '', 'TEKA4', '21/04/1988', '82.636.986/0001-55', 'Fabricação de artigos de Cama. Mesa e Banho', 'BRADESCO']

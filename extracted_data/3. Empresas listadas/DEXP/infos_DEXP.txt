@@ -1,1 +1,1 @@
-[46, 'DEXP', 'DEXXOS PAR', 'DEXP4', '02.193.750/0001-52', 'Holding de instituições não-financeiras', 'Materiais Básicos / Químicos / Petroquímicos', 'ITAU CORRETORA ACOES']
+['DEXP', 'DEXXOS PAR', 'DEXP4', '23/03/2000', '02.193.750/0001-52', 'Holding de instituições não-financeiras', 'ITAU CORRETORA ACOES']

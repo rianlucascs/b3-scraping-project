@@ -1,1 +1,1 @@
-[53, 'EGLT', 'ENGELHART', '', '', 'Consumo não Cíclico / Agropecuária / Agricultura', 'ectpbrasil.com', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']
+['EGLT', 'ENGELHART', '', '14.796.754/0001-04', '', 'Consumo não Cíclico / Agropecuária / Agricultura', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

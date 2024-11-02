@@ -1,0 +1,1 @@
+['GRAO', 'AGRIBRASIL', 'GRAO3', '21/06/2021', '18.483.666/0001-03', 'Venda. compra. revenda e distribuição de produtos in natura de origem vegetal (cereais e grãos). a granel ou em contêineres. no/para o mercado interno e externo.', 'EMPRESA']

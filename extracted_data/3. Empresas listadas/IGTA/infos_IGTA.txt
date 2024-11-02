@@ -1,0 +1,1 @@
+['IGTA', 'IGUATEMI', '', '51.218.147/0001-93', 'Empresa full service no setor de shopping centers. Suas atividades englobam a concepção. o planejamento. o desenvolvimento e a administração de shopping centers regionais e complexos imobiliários.', 'Financeiro / Exploração de Imóveis / Exploração de Imóveis', 'ITAU CORRETORA ACOES']

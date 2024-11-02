@@ -1,0 +1,1 @@
+['TCSA', 'TECNISA', 'TCSA3', '01/02/2007', '08.065.557/0001-12', 'Incorporação. compra e venda de imóveis prontos e a construir. locação e administração de bens imóveis. construção de imóveis e a prestação de serviço de consultoria imobiliária.', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

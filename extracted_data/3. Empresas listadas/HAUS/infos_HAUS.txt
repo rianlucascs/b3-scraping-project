@@ -1,0 +1,1 @@
+['HAUS', 'HAUSCENTER', '', '56.444.250/0001-75', 'ALUGUEL DE IMÓVEIS', 'Não Classificados / Não Classificados / Não Classificado', 'EMPRESA']

@@ -1,1 +1,1 @@
-[18, 'BPAN', 'BANCO PAN', 'BPAN4', '59.285.411/0001-13', 'Banco múltiplo com carteira comercial', 'Financeiro / Intermediários Financeiros / Bancos', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']
+['BPAN', 'BANCO PAN', 'BPAN4', '19/11/2007', '59.285.411/0001-13', 'Banco múltiplo com carteira comercial', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

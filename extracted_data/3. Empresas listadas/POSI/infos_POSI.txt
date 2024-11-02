@@ -1,0 +1,1 @@
+['POSI', 'POSITIVO TEC', 'POSI3', '11/12/2006', '81.243.735/0001-48', 'Fabricação de hardware.', 'ITAU CORRETORA ACOES']

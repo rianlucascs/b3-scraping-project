@@ -1,0 +1,1 @@
+['GGBR', 'GERDAU', 'GGBR4', '01/02/2001', '33.611.500/0001-19', 'Participação e Administração', 'ITAU CORRETORA ACOES']

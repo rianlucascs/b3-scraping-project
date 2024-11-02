@@ -1,1 +1,1 @@
-[52, 'ENMT', 'ENERGISA MT', 'ENMT4', '03.467.321/0001-99', 'Distribuição de energia elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']
+['ENMT', 'ENERGISA MT', 'ENMT4', '14/06/1995', '03.467.321/0001-99', 'Distribuição de energia elétrica', 'ITAU CORRETORA ACOES']

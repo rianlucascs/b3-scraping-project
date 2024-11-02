@@ -1,0 +1,1 @@
+['POMO', 'MARCOPOLO', 'POMO4', '24/04/1978', '88.611.835/0001-29', 'Indústria e comércio de ônibus e carrocerias para ônibus. suas partes. peças e componentes', 'BRADESCO']

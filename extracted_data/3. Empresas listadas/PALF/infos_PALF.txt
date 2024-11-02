@@ -1,1 +1,1 @@
-[32, 'PALF', 'PAUL F LUZ', '', 'Prestação de Serviço Público de Distribuição de Energia Elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.cpfl.com.br', 'BRASIL']
+['PALF', 'PAUL F LUZ', '', '33.050.196/0001-88', 'Prestação de Serviço Público de Distribuição de Energia Elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'BRASIL']

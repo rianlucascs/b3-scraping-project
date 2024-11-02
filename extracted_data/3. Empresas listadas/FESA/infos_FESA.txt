@@ -1,1 +1,1 @@
-[32, 'FESA', 'FERBASA', 'FESA4', '15.141.799/0001-03', 'Fabricação e comercialização dos diversos tipos de ferroligas', 'Materiais Básicos / Siderurgia e Metalurgia / Siderurgia', 'ITAU CORRETORA ACOES']
+['FESA', 'FERBASA', 'FESA4', '01/01/1977', '15.141.799/0001-03', 'Fabricação e comercialização dos diversos tipos de ferroligas', 'ITAU CORRETORA ACOES']

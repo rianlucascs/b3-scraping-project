@@ -1,0 +1,1 @@
+['LIGH', 'LIGHT', 'LIGH-DEBE1', '', '60.444.437/0001-46', 'A LIGHT \x96 Serviços de Eletricidade S.A. tem como atividade a distribuição de energia elétrica.', 'BRADESCO']

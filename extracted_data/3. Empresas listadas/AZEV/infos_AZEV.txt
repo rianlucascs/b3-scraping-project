@@ -1,1 +1,1 @@
-[12, 'AZEV', 'AZEVEDO', 'AZEV4', '61.351.532/0001-68', 'Execução de obras de construção pesada junto à órgãos púbicos e iniciativa privada.', 'Bens Industriais / Construção e Engenharia / Construção Pesada', 'ITAU CORRETORA ACOES']
+['AZEV', 'AZEVEDO', 'AZEV4', '11/09/1984', '61.351.532/0001-68', 'Execução de obras de construção pesada junto à órgãos púbicos e iniciativa privada.', 'ITAU CORRETORA ACOES']

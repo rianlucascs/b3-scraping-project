@@ -1,0 +1,1 @@
+['PETR', 'PETROBRAS', 'PETR4', '20/07/1977', '33.000.167/0001-01', 'Pesquisa. lavra. refinação. processamento. comércio e transporte de petróleo. de seus derivados. de gás natural e de outros hidrocarbonetos fluidos. além das atividades vinculadas à energia.', 'BRADESCO']

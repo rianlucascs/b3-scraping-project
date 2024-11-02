@@ -1,1 +1,1 @@
-[7, 'AMER', 'AMERICANAS', 'AMER3', '00.776.574/0001-56', 'Comércio varejista e atacadista em geral de quaisquer bens e serviços por meio de diversos meios. em especial. da Internet e de lojas físicas. sem restrição a outros meios.', 'Consumo Cíclico / Comércio / Produtos Diversos', 'ITAU CORRETORA ACOES']
+['AMER', 'AMERICANAS', 'AMER3', '08/08/2007', '00.776.574/0001-56', 'Comércio varejista e atacadista em geral de quaisquer bens e serviços por meio de diversos meios. em especial. da Internet e de lojas físicas. sem restrição a outros meios.', 'ITAU CORRETORA ACOES']

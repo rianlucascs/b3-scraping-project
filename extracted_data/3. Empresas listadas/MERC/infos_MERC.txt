@@ -1,0 +1,1 @@
+['MERC', 'MERC FINANC', 'MERC4', '09/05/1983', '33.040.601/0001-87', 'Crédito. Financiamento e Investimento', 'BANCO MERCANTIL DO BRASIL S.A.']

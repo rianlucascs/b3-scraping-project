@@ -1,1 +1,1 @@
-[52, 'ENER', 'ENERSUL', '', 'Distribuição de energia elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.enersul.com.br', 'ITAUBANCO - ACOES']
+['ENER', 'ENERSUL', '', '15.413.826/0001-50', 'Distribuição de energia elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAUBANCO - ACOES']

@@ -1,1 +1,1 @@
-[25, 'CAEC', 'CAGECE', '', 'Captação. tratamento e distribuição de água', 'Não Classificados / Não Classificado / Não Classificados', 'www.cagece.com.br', 'EMPRESA']
+['CAEC', 'CAGECE', '', '07.040.108/0001-57', 'Captação. tratamento e distribuição de água', 'Não Classificados / Não Classificado / Não Classificados', 'EMPRESA']

@@ -1,1 +1,1 @@
-[18, 'ABCB', 'ABC BRASIL', 'ABCB4', '28.195.667/0001-06', 'O Banco tem por objeto a prática de operações ativas. passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.', 'Financeiro / Intermediários Financeiros / Bancos', 'ITAU CORRETORA ACOES']
+['ABCB', '', 'ABCB4', '25/07/2007', '28.195.667/0001-06', 'O Banco tem por objeto a prática de operações ativas. passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.', 'ITAU CORRETORA ACOES']

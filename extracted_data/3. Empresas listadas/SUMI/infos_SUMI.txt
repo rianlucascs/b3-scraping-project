@@ -1,0 +1,1 @@
+['SUMI', 'GIGAMAIS', '', '07.714.104/0001-07', 'A atividade principal da Companhia são os serviços de comunicação multimídia. atividade secundária serviços de telefonia comutada. construção e manutenção de redes de telecomunicação. dentre outras.', 'Comunicações / Telecomunicações / Telecomunicações', 'OLIVEIRA TRUST']

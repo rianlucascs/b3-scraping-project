@@ -1,1 +1,1 @@
-[49, 'ENBR', 'ENERGIAS BR', '', 'Área de Negócios: Geração. Distribuição. Transmissão e Comercialização de Energia Elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.edpbr.com.br', 'ITAU CORRETORA ACOES']
+['ENBR', 'ENERGIAS BR', '', '03.983.431/0001-03', 'Área de Negócios: Geração. Distribuição. Transmissão e Comercialização de Energia Elétrica', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'ITAU CORRETORA ACOES']

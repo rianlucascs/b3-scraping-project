@@ -1,0 +1,1 @@
+['WEST', 'WESTWING', 'WEST3', '11/02/2021', '14.776.142/0001-50', 'Comércio físico e digital varejista de móveis e artigos domésticos em geral. vestuário e bens e acessórios de uso pessoal; serviços de design de interiores e arquitetura.', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

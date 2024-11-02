@@ -1,1 +1,1 @@
-[27, 'CCRO', 'CCR SA', 'CCRO3', '02.846.056/0001-97', 'Prestadora de serviços públicos por meio de concessões rodoviária. metroviária e aeroportuária. além de prestação de serviços de meio de pagamentos e outros.', 'Bens Industriais / Transporte / Exploração de Rodovias', 'ITAU CORRETORA ACOES']
+['CCRO', 'CCR SA', 'CCRO3', '01/02/2002', '02.846.056/0001-97', 'Prestadora de serviços públicos por meio de concessões rodoviária. metroviária e aeroportuária. além de prestação de serviços de meio de pagamentos e outros.', 'ITAU CORRETORA ACOES']

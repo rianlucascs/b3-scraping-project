@@ -1,0 +1,1 @@
+['KEPL', 'KEPLER WEBER', 'KEPL3', '13/02/1981', '91.983.056/0001-69', 'Indústria e comércio de produtos e matérias primas relacionadas a metalurgia. importação e exportação. prestação de serviços. comércio de produtos destinados a agroindústria.', 'ITAU CORRETORA ACOES']

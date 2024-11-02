@@ -1,0 +1,1 @@
+['CASH', 'MELIUZ', 'CASH3', '05/11/2020', '14.110.585/0001-07', 'Portal virtual para veiculação e divulgação de marcas. produtos e outros materiais. locação de espaço publicitário. intermediação de negócios. licenciamento de softwares e participação em sociedades.', 'ITAU CORRETORA ACOES']

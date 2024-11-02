@@ -1,0 +1,1 @@
+['VLID', 'VALID', 'VLID3', '27/04/2006', '33.113.309/0001-47', 'Integração de Soluções de Identificação Segura. físicas e digitais. para os ecossistemas de ID & Governo Digital. Banking & Meios de Pagamento e Conectividade Segura.', 'ITAU CORRETORA ACOES']

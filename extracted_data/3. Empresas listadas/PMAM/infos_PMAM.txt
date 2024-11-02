@@ -1,0 +1,1 @@
+['PMAM', 'PARANAPANEMA', 'PMAM3', '15/03/1971', '60.398.369/0004-79', 'Metalurgia do cobre e suas ligas', 'BRADESCO']

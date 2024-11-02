@@ -1,1 +1,1 @@
-[1, 'SIVR', 'ABDEN SILV', 'SIVR39', '', '', '', '']
+['SIVR', 'ABDEN SILV', 'SIVR39', '', '', '', '']

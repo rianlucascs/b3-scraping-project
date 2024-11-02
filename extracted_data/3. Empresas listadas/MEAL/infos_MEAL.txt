@@ -1,0 +1,1 @@
+['MEAL', 'IMC S/A', 'MEAL3', '31/03/2015', '17.314.329/0001-20', 'Setor de Varejo de Alimentação', 'ITAU CORRETORA ACOES']

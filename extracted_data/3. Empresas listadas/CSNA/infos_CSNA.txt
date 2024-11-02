@@ -1,1 +1,1 @@
-[33, 'CSNA', 'SID NACIONAL', 'CSNA3', '33.042.730/0001-04', 'A Companhia Siderúrgica Nacional atua nos setores de mineração. siderurgia. logística. cimento e energia.', 'Materiais Básicos / Siderurgia e Metalurgia / Siderurgia', 'BRADESCO']
+['CSNA', 'SID NACIONAL', 'CSNA3', '02/08/1993', '33.042.730/0001-04', 'A Companhia Siderúrgica Nacional atua nos setores de mineração. siderurgia. logística. cimento e energia.', 'BRADESCO']

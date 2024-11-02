@@ -1,0 +1,1 @@
+['REDE', 'REDE ENERGIA', 'REDE3', '21/06/2006', '61.584.140/0001-49', 'Participação em outras empresas (A Rede Energia Participações é uma holding)', 'ITAU CORRETORA ACOES']

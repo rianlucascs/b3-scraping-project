@@ -1,1 +1,1 @@
-[32, 'CHSF', 'CHESF', '', 'Produção e Transmissão de Energia Elétrica', 'Não Classificados / Não Classificado / Não Classificados', '', 'EMPRESA']
+['CHSF', 'CHESF', '', '33.541.368/0001-16', 'Produção e Transmissão de Energia Elétrica', 'Não Classificados / Não Classificado / Não Classificados', 'EMPRESA']

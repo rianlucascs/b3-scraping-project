@@ -1,0 +1,1 @@
+['VAMO', '', 'VAMO3', '29/01/2021', '23.373.000/0001-32', 'Locação e venda de caminhões. máquinas e equipamentos pesados e a prestação de serviços de manutenção de frota. tanto preventiva. quanto corretiva.', 'BRADESCO']

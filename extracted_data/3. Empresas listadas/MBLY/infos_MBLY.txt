@@ -1,0 +1,1 @@
+['MBLY', 'MOBLY', 'MBLY3', '05/02/2021', '31.553.627/0001-01', 'Intermediação. importação. exportação e comércio varejista de móveis e artigos domésticos em geral; serviços de montagem; comércio varejista de materiais de construção em geral; e outros.', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

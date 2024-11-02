@@ -1,1 +1,1 @@
-[18, 'BAZA', 'AMAZONIA', 'BAZA3', '04.902.979/0001-44', '', 'Financeiro / Intermediários Financeiros / Bancos', 'BRADESCO']
+['BAZA', '', 'BAZA3', '20/07/1977', '04.902.979/0001-44', '', 'BRADESCO']

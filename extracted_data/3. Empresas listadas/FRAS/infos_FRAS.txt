@@ -1,0 +1,1 @@
+['FRAS', 'FRAS-LE', 'FRAS3', '01/10/2002', '88.610.126/0001-29', 'Fabricação de peças e acessórios para o sistema de freios de veículos automotores', 'ITAU CORRETORA ACOES']

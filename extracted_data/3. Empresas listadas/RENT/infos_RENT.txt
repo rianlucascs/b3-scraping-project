@@ -1,0 +1,1 @@
+['RENT', 'LOCALIZA', 'RENT3', '23/05/2005', '16.670.085/0001-55', 'Aluguel de carros e gestão de frotas', 'ITAU CORRETORA ACOES']

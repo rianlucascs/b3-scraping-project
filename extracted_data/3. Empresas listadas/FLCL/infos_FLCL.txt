@@ -1,1 +1,1 @@
-[52, 'FLCL', 'ENERGISAMRIO', '', 'Concessionária de serviço público de distribuição de energia.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'www.cataguazes.com.br', 'EMPRESA']
+['FLCL', 'ENERGISAMRIO', '', '19.527.639/0001-58', 'Concessionária de serviço público de distribuição de energia.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'EMPRESA']

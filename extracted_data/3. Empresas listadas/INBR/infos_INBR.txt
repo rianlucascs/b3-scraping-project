@@ -1,0 +1,1 @@
+['INBR', 'INTER CO', 'INBR32', '', '42.737.954/0001-21', 'Holding de instituições financeiras.', '']

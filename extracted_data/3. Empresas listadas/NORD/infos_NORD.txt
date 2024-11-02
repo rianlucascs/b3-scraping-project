@@ -1,0 +1,1 @@
+['NORD', 'NORDON MET', 'NORD3', '28/04/1988', '60.884.319/0001-59', 'A Sociedade tem como atividade operacional preponderante a produção de bens de capital destinados ao mercado interno e externo para os setores químico. petrolífero. petroquímico. criogenia. alimentíci', 'BRADESCO']

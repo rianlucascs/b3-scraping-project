@@ -1,0 +1,1 @@
+['MRSA', 'MRS LOGIST', 'MRSA5B', '18/12/1998', '01.417.222/0001-77', 'Serviços de Transporte Ferroviário de Cargas', 'BRADESCO']

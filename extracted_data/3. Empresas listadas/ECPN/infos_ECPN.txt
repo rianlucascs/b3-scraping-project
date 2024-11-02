@@ -1,1 +1,1 @@
-[40, 'ECPN', 'ECOPONTE', '', 'Concessão e Exploração de Rodovias', 'Não Classificados / Não Classificados / Não Classificado', '', 'EMPRESA']
+['ECPN', 'ECOPONTE', '', '22.163.297/0001-49', 'Concessão e Exploração de Rodovias', 'Não Classificados / Não Classificados / Não Classificado', 'EMPRESA']

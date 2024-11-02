@@ -1,0 +1,1 @@
+['MNPR', 'MINUPAR', 'MNPR3', '27/12/1990', '90.076.886/0001-40', 'Participação em outras empresas. bem como criação. abate. industrialização. comercialização. importação e exportação de carnes e produtos derivados de aves. e prestação de serviços a terceiros.', 'ITAU CORRETORA ACOES']

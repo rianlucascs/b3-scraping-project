@@ -1,0 +1,1 @@
+['LXIN', 'XINGU', '', '10.240.186/0001-00', 'A exploração de concessões de serviços públicos de transmissão de energia elétrica. prestados mediante a implantação. construção. montagem. operação e manutenção de instalações de transmissão.', 'Não Classificados / Não Classificados / Não Classificado', 'EMPRESA']

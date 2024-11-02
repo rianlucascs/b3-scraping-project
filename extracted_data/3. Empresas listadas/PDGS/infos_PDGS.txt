@@ -1,0 +1,1 @@
+['PDGS', 'PDG SECURIT', '', '09.538.973/0001-53', 'Securitização de recebíveis imobiliários.', 'Financeiro / Securitizadoras de Recebíveis / Securitizadoras de Recebíveis', 'PDG COMPANHIA SECURITIZADORA']

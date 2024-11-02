@@ -1,1 +1,1 @@
-[50, 'ELRV', 'ELETRORIVERS', '', '', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', '', 'OLIVEIRA TRUST']
+['ELRV', 'ELETRORIVERS', '', '01.968.293/0001-68', '', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'OLIVEIRA TRUST']

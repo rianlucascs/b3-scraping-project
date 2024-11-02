@@ -1,0 +1,1 @@
+['INEP', 'INEPAR', 'INEP4', '13/12/1985', '76.627.504/0001-06', 'Fabricação de equipamentos e sistemas elétricos . fabricação de torres e acessórios para transmissão de energia e telecomunicações. fabricação de bens de capital e sitemas industriais sob encomenda.', 'BRADESCO']

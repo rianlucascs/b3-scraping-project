@@ -2,12 +2,10 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-
 from time import sleep
-from os.path import join, exists, splitext
+from os.path import join, exists
 from os import makedirs, listdir, remove
 import config
 from selenium.common.exceptions import (
@@ -17,6 +15,7 @@ from selenium.common.exceptions import (
     WebDriverException,
 )
 from typing import List
+import config
 
 __python__ = 3.10
 
@@ -263,18 +262,10 @@ class Extract:
 
         :raises Exception: Levanta exceções gerais em caso de falhas durante a interação com o navegador 
                         ou ao acessar elementos na página.
-        """
-        options = Options()
-        options.add_argument("--start-maximized") 
-        options.add_argument("--disable-infobars")  
-        options.add_argument("--disable-extensions")  
-        options.add_argument("--incognito")  
-        options.add_argument("--disable-gpu")  
-        options.add_argument("--no-sandbox")  
-        options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36")  
+        """ 
         try:
             
-            with webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options) as driver:
+            with webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=config.options) as driver:
                 driver.get(config.url)
                 sleep(3)
                 total_paginas = self.get_quantidade_de_paginas(driver)

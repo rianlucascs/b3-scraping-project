@@ -1,1 +1,1 @@
-[32, 'COCE', 'COELCE', 'COCE5', '07.047.251/0001-70', 'Distribuição de energia elétrica.', 'Utilidade Pública / Energia Elétrica / Energia Elétrica', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']
+['COCE', 'COELCE', 'COCE5', '09/10/1995', '07.047.251/0001-70', 'Distribuição de energia elétrica.', 'BTG PACTUAL SERVIÇOS FINANCEIROS SA DTVM']

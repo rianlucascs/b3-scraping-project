@@ -1,0 +1,1 @@
+['TRIS', 'TRISUL', 'TRIS3', '15/10/2007', '08.811.643/0001-27', 'Incorporadora e Construtora', 'ITAU CORRETORA ACOES']

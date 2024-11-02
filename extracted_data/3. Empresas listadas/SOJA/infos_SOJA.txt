@@ -1,1 +1,1 @@
-[20, 'SOJA', 'BOA SAFRA', 'SOJA3', '10.807.374/0001-77', 'Produção de sementes certificadas. exceto de forrageiras para pasto. Comércio atacadista de sementes. flores. plantas e gramas.', 'Consumo não Cíclico / Agropecuária / Agricultura', 'ITAU CORRETORA ACOES']
+['SOJA', 'BOA SAFRA', 'SOJA3', '29/04/2021', '10.807.374/0001-77', 'Produção de sementes certificadas. exceto de forrageiras para pasto. Comércio atacadista de sementes. flores. plantas e gramas.', 'ITAU CORRETORA ACOES']

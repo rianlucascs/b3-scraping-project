@@ -1,1 +1,1 @@
-[18, 'BMIN', 'MERC INVEST', 'BMIN4', '34.169.557/0001-72', 'Investimentos / Financiamentos', 'Financeiro / Intermediários Financeiros / Bancos', 'BANCO MERCANTIL DO BRASIL S.A.']
+['BMIN', '', 'BMIN4', '06/05/1983', '34.169.557/0001-72', 'Investimentos / Financiamentos', 'BANCO MERCANTIL DO BRASIL S.A.']
