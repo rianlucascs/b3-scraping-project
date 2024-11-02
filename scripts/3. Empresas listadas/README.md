@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/1f39b0df-a0e2-4d21-a87a-12637cc48fb2
 
 O script acessa cada URL extraída no processo anterior e coleta informações previamente selecionadas.
 
-https://github.com/user-attachments/assets/b6b2b023-58c7-4d77-ac58-44a2d2bbd383
+https://github.com/user-attachments/assets/2ff4e218-fe4c-48a9-a882-be3319274201
 
 ![Screenshot_1](https://github.com/user-attachments/assets/7a3a95d3-bbb1-441f-97a8-c2eba5feaf16)
 
