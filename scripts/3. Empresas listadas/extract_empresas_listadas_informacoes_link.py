@@ -106,9 +106,6 @@ class Extract:
                 
                 if not exists(path_save) or update:
                     try:
-                        
-                        print(codigo, url)
-                        print(codigo in url)
 
                         driver.get(url) 
                                 
@@ -161,7 +158,7 @@ class Extract:
                         print(f"Erro ao processar as páginas: {e}")
                         print("Tentando reiniciar o processo...")
                         sleep(20)
-                        self.run()
+                        self.run(update=False)
 
         finally:
             driver.quit() 

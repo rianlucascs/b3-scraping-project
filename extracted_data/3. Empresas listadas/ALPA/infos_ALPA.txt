@@ -1,0 +1,1 @@
+['ALPA', '', 'ALPA4', '20/07/1977', '61.079.117/0001-05', 'Indústria e comércio de calçados e artigos esportivos', 'ITAU CORRETORA ACOES']
