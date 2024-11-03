@@ -12,4 +12,5 @@ Esses índices permitem que investidores e analistas acompanhem o desempenho rel
 
 
 ## Composição da carteira
+
 ![tabela](https://github.com/user-attachments/assets/3a1bf245-2a85-43ed-aab8-9f70b7f00f39)

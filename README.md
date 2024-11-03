@@ -68,9 +68,6 @@ Copie e cole as funções do arquivo **[/github_api_acess.ipynb](https://github.
 - **Dados extraidos**:
 
   - **Arquivo CSV**: Inclui: Código do ativo, Nome do pregão, Código de negociação, CNPJ, Atividade principal, Classificação setorial, Escriturador
-  
-  codigo;nome_do_pregao;codigo_de_negociacao;cnpj;atividade_principal;classificacao_setorial;escriturador
-
 
 ## Exemplos de Uso
 
