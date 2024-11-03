@@ -2,9 +2,9 @@
 
 Fonte: https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/
 
-## Objetivo
+Os Índices de Segmentos e Setoriais são ferramentas utilizadas para medir o desempenho de grupos de ações que pertencem a setores ou segmentos específicos da economia. Esses índices reúnem empresas que compartilham características semelhantes, como atuação em um determinado setor (por exemplo, energia, tecnologia, saúde) ou seguimento de mercado.
 
-Extrair a apresentação e a composição da carteira de todos os índices da B3.
+Esses índices permitem que investidores e analistas acompanhem o desempenho relativo de setores específicos, facilitando a análise de tendências de mercado e a tomada de decisões de investimento. Além disso, ajudam a diversificar portfólios e a entender como diferentes setores estão se comportando em relação ao mercado como um todo.
 
 ## Apresentação
 
