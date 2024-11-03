@@ -347,6 +347,6 @@ class Extract:
             self.run()
 
 if __name__ == '__main__':
-    
+
     extract = Extract(config.path_extracted_data)
     extract.run()
