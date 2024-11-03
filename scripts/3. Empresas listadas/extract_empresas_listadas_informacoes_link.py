@@ -19,17 +19,32 @@ from selenium.common.exceptions import (
 
 class Extract:
     """
-    Classe responsável por extrair dados de páginas da web.
+    Classe para extrair informações de empresas listadas na B3.
 
-    Esta classe gerencia a leitura de URLs de arquivos, a navegação por páginas da web 
-    utilizando Selenium e a extração de informações relevantes. Além disso, realiza a 
-    contagem de páginas disponíveis e o armazenamento de dados extraídos em arquivos 
-    específicos.
+    Esta classe utiliza Selenium para acessar páginas da B3, coletando informações relevantes de empresas
+    listadas, como nome do pregão, código de negociação, CNPJ, atividade principal, classificação setorial e
+    escriturador. Os dados extraídos são salvos em arquivos de texto em um diretório especificado.
 
-    Atributos:
-        path_extracted_data (str): Caminho para o diretório onde os dados extraídos são armazenados.
-        dir_page (str): Caminho para o diretório das páginas extraídas.
+    Attributes:
+        path_extracted_data (str): Caminho para o diretório onde os dados extraídos serão armazenados.
+
+    Methods:
+        ``get_urls(codigo: str) -> str``:
+            Obtém a URL correspondente a um código de empresa a partir de um arquivo.
+
+        ``get_element_xpath(driver: webdriver.Chrome, nome: str, xpath: str) -> str``:
+            Extrai o texto de um elemento HTML com base no seu XPath.
+
+        ``save_data(path: str, dados, update: bool = False)``:
+            Salva os dados extraídos em um arquivo, com opção de atualização.
+
+        ``check_infos()``:
+            Verifica a integridade dos dados extraídos, removendo arquivos inválidos.
+
+        ``run(update: bool = False)``:
+            Executa o processo de extração de dados das URLs das empresas listadas.
     """
+    
     def __init__(self, path_extracted_data: str):
         self.path_extracted_data = path_extracted_data
     

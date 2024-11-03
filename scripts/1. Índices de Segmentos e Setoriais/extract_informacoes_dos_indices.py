@@ -2,12 +2,30 @@ import requests
 from bs4 import BeautifulSoup
 from os.path import join, exists
 import config
+from typing import List
 
 __python__ = 3.10
 
 class Extract:
+    """
+    Classe para extrair informações sobre índices da B3 e salvá-las em arquivos HTML.
 
-    def __init__(self, path, indices):
+    Esta classe é responsável por obter links para as páginas de detalhes dos índices
+    e extrair as informações relevantes, salvando-as em arquivos no diretório especificado.
+
+    Attributes:
+        path (str): Caminho do diretório onde os arquivos serão salvos.
+        indices (list): Lista de índices a serem extraídos.
+
+    Methods:
+        ``get_link() -> List[str]``:
+            Obtém links para páginas de detalhes dos índices na B3.
+
+        ``get_and_save_informacoes_indice() -> None``:
+            Extrai informações de cada índice e as salva em arquivos HTML.
+    """
+
+    def __init__(self, path: str, indices: str):
         """
         Inicializa a classe Extract com o caminho do diretório e a lista de índices.
 
@@ -18,7 +36,7 @@ class Extract:
         self.path = path
         self.indices = indices
 
-    def get_link(self):
+    def get_link(self) -> List[str]:
         """
         Obtém links para páginas de detalhes dos índices na B3.
 
@@ -42,7 +60,7 @@ class Extract:
 
         return list_link
     
-    def get_and_save_informacoes_indice(self):
+    def get_and_save_informacoes_indice(self) -> None:
         """
         Extrai informações de cada índice e as salva em arquivos HTML.
 
@@ -74,11 +92,6 @@ class Extract:
 
 
 if __name__ == '__main__':
+    carteira_extractor = Extract(config.path_extracted_data, config.INDICES.keys())
+    carteira_extractor.get_and_save_informacoes_indice()
 
-    try:
-        # Extrai a composição da carteira dos índices setoriais
-        carteira_extractor = Extract(config.path_extracted_data, config.INDICES.keys())
-        carteira_extractor.get_and_save_informacoes_indice()
-
-    except Exception as e:
-        print(f"Ocorreu um erro durante a execução: {e}")

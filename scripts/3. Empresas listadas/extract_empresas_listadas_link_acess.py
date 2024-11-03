@@ -23,16 +23,43 @@ class Extract:
     """
     Classe para extrair informações de empresas listadas na B3.
 
-    Esta classe utiliza o Selenium para interagir com a interface web da B3, permitindo a 
-    extração de códigos de ações, salvamento de URLs, e organização dos dados em diretórios 
-    específicos. As operações incluem navegação por páginas, verificação da existência de 
-    arquivos e diretórios, e salvamento de informações em arquivos CSV e TXT.
+    Esta classe utiliza Selenium para acessar a interface web da B3 e coletar dados sobre empresas,
+    como códigos de negociação e URLs correspondentes. Os dados extraídos são armazenados em arquivos
+    de texto em um diretório específico.
 
     Attributes:
         path_extracted_data (str): Caminho para o diretório onde os dados extraídos serão salvos.
 
     Methods:
-        run(): Inicia o processo de extração de informações da B3.
+        ``get_codigos_page(driver: webdriver.Chrome) -> List[str]``:
+            Extrai códigos de empresas listadas na página atual.
+
+        ``get_quantidade_de_paginas(driver: webdriver.Chrome) -> int``:
+            Extrai o número total de páginas disponíveis.
+
+        ``get_codigo_page(driver: webdriver.Chrome, n_item: int) -> str``:
+            Extrai o texto do código na página com base na posição do item.
+
+        ``get_xpath_numero_pagina(driver: webdriver.Chrome) -> int``:
+            Extrai o número da página atual a partir do elemento que indica a página atual.
+
+        ``acess_page_codigo(driver: webdriver.Chrome, n_item: int) -> None``:
+            Acessa a página de um código específico.
+
+        ``next_page(driver: webdriver.Chrome) -> None``:
+            Clica na próxima página nos resultados da B3.
+
+        ``adjust_numero_pagina(driver: webdriver.Chrome, numero_pagina_loop: int) -> bool``:
+            Ajusta a página atual do driver até que o número da página corresponda ao esperado.
+
+        ``save_file(path: str, content: str, update: bool = False) -> None``:
+            Salva o conteúdo em um arquivo no caminho especificado.
+
+        ``check_urls() -> bool``:
+            Verifica a validade das URLs salvas.
+
+        ``run() -> None``:
+            Extrai informações de empresas listadas na B3 a partir da interface web.
     """
     
     def __init__(self, path_extracted_data: str):
@@ -230,7 +257,7 @@ class Extract:
         else:
             print(f'O arquivo já existe: {path}')
     
-    def check_urls(self):
+    def check_urls(self) -> bool:
         """
         Verifica a validade das URLs salvas.
 
@@ -254,7 +281,7 @@ class Extract:
                     
         return chave
 
-    def run(self):
+    def run(self) -> None:
         """
         Extrai informações de empresas listadas na B3 a partir da interface web.
 

@@ -52,18 +52,24 @@ Copie e cole as funções do arquivo **[/github_api_acess.ipynb](https://github.
 
   - **Texto de Apresentação**: Breve descrição sobre o índice, incluindo sua finalidade e características.
 
-  - **Arquivo CSV**: Contém dados detalhados sobre o índice, como código, ação, qtde.teórica.
+  - **Arquivo CSV**: Contém: Código do ativo, Ação, Tipo, Quantidade teorica, Participação (%)
 
 ### 2. Horário de Negociação
 - **Descrição**: Extrai a tabela com os horários de negociação das ações na B3 [Saiba mais](https://github.com/rianlucascs/b3-scraping-project/blob/master/scripts/2.%20Hor%C3%A1rio%20de%20negocia%C3%A7%C3%A3o/README.md).
 
 - **Dados extraidos**:
+
   - **Arquivo CSV**: Inclui horários de abertura e fechamento do mercado, diferenciando entre tipos de mercado (à vista, opções, etc.).
 
 ### 3. Empresas Listadas (Renda variável)
 
-- **Descrição**: [Saiba mais](https://github.com/rianlucascs/b3-scraping-project/blob/master/scripts/3.%20Empresas%20listadas/README.md).
+- **Descrição**: Extrai informações sobre todas as ações listadas na B3 [Saiba mais](https://github.com/rianlucascs/b3-scraping-project/blob/master/scripts/3.%20Empresas%20listadas/README.md).
+
 - **Dados extraidos**:
+
+  - **Arquivo CSV**: Inclui: Código do ativo, Nome do pregão, Código de negociação, CNPJ, Atividade principal, Classificação setorial, Escriturador
+  
+  codigo;nome_do_pregao;codigo_de_negociacao;cnpj;atividade_principal;classificacao_setorial;escriturador
 
 
 ## Exemplos de Uso

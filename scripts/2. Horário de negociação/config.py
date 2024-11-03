@@ -1,13 +1,16 @@
 from os.path import join, dirname, abspath
 
-path_extracted_data = join(dirname(dirname(dirname(abspath(__file__)))), 'extracted_data', '2. Horário de negociação', 
-                               'table.htm')
+# Define o diretório base para os caminhos dos dados
+diretorio_base = dirname(dirname(dirname(abspath(__file__))))
 
-path_processed_data = join(dirname(dirname(dirname(abspath(__file__)))), 'processed_data', '2. Horário de negociação', 
-                               'Tabela_horarios_de_negociacao_no_mercado_de_acoes.csv')
+# Especifica os caminhos para os dados extraídos e processados
+path_extracted_data = join(diretorio_base, 'extracted_data', '2. Horário de negociação', 'table.htm')
+path_processed_data = join(diretorio_base, 'processed_data', '2. Horário de negociação', 'Tabela_horarios_de_negociacao_no_mercado_de_acoes.csv')
 
+# URL para a extração de dados
 url = 'https://www.b3.com.br/pt_br/solucoes/plataformas/puma-trading-system/para-participantes-e-traders/horario-de-negociacao/acoes/'
 
+# Define os cabeçalhos das colunas para o DataFrame
 headers = ['Mercado1', 
            'Cancelamento de Ofertas', 'Cancelamento de Ofertas',
            'Pré-Abertura', 'Pré-Abertura',

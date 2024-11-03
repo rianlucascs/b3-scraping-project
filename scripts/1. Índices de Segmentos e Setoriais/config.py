@@ -1,12 +1,15 @@
 from os.path import join, dirname, abspath
 
+# Define o caminho base para os diretórios de dados
+caminho_base = dirname(dirname(dirname(abspath(__file__))))
+
 # Caminho para o diretório onde os dados brutos serão salvos
-path_extracted_data = join(dirname(dirname(dirname(abspath(__file__)))), 'extracted_data', '1. Índices de Segmentos e Setoriais')
+path_extracted_data = join(caminho_base, 'extracted_data', '1. Índices de Segmentos e Setoriais')
 
 # Caminho para o diretório onde os dados processados serão salvos
-path_processed_data = join(dirname(dirname(dirname(abspath(__file__)))), 'processed_data', '1. Índices de Segmentos e Setoriais')
+path_processed_data = join(caminho_base, 'processed_data', '1. Índices de Segmentos e Setoriais')
 
-# Índices a serem processados
+# Dicionário contendo os índices a serem processados
 INDICES = {
     'IDIV': 'Índice Dividendos BM&FBOVESPA (IDIV B3)',
     'MLCX': 'Índice MidLarge Cap (MLCX B3)',
@@ -17,7 +20,7 @@ INDICES = {
     'IBEP': 'Índice Bovespa B3 Empresas Privadas (Ibov B3 Empresas Privadas)',
     'IBEE': 'Índice Bovespa B3 Estatais (Ibov B3 Estatais)',
     'IBHB': 'Índice Bovespa Smart High Beta B3 (Ibov Smart High Beta B3)',
-    'IBLV': 'Índice Bovespa Smart Low Volatility B3 (Ibov Smart Low Vol B3)',
+    'IBLV': 'Índice Bovespa Smart Low Volatility B3 (Ibov Smart Low B3)',
     'IMOB': 'Índice Imobiliário (IMOB B3)',
     'UTIL': 'Índice Utilidade Pública BM&FBOVESPA (UTIL B3)',
     'ICON': 'Índice de Consumo (ICON B3)',

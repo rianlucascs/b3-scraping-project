@@ -9,8 +9,28 @@ import config
 __python__ = 3.10
 
 class Extract:
+    """
+    Classe para extrair dados de índices da B3 e baixar arquivos CSV correspondentes.
 
-    def __init__(self, path, indices):
+    Esta classe é responsável por solicitar a página de cada índice definido e iniciar o download
+    do arquivo CSV correspondente, verificando se o arquivo já existe no diretório especificado.
+
+    Attributes:
+        path (str): Caminho do diretório onde os arquivos baixados serão salvos.
+        indices (list): Lista de índices a serem baixados.
+
+    Methods:
+        ``request_page(indice: str) -> None``:
+            Solicita a página do índice e inicia o download do arquivo CSV.
+
+        ``check_se_arquivo_existe(indice: str) -> bool``:
+            Verifica se o arquivo do índice já existe no diretório de download.
+
+        ``execute() -> None``:
+            Executa o loop para baixar os arquivos dos índices, se ainda não existentes.
+    """
+
+    def __init__(self, path: str, indices: str = 'IMOB'):
         """
         Inicializa a classe Extract com o caminho para downloads e lista de índices.
 
@@ -22,7 +42,7 @@ class Extract:
         self.indices = indices
         print(f"\nDownload: {path}\n")
     
-    def request_page(self, indice):
+    def request_page(self, indice: str) -> None:
         """
         Solicita a página do índice e inicia o download do arquivo CSV.
 
@@ -47,7 +67,7 @@ class Extract:
                 sleep(5)  
                 print(f'Status: OK\nÍndice: {indice}\nExtensão: CSV\nURL: {url}\n')
     
-    def check_se_arquivo_existe(self, indice):
+    def check_se_arquivo_existe(self, indice: str) -> bool:
         """
         Verifica se o arquivo do índice já existe no diretório de download.
 
@@ -63,23 +83,21 @@ class Extract:
                 return True
         return False
 
-    def execute(self):
+    def execute(self) -> None:
         """
         Executa o loop para baixar os arquivos dos índices, se ainda não existentes.
         """
-        for indice in self.indices:
-            if not self.check_se_arquivo_existe(indice):
-                self.request_page(indice)
+        try:
+            for indice in self.indices:
+                if not self.check_se_arquivo_existe(indice):
+                    self.request_page(indice)
+        except Exception as e:
+            print(f"Ocorreu um erro durante a execução: {e}")
 
 if __name__ == '__main__':
-    
-    try:
-        # Extrai a composição da carteira dos índices setoriais
-        carteira_extractor = Extract(config.path_extracted_data, config.INDICES.keys())
-        carteira_extractor.execute()
+    carteira_extractor = Extract(config.path_extracted_data, config.INDICES.keys())
+    carteira_extractor.execute()
 
-    except Exception as e:
-        print(f"Ocorreu um erro durante a execução: {e}")
 
 
 

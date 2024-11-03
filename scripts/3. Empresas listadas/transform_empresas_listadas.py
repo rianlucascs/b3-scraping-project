@@ -8,14 +8,22 @@ import config
 
 class Transform:
     """
-    Classe responsável por transformar dados extraídos em um formato processável.
+    Classe para transformar dados extraídos em um formato utilizável.
 
-    Esta classe lê arquivos de informações de páginas extraídas, compila os dados
-    em um DataFrame do Pandas e exporta o resultado para um arquivo CSV.
+    Esta classe é responsável por ler os dados de arquivos extraídos, processá-los e 
+    salvá-los em um formato CSV. Os dados são esperados em arquivos de texto específicos 
+    que contêm informações sobre empresas listadas.
 
-    Atributos:
+    Attributes:
         path_extracted_data (str): Caminho para o diretório onde os dados extraídos estão armazenados.
         path_processed_data (str): Caminho para o diretório onde os dados processados serão salvos.
+
+    Methods:
+        ``read_data() -> DataFrame``:
+            Lê e compila dados de arquivos de informações em um DataFrame.
+
+        ``run() -> None``:
+            Executa o processo de leitura e transformação dos dados, salvando-os em um arquivo CSV.
     """
     
     def __init__(self, path_extracted_data: str, path_processed_data: str):
