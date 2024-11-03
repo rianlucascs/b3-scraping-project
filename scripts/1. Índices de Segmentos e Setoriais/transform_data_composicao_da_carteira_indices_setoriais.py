@@ -126,7 +126,7 @@ class Transform:
 
         return max(result, key=result.get)
 
-    def read_data_csv(self, file: str, skiprows: int = 1, skipfooter: int = 2, na_values : List[str, str] = ['NaN', '']) -> DataFrame:
+    def read_data_csv(self, file: str, skiprows: int = 1, skipfooter: int = 2, na_values : List[str] = ['NaN', '']) -> DataFrame:
         """
         Lê um arquivo CSV e processa seus dados.
 
