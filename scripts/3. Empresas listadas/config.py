@@ -1,9 +1,13 @@
 from os.path import join, dirname, abspath
 from selenium.webdriver.chrome.options import Options
 
+base_dir = dirname(dirname(dirname(abspath(__file__))))
+
 # Caminhos para os diretórios de dados extraídos e processados
-path_extracted_data = join(dirname(dirname(dirname(abspath(__file__)))), 'extracted_data', '3. Empresas listadas')
-path_processed_data = join(dirname(dirname(dirname(abspath(__file__)))), 'processed_data', '3. Empresas listadas')
+path_extracted_data = join(base_dir, 'extracted_data', '3. Empresas listadas')
+path_processed_data = join(base_dir, 'processed_data', '3. Empresas listadas')
+
+path_tmp = join(base_dir, 'Scripts', '3. Empresas listadas', 'tmp')
 
 # URL da página de listagem de empresas na B3
 url = 'https://sistemaswebb3-listados.b3.com.br/listedCompaniesPage/search?language=pt-br'
