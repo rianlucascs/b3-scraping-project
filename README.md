@@ -54,20 +54,19 @@ Copie e cole as funções do arquivo **[/github_api_acess.ipynb](https://github.
 
   - **Arquivo CSV**: Contém: Código do ativo, Ação, Tipo, Quantidade teorica, Participação (%)
 
-  - **Acesso aos dados**:
-    ```python 
-    import requests
-    from pandas import read_csv
-    from io import StringIO
+- **Acesso aos dados**:
+  ```python 
+  import requests
+  from pandas import read_csv
+  from io import StringIO
 
-    def get_tabela_setor(indice: str):
-        url = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/1.%20%C3%8Dndices%20de%20Segmentos%20e%20Setoriais/Setores/{indice}/Tabela_{indice}.csv'
-        try:
-            response = requests.get(url)
-        except requests.exceptions.RequestException as e:
-            raise ValueError(f'Erro ao acessar a página: {e}')
-        return read_csv(StringIO(response.text), delimiter=',')
-    ```
+  def get_tabela_setor(indice: str):
+      url = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/1.%20%C3%8Dndices%20de%20Segmentos%20e%20Setoriais/Setores/{indice}/Tabela_{indice}.csv'
+      try:
+          response = requests.get(url)
+      except requests.exceptions.RequestException as e:
+          raise ValueError(f'Erro ao acessar a página: {e}')
+      return read_csv(StringIO(response.text), delimiter=',')
   
 ### 2. Horário de Negociação
 - **Descrição**: Extrai a tabela com os horários de negociação das ações na B3 [Saiba mais](https://github.com/rianlucascs/b3-scraping-project/blob/master/scripts/2.%20Hor%C3%A1rio%20de%20negocia%C3%A7%C3%A3o/README.md).
@@ -76,20 +75,19 @@ Copie e cole as funções do arquivo **[/github_api_acess.ipynb](https://github.
 
   - **Arquivo CSV**: Inclui horários de abertura e fechamento do mercado, diferenciando entre tipos de mercado (à vista, opções, etc.).
 
-  - **Acesso aos dados**:
-    ```python 
-    import requests
-    from pandas import read_csv
-    from io import StringIO
+- **Acesso aos dados**:
+  ```python 
+  import requests
+  from pandas import read_csv
+  from io import StringIO
 
-    def get_tabela_horario():
-        url = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/2.%20Hor%C3%A1rio%20de%20negocia%C3%A7%C3%A3o/Tabela_horarios_de_negociacao_no_mercado_de_acoes.csv'
-        try:
-            response = requests.get(url)
-        except requests.exceptions.RequestException as e:
-            raise ValueError(f'Erro ao acessar a página: {e}')
-        return read_csv(StringIO(response.text), delimiter=',')
-    ```
+  def get_tabela_horario():
+      url = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/2.%20Hor%C3%A1rio%20de%20negocia%C3%A7%C3%A3o/Tabela_horarios_de_negociacao_no_mercado_de_acoes.csv'
+      try:
+          response = requests.get(url)
+      except requests.exceptions.RequestException as e:
+          raise ValueError(f'Erro ao acessar a página: {e}')
+      return read_csv(StringIO(response.text), delimiter=',')
 
 ### 3. Empresas Listadas (Renda variável)
 
@@ -99,20 +97,20 @@ Copie e cole as funções do arquivo **[/github_api_acess.ipynb](https://github.
 
   - **Arquivo CSV**: Inclui: Código do ativo, Nome do pregão, Código de negociação, CNPJ, Atividade principal, Classificação setorial, Escriturador
 
-  - **Acesso aos dados**:
+- **Acesso aos dados**:
     ```python 
     import requests
     from pandas import read_csv
     from io import StringIO
 
-    def get_tabela_empresas_listadas():
-        url = 'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/3.%20Empresas%20listadas/todas_empresas_listadas.csv'
-        try:
-            response = requests.get(url)
-        except requests.exceptions.RequestException as e:
-            raise ValueError(f'Erro ao acessar a página: {e}')
-        return read_csv(StringIO(response.text), delimiter=';')
-    ```
+  def get_tabela_empresas_listadas():
+      url = 'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/3.%20Empresas%20listadas/todas_empresas_listadas.csv'
+      try:
+          response = requests.get(url)
+      except requests.exceptions.RequestException as e:
+          raise ValueError(f'Erro ao acessar a página: {e}')
+      return read_csv(StringIO(response.text), delimiter=';')
+
 ## Contato
 
 Estou à disposição para esclarecer dúvidas ou fornecer mais informações. Você pode entrar em contato através das seguintes opções:
