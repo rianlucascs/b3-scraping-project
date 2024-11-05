@@ -5,6 +5,7 @@ from os import listdir
 from os.path import join, exists
 from pandas import DataFrame
 import config
+from yfinance import download
 
 class Transform:
     """
@@ -35,6 +36,7 @@ class Transform:
         """
         self.path_extracted_data = path_extracted_data
         self.path_processed_data = path_processed_data
+        self.lista_serie_disponivel = [[], []] # OK, NO
 
     def read_data(self) -> DataFrame:
         """
@@ -80,6 +82,7 @@ class Transform:
                    'classificacao_setorial', 'escriturador']
         
         return DataFrame(lista, columns=headers)
+
     
     def run(self) -> None:
         """
@@ -89,6 +92,8 @@ class Transform:
         """
         data = self.read_data()
         data.to_csv(join(self.path_processed_data, 'todas_empresas_listadas.csv'), sep=';', index=False)
+
+
         
 if __name__ == '__main__':
     transform = Transform(config.path_extracted_data, config.path_processed_data)
