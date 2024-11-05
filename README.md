@@ -54,16 +54,16 @@ Copie e cole as funções do arquivo **[/github_api_acess.ipynb](https://github.
 
   - **Arquivo CSV**: Contém: Código do ativo, Ação, Tipo, Quantidade teorica, Participação (%)
 
-  ```bash
-  import requests
-  from pandas import read_csv
-  from io import StringIO
+```bash 
+import requests
+from pandas import read_csv
+from io import StringIO
 
-  url = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/1.%20%C3%8Dndices%20de%20Segmentos%20e%20Setoriais/Setores/{indice}/C%C3%B3digos_{indice}.txt'  
+url = f'https://raw.githubusercontent.com/rianlucascs/b3-scraping-project/master/processed_data/1.%20%C3%8Dndices%20de%20Segmentos%20e%20Setoriais/Setores/{indice}/C%C3%B3digos_{indice}.txt'  
 
-  response = requests.get(url)
-  df_data = read_csv(StringIO(response.text), delimiter=',')
-
+response = requests.get(url)
+df_data = read_csv(StringIO(response.text), delimiter=',')
+```
 
 ### 2. Horário de Negociação
 - **Descrição**: Extrai a tabela com os horários de negociação das ações na B3 [Saiba mais](https://github.com/rianlucascs/b3-scraping-project/blob/master/scripts/2.%20Hor%C3%A1rio%20de%20negocia%C3%A7%C3%A3o/README.md).
