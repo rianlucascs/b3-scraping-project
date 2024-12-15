@@ -7,8 +7,6 @@ base_dir = dirname(dirname(dirname(abspath(__file__))))
 path_extracted_data = join(base_dir, 'extracted_data', '3. Empresas listadas')
 path_processed_data = join(base_dir, 'processed_data', '3. Empresas listadas')
 
-path_tmp = join(base_dir, 'Scripts', '3. Empresas listadas', 'tmp')
-
 # URL da página de listagem de empresas na B3
 url = 'https://sistemaswebb3-listados.b3.com.br/listedCompaniesPage/search?language=pt-br'
 
